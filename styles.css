@@ -1,0 +1,49 @@
+
+.list-group-item.active {
+  background-color: #808080;
+  border-color: #808080;
+}
+item.active, .list-group-item.active:hover {
+  background-color: #808080;
+  border-color: #808080;
+}
+body {
+  font-size: 17px;
+}
+td {
+  font-size: 17px;
+}
+pre {
+  font-size: 17px;
+}
+.r{
+  font-size: 12px;
+}
+.title {
+  font-size: 38px;
+  color: black;
+}
+h1 { /* Header 1 */
+  font-size: 32px;
+}
+h2 { /* Header 2 */
+    font-size: 28px;
+}
+h3 { /* Header 3 */
+  font-size: 20px;
+}
+h4 { /* Header 3 */
+  font-size: 23px;
+}
+h5 { /* Header 3 */
+  font-size: 17px;
+}
+h6 { /* Header 3 */
+  font-size: 5px;
+}
+
+a:hover {
+	color:navy;
+	font-weight: bold;
+}
+
