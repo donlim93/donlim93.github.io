@@ -1,0 +1,210 @@
+---
+title: "Homework 2.7"
+author: "Don Lim"
+date: "10/11/2021"
+output:
+  pdf_document:
+    keep_tex: yes
+  html_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# Installs necessary packages
+library(tidyverse)
+library(readxl)
+library(haven)
+library(estimatr)
+library(rbounds)
+library(robustbase)
+library(magrittr)
+library(cem)
+library(xtable)
+library(lmtest)
+library(sandwich)
+library(ipw)
+# List of matching packages 
+library(Matching)
+library(MatchIt)
+library(Zelig)
+library(cobalt)
+library(WeightIt)
+library(twang)
+# Covariate balance for propensity score matching
+library(CBPS)
+# Stargazer generates copy and paste LaTeX tables
+library(stargazer)
+```
+
+```{r}
+# Imports data and runs regression to find the ATET 
+nsw_dw <- read_dta("http://www.nber.org/~rdehejia/data/nsw_dw.dta")
+summary(treatment <- lm(re78~treat+age+education+black+hispanic+married+nodegree+re74,data=nsw_dw))
+```
+
+```{r}
+# Non-regression method to find the ATET
+treated <- nsw_dw[nsw_dw$treat==1,]
+untreated <- nsw_dw[nsw_dw$treat==0,]
+did <- mean(treated$re78)-mean(untreated$re78)
+```
+
+```{r}
+# Drops experimental controls and adds PSID as controls
+treated_dw <- nsw_dw[nsw_dw$treat==1,]
+psid_data <- rbind(treated_dw,read_dta("http://www.nber.org/~rdehejia/data/psid_controls.dta"))
+```
+
+```{r}
+psid_data <- psid_data %>% 
+    mutate(
+         agesq = age^2,
+         agecube = age^3,
+         educsq = education^2,
+         interaction1 = education*re74,
+         u74 = case_when(re74 == 0 ~ 1, TRUE ~ 0),
+         u75 = case_when(re75 == 0 ~ 1, TRUE ~ 0),
+         re74sq = re74^2,
+         re75sq = re75^2)
+
+m.out <- matchit(treat ~ age + education + black + hispanic + married + 
+	nodegree + re74 + re75 + re74sq + re75sq + u74 + u75 + interaction1, data = psid_data,
+	method = "nearest", replacement = FALSE, ratio = 1)
+
+summary(m.out)
+```
+
+```{r}
+love.plot(treat ~ age + education + black + hispanic + 
+    married + nodegree + re74 + re75 + u74 + u75, data = psid_data, 
+          weights = list(Matched = m.out),
+          var.order = "unadjusted", binary = "std",
+          abs = TRUE, colors = c("red", "blue", "darkgreen"), 
+          shapes = c("circle", "square", "triangle"),
+          line = TRUE)
+```
+
+```{r}
+	m_data <- match.data(m.out)
+	
+	z_out <- zelig(re78 ~ treat + age + agesq + agecube + education +
+	educsq + married + nodegree +
+	black + hispanic + re74 + re75 + re74sq + re75sq + u74 + u75 + interaction1, 
+	model = "ls", data = m_data)
+	
+	x_out <- setx(z_out, treat = 0)
+	x1_out <- setx(z_out, treat = 1)
+	
+	s_out <- sim(z_out, x = x_out, x1 = x1_out)
+	
+	summary(s_out)
+```
+```{r}
+m.out <- matchit(treat ~ age + agesq + agecube + education + educsq+  black + hispanic + married + 
+		nodegree + re74 + re75 + re74sq + re75sq + u74 + u75 + interaction1, data = psid_data,
+		method = "nearest", replacement = FALSE, ratio = 2)
+summary(m.out)
+
+love.plot(treat ~ age + education + black + hispanic + 
+    married + nodegree + re74 + re75 + u74 + u75, data = psid_data, 
+          weights = list(Matched = m.out),
+          var.order = "unadjusted", binary = "std",
+          abs = TRUE, colors = c("red", "blue", "darkgreen"), 
+          shapes = c("circle", "square", "triangle"),
+          line = TRUE)
+
+	m_data <- match.data(m.out)
+	
+	z_out <- zelig(re78 ~ treat + age + agesq + agecube + education +
+	educsq + married + nodegree +
+	black + hispanic + re74 + re75 + interaction1, 
+	model = "ls", data = m_data)
+	
+	x_out <- setx(z_out, treat = 0)
+	x1_out <- setx(z_out, treat = 1)
+	
+	s_out <- sim(z_out, x = x_out, x1 = x1_out)
+	
+	summary(s_out)
+```
+
+```{r}
+#- Manual with non-normalized weights using trimmed data
+logit_nsw <- glm(treat ~ age + agesq + agecube + education + educsq + 
+                   married + nodegree + black + hispanic + re74 + re75 + re74sq + re75sq + u74 +
+                   u75 + interaction1, family = binomial(link = "logit"), 
+                 data = psid_data)
+
+psid_data <- psid_data %>% 
+  mutate(pscore = logit_nsw$fitted.values)
+N <- nrow(nsw_dw_cpscontrol)
+psid_data <- psid_data %>% 
+  mutate(d1 = treat/pscore,
+  d0 = (1-treat)/(1-pscore))
+
+s1 <- sum(psid_data$d1)
+s0 <- sum(psid_data$d0)
+
+
+psid_data <- psid_data %>% 
+mutate(y1 = treat * re78/pscore,
+y0 = (1-treat) * re78/(1-pscore),
+ht = y1 - y0)
+
+#- Manual with normalized weights
+psid_data <- psid_data %>% 
+mutate(y1 = (treat*re78/pscore)/(s1/N),
+y0 = ((1-treat)*re78/(1-pscore))/(s0/N),
+norm = y1 - y0)
+
+psid_data %>% 
+pull(ht) %>% 
+mean()
+
+psid_data %>% 
+pull(norm) %>% 
+mean()
+
+#-- trimming propensity score
+psid_data <- psid_data %>% 
+dplyr::select(-d1, -d0, -y1, -y0, -ht, -norm) %>% 
+filter(!(pscore >= 0.9)) %>% 
+filter(!(pscore <= 0.1))
+
+N <- nrow(psid_data)
+
+psid_data <- psid_data %>% 
+mutate(d1 = treat/pscore,
+d0 = (1-treat)/(1-pscore))
+
+s1 <- sum(psid_data$d1)
+s0 <- sum(psid_data$d0)
+
+psid_data <- psid_data %>% 
+mutate(y1 = treat * re78/pscore,
+y0 = (1-treat) * re78/(1-pscore),
+ht = y1 - y0)
+
+#- Manual with normalized weights with trimmed data
+psid_data <- psid_data %>% 
+mutate(y1 = (treat*re78/pscore)/(s1/N),
+y0 = ((1-treat)*re78/(1-pscore))/(s0/N),
+norm = y1 - y0)
+
+psid_data %>% 
+pull(ht) %>% 
+mean()
+
+psid_data %>% 
+pull(norm) %>% 
+mean()
+```
+
+
+
+
+

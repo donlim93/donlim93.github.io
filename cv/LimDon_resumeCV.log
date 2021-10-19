@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.26)  25 AUG 2021 19:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.26)  19 OCT 2021 13:00
 entering extended mode
 **./LimDon_resumeCV.tex
 (LimDon_resumeCV.tex
@@ -393,12 +393,12 @@ LaTeX Info: Redefining \nameref on input line 77.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 170
+LaTeX Font Info:    Trying to load font information for U+msa on input line 166
 .
 (D:\Program Files\MikTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 170
+LaTeX Font Info:    Trying to load font information for U+msb on input line 166
 .
 
 (D:\Program Files\MikTeX\tex/latex/amsfonts\umsb.fd
@@ -412,12 +412,12 @@ Package rerunfilecheck Info: File `LimDon_resumeCV.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  10037 strings out of 479334
- 142044 string characters out of 2866966
- 457991 words of memory out of 3000000
+ 142442 string characters out of 2866966
+ 456991 words of memory out of 3000000
  27371 multiletter control sequences out of 15000+200000
  411943 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,5n,74p,238b,329s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 71i,5n,74p,243b,329s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Don\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm07
 00.pk> <C:\Users\Don\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
 rm1000.pk> <C:\Users\Don\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
@@ -426,9 +426,9 @@ pi600\ecbx1000.pk> <C:\Users\Don\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
 ec/dpi600\eccc1200.pk> <C:\Users\Don\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
 pen/ec/dpi600\ecrm1000.pk> <C:\Users\Don\AppData\Local\MiKTeX\fonts/pk/ljfour/j
 knappen/ec/dpi600\ecxc2488.pk>
-Output written on LimDon_resumeCV.pdf (1 page, 65162 bytes).
+Output written on LimDon_resumeCV.pdf (1 page, 66209 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
+ 217 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
