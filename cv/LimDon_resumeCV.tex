@@ -1,0 +1,173 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage{enumitem}
+    \usepackage{hyperref}
+    \usepackage{xcolor}
+    \hypersetup{
+    	colorlinks,
+    	linkcolor=blue,
+    	citecolor={blue!50!black},
+    	urlcolor={blue!80!black}
+    }
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \usepackage[margin=1in]{geometry}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{\large{#1}}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape \textbf{{Don Lim}}}\\
+	Lubbock, TX --- \href{mailto:lim.don93@gmail.com}{lim.don93@gmail.com} --- (806) 317-7937\\
+\end{center}
+
+%==== Education ====%
+\header{Education}
+\vspace{1mm}
+\textbf{Texas Tech University}\hfill Lubbock, Texas\\
+\textit{M.S. Agricultural and Applied Economics} \hfill Jun 2022 (expected)\\
+\begin{itemize}[noitemsep,nolistsep]
+	\item Relevant Coursework: Applied Econometrics I (Python, Matlab, R), Applied Econometrics II (SAS), Advanced Production Economics
+\end{itemize}
+\vspace{1mm}
+\textbf{CEVRO Institute}\hfill Prague, Czech Republic\\
+\textit{M.A. Political Science, Philosophy, and Economics (PPE)} \hfill Jun 2019\\
+\begin{itemize}[noitemsep,nolistsep]
+	\item Recipient of \href{http://www.cevroinstitut.cz/en/article/scholarships/}{Full Tuition for Excellence Scholarship}
+\end{itemize}
+\vspace{1mm}
+\textbf{University of Michigan}\hfill Ann Arbor, MI\\
+\textit{B.A. General Studies (Political Science, Philosophy, and History)} \hfill Apr 2016\\
+\vspace{2mm}
+
+%==== Research ====%
+\header{Research}
+\vspace{1mm}
+
+\textbf{American Institute for Economic Research} \hfill Great Barrington, MA\\
+\textit{E.C. Harwood Visiting Research Fellow} \hfill Dec 2018 --- May 2019\\
+\begin{itemize}[noitemsep,nolistsep]
+	\item Continued research on the economic analysis of open source development
+\end{itemize}
+\vspace{1mm}
+\textbf{Texas Tech University} \hfill Lubbock, TX\\
+\textit{Visiting Research Scholar} \hfill Sep 2018 --- Dec 2018\\
+\begin{itemize}[noitemsep,nolistsep]
+	\item Applied Ostrom's polycentric and CPR approach, Hayek's theory of tacit and dispersed knowledge, and Kirzner's entrepreneurial model to the economic analysis of open source development
+\end{itemize}
+\vspace{2mm}
+
+%==== Experience ====%
+\header{Work Experience}
+\vspace{1mm}
+
+\textbf{Free Market Institute} \hfill Lubbock, TX\\
+\textit{Research Assistant} \hfill Aug 2020 --- Present \\
+\begin{itemize}[noitemsep,nolistsep]
+	\item Researched and collected data to perform regressions related to the labor force, education spending, and pension reform
+\end{itemize}
+\vspace{1mm}
+
+\textbf{Commonwealth Foundation} \hfill King of Prussia, PA\\
+\textit{Research Fellow} \hfill Jan 2017 --- May 2017\\
+\begin{itemize}[noitemsep,nolistsep]
+	\item Researched and collected data to perform regressions related to the labor force, education spending, and pension reform
+	\item Created graphical visualizations featuring Pennsylvania’s yearly expenditures and tax policies
+	\item Wrote and edited two publications per week related to Pennsylvania budget, school choice, and state revenue and expenditures
+	\item Responded to email inquiries relating to subsidies, right-to-work laws, and the state budget
+\end{itemize}
+\vspace{1mm}
+\textbf{Cato Institute} \hfill Washington, D.C.\\
+\textit{Intern Researcher at the Center for Educational Freedom} \hfill Sep 2016 --- Dec 2016\\
+\begin{itemize}[noitemsep,nolistsep]
+	\item Collected and analyzed datasets for national education administrative spending, per pupil spending, national subsidies and grants, and international large-scale assessments (PISA and TIMSS)
+	\item Wrote reports and summaries from Capitol Hill briefings on foreign affairs, trade, monetary, and education policies
+	\item Produced over 200 social media posts on Facebook and Twitter for HumanProgress.org, Freedom in the 50 States, CatoPress, and Cato Center for Educational Freedom
+	\item Distributed print material Cato Policy Analysis, news media, magazines, and policy reports
+\end{itemize}
+\vspace{2mm}
+
+%==== Professional and Academic Development ====%
+\header{Professional and Academic Development}
+\vspace{1mm}
+
+\textbf{Institute for Humane Studies and FSU} \hfill Tallahassee, FL: Aug 2018\\
+One-day seminar that discussed the nature of social and natural sciences and the differences in epistemological and methodological approaches \\
+\vspace{1mm}
+\textbf{Freidrich Naumann Stiftung and IES Europe} \hfill Gummersbach, Germany: Jul 2018\\
+Week-long seminar on governmental institutions, political philosophy, market structures, civil and criminal law systems, antitrust laws, and international aid\\
+\vspace{2mm}
+
+%==== Skills ====%
+\header{Skills}
+\vspace{1mm}
+
+Technical Languages: \LaTeX, HTML5, CSS, SQL\\
+
+
+\end{document}
