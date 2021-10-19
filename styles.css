@@ -28,6 +28,8 @@ h1 { /* Header 1 */
 }
 h2 { /* Header 2 */
     font-size: 28px;
+    padding: 2px;
+    text-align: center;
 }
 h3 { /* Header 3 */
   font-size: 20px;
@@ -47,6 +49,9 @@ a:hover {
 	font-weight: bold;
 }
 
-ul {
+ul.a {
   list-style-type: circle;
+}
+
+div.a {
 }
