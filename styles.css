@@ -52,3 +52,20 @@ a:hover {
 ul.a {
   list-style-type: circle;
 }
+
+img {
+  border-radius: 50%;
+}
+
+#coursework {
+  width: 700px;
+}
+
+#research {
+  width: 700px;
+}
+
+#section {
+  width: 700px;
+}
+
