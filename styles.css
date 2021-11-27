@@ -24,10 +24,11 @@ pre {
   color: black;
 }
 h1 { /* Header 1 */
-  font-size: 32px;
+  font-size: 24px;
+  font-weight: bold;
 }
 h2 { /* Header 2 */
-    font-size: 28px;
+    font-size: 24px;
     padding: 2px;
     text-align: center;
 }
