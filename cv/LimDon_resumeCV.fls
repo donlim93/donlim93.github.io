@@ -13,10 +13,11 @@ INPUT D:\Program Files\MikTeX\tex\latex\base\article.cls
 INPUT D:\Program Files\MikTeX\tex\latex\base\article.cls
 INPUT D:\Program Files\MikTeX\tex\latex\base\article.cls
 INPUT D:\Program Files\MikTeX\tex\latex\base\article.cls
-INPUT D:\Program Files\MikTeX\tex\latex\base\size10.clo
-INPUT D:\Program Files\MikTeX\tex\latex\base\size10.clo
-INPUT D:\Program Files\MikTeX\tex\latex\base\size10.clo
-INPUT D:\Program Files\MikTeX\tex\latex\base\size10.clo
+INPUT D:\Program Files\MikTeX\tex\latex\base\size11.clo
+INPUT D:\Program Files\MikTeX\tex\latex\base\size11.clo
+INPUT D:\Program Files\MikTeX\tex\latex\base\size11.clo
+INPUT D:\Program Files\MikTeX\tex\latex\base\size11.clo
+INPUT D:\Program Files\MikTeX\fonts\tfm\public\cm\cmr10.tfm
 INPUT D:\Program Files\MikTeX\tex\latex\preprint\fullpage.sty
 INPUT D:\Program Files\MikTeX\tex\latex\preprint\fullpage.sty
 INPUT D:\Program Files\MikTeX\tex\latex\preprint\fullpage.sty
@@ -131,6 +132,17 @@ INPUT D:\Program Files\MikTeX\tex\latex\enumitem\enumitem.sty
 INPUT D:\Program Files\MikTeX\tex\latex\enumitem\enumitem.sty
 INPUT D:\Program Files\MikTeX\tex\latex\enumitem\enumitem.sty
 INPUT D:\Program Files\MikTeX\tex\latex\enumitem\enumitem.sty
+INPUT D:\Program Files\MikTeX\tex\latex\psnfss\mathptmx.sty
+INPUT D:\Program Files\MikTeX\tex\latex\psnfss\mathptmx.sty
+INPUT D:\Program Files\MikTeX\tex\latex\psnfss\mathptmx.sty
+INPUT D:\Program Files\MikTeX\tex\latex\psnfss\mathptmx.sty
+INPUT D:\Program Files\MikTeX\tex\latex\psnfss\mathptmx.sty
+INPUT D:\Program Files\MikTeX\tex\latex\psnfss\mathptmx.sty
+INPUT D:\Program Files\MikTeX\tex\latex\psnfss\mathptmx.sty
+INPUT D:\Program Files\MikTeX\tex\latex\psnfss\mathptmx.sty
+INPUT D:\Program Files\MikTeX\tex\latex\psnfss\mathptmx.sty
+INPUT D:\Program Files\MikTeX\tex\latex\psnfss\mathptmx.sty
+INPUT D:\Program Files\MikTeX\tex\latex\psnfss\mathptmx.sty
 INPUT D:\Program Files\MikTeX\tex\latex\hyperref\hyperref.sty
 INPUT D:\Program Files\MikTeX\tex\latex\hyperref\hyperref.sty
 INPUT D:\Program Files\MikTeX\tex\latex\hyperref\hyperref.sty
@@ -458,7 +470,11 @@ INPUT D:\Program Files\MikTeX\tex\latex\base\fontenc.sty
 INPUT D:\Program Files\MikTeX\tex\latex\base\fontenc.sty
 INPUT D:\Program Files\MikTeX\tex\latex\base\fontenc.sty
 INPUT D:\Program Files\MikTeX\tex\latex\base\fontenc.sty
-INPUT D:\Program Files\MikTeX\fonts\tfm\jknappen\ec\ecrm1000.tfm
+INPUT D:\Program Files\MikTeX\tex\latex\psnfss\t1ptm.fd
+INPUT D:\Program Files\MikTeX\tex\latex\psnfss\t1ptm.fd
+INPUT D:\Program Files\MikTeX\tex\latex\psnfss\t1ptm.fd
+INPUT D:\Program Files\MikTeX\tex\latex\psnfss\t1ptm.fd
+INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT D:\Program Files\MikTeX\tex\latex\geometry\geometry.sty
 INPUT D:\Program Files\MikTeX\tex\latex\geometry\geometry.sty
 INPUT D:\Program Files\MikTeX\tex\latex\geometry\geometry.sty
@@ -556,46 +572,39 @@ INPUT D:\Program Files\MikTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT D:\Program Files\MikTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT D:\Program Files\MikTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT D:\Program Files\MikTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT D:\Program Files\MikTeX\fonts\tfm\jknappen\ec\ecrm2488.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\jknappen\ec\eccc2488.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\jknappen\ec\ecxc2488.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\jknappen\ec\eccc1000.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\jknappen\ec\eccc1200.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\jknappen\ec\ecbx1000.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\jknappen\ec\ecti1000.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT D:\Program Files\MikTeX\tex\latex\amsfonts\umsa.fd
-INPUT D:\Program Files\MikTeX\tex\latex\amsfonts\umsa.fd
-INPUT D:\Program Files\MikTeX\tex\latex\amsfonts\umsa.fd
-INPUT D:\Program Files\MikTeX\tex\latex\amsfonts\umsa.fd
-INPUT D:\Program Files\MikTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
-INPUT D:\Program Files\MikTeX\tex\latex\amsfonts\umsb.fd
-INPUT D:\Program Files\MikTeX\tex\latex\amsfonts\umsb.fd
-INPUT D:\Program Files\MikTeX\tex\latex\amsfonts\umsb.fd
-INPUT D:\Program Files\MikTeX\tex\latex\amsfonts\umsb.fd
-INPUT D:\Program Files\MikTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\jknappen\ec\ecrm0700.tfm
+INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmr8t.tfm
+INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmrc8t.tfm
+INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmbc8t.tfm
+INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmrc8t.tfm
+INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmrc8t.tfm
+INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmb8t.tfm
+INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmri8t.tfm
+INPUT D:\Program Files\MikTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT D:\Program Files\MikTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT D:\Program Files\MikTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT D:\Program Files\MikTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmr8c.tfm
+INPUT D:\Program Files\MikTeX\fonts\vf\adobe\times\ptmbc8t.vf
+INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\Don\AppData\Local\MiKTeX\pdftex\config\pdftex.map
+INPUT D:\Program Files\MikTeX\fonts\vf\adobe\times\ptmr8t.vf
+INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT D:\Program Files\MikTeX\fonts\vf\adobe\times\ptmrc8t.vf
+INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT D:\Program Files\MikTeX\fonts\vf\adobe\times\ptmb8t.vf
+INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT D:\Program Files\MikTeX\fonts\vf\adobe\times\ptmri8t.vf
+INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmri8r.tfm
+INPUT D:\Program Files\MikTeX\fonts\vf\adobe\times\ptmr8c.vf
 INPUT LimDon_resumeCV.aux
 INPUT .\LimDon_resumeCV.out
 INPUT .\LimDon_resumeCV.out
-INPUT C:\Users\Don\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0700.pk
-INPUT C:\Users\Don\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0700.pk
-INPUT C:\Users\Don\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
-INPUT C:\Users\Don\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
-INPUT C:\Users\Don\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk
-INPUT C:\Users\Don\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk
-INPUT C:\Users\Don\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk
-INPUT C:\Users\Don\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk
-INPUT C:\Users\Don\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk
-INPUT C:\Users\Don\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk
-INPUT C:\Users\Don\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
-INPUT C:\Users\Don\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
-INPUT C:\Users\Don\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecxc2488.pk
-INPUT C:\Users\Don\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecxc2488.pk
+INPUT D:\Program Files\MikTeX\fonts\enc\dvips\base\8r.enc
+INPUT D:\Program Files\MikTeX\fonts\type1\urw\times\utmb8a.pfb
+INPUT D:\Program Files\MikTeX\fonts\type1\urw\times\utmb8a.pfb
+INPUT D:\Program Files\MikTeX\fonts\type1\urw\times\utmr8a.pfb
+INPUT D:\Program Files\MikTeX\fonts\type1\urw\times\utmr8a.pfb
+INPUT D:\Program Files\MikTeX\fonts\type1\urw\times\utmri8a.pfb
+INPUT D:\Program Files\MikTeX\fonts\type1\urw\times\utmri8a.pfb
