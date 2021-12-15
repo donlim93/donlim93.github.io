@@ -1,53 +1,104 @@
-
 .list-group-item.active {
   background-color: #808080;
   border-color: #808080;
 }
-item.active, .list-group-item.active:hover {
+
+item.active,
+.list-group-item.active:hover {
   background-color: #808080;
   border-color: #808080;
 }
+
 body {
   font-size: 17px;
 }
+
 td {
   font-size: 17px;
 }
+
 pre {
   font-size: 17px;
 }
-.r{
+
+.r {
   font-size: 12px;
 }
+
 .title {
   font-size: 38px;
   color: black;
 }
-h1 { /* Header 1 */
+
+h1 {
+  /* Header 1 */
   font-size: 24px;
   font-weight: bold;
 }
-h2 { /* Header 2 */
-    font-size: 24px;
-    padding: 2px;
-    text-align: center;
+
+h2 {
+  /* Header 2 */
+  font-size: 24px;
+  padding: 2px;
+  text-align: center;
 }
-h3 { /* Header 3 */
+
+h3 {
+  /* Header 3 */
   font-size: 20px;
 }
-h4 { /* Header 3 */
+
+h4 {
+  /* Header 3 */
   font-size: 23px;
 }
-h5 { /* Header 3 */
+
+h5 {
+  /* Header 3 */
   font-size: 17px;
 }
-h6 { /* Header 3 */
+
+h6 {
+  /* Header 3 */
   font-size: 5px;
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  word-wrap: break-word;
+  white-space: normal;
 }
 
 a:hover {
-	color:navy;
-	font-weight: bold;
+  color: navy;
+  font-weight: bold;
+}
+
+div.right {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5%;
+  float: right;
+  max-width: 300px;
+  max-height: 300px;
+  text-align: left;
+}
+
+header {
+  float: none;
+  position: static;
+  width: auto
+}
+
+li.wrap {
+  position: relative;
+  word-wrap: break-word;
+  white-space: normal;
 }
 
 ul.a {
@@ -58,15 +109,54 @@ img {
   border-radius: 50%;
 }
 
+#certifications {
+  width: 550px;
+}
+
 #coursework {
-  width: 700px;
+  width: 550px;
 }
 
 #research {
-  width: 700px;
+  width: 550px;
 }
 
 #section {
-  width: 700px;
+  width: 550px;
 }
 
+hr {
+  position: relative;
+  height: 2px;
+  width: 40%;
+  margin-left: 0%;
+  border-width: 0;
+  color: gray;
+  background-color: gray;
+}
+
+.a {
+  position: relative;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.right {
+  position: absolute;
+  margin: 0 auto;
+}
+
+.wrap_text {
+  position: sticky;
+  left: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+.text {
+  position: relative;
+}
+
+.box {
+  overflow: hidden;
+}
