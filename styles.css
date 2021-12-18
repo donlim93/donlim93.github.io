@@ -9,6 +9,14 @@ item.active,
   border-color: #808080;
 }
 
+#education,
+#certifications,
+#coursework,
+#research {
+  max-width: 650px;
+}
+
+
 body {
   font-size: 17px;
 }
@@ -240,7 +248,7 @@ screen and (max-width: 1500px) {
   }
 
   header {
-    padding-right: 320px
+    max-width: 350px;
   }
 
   section {
