@@ -159,7 +159,7 @@ section {
 }
 
 header {
-  width: 200px;
+  width: 300px;
   float: right;
   left: 80%;
   position: fixed;
@@ -248,7 +248,7 @@ screen and (max-width: 1500px) {
   }
 
   header {
-    max-width: 350px;
+    max-width: 300px;
   }
 
   section {
@@ -309,7 +309,7 @@ screen and (max-width: 200px) {
 @media print {
   body {
     padding: 0.4in;
-    font-size: 11pt;
+    font-size: 12pt;
     color: #444
   }
 }
