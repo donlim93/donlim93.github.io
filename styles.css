@@ -11,7 +11,6 @@ item.active,
 
 body {
   font-size: 17px;
-  word-wrap: break-word;
 }
 
 td {
@@ -100,20 +99,10 @@ a:hover small {
   color: navy;
 }
 
-div.right {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 5%;
-  float: right;
-  max-width: 300px;
-  max-height: 300px;
-  text-align: left;
-}
-
 header {
   float: none;
   position: static;
-  width: auto
+  width: 0 auto;
 }
 
 li.wrap {
@@ -128,22 +117,6 @@ ul.a {
 
 img {
   border-radius: 50%;
-}
-
-#certifications {
-  width: 550px;
-}
-
-#coursework {
-  width: 550px;
-}
-
-#research {
-  width: 550px;
-}
-
-#section {
-  width: 550px;
 }
 
 hr {
@@ -166,11 +139,6 @@ ul {
   margin: 0 0 20px
 }
 
-div.wrapper {
-  width: auto;
-  margin: 0
-}
-
 .wrapper {
   width: 860px;
   margin: 0 auto
@@ -178,14 +146,14 @@ div.wrapper {
 
 section {
   width: 500px;
-  float: right;
+  float: left;
   padding-bottom: 50px
 }
 
 header {
-  width: 270px;
+  width: 200px;
   float: right;
-  left: 65%;
+  left: 80%;
   position: fixed;
   -webkit-font-smoothing: subpixel-antialiased
 }
@@ -257,7 +225,7 @@ header ul a strong {
 
 
 @media print,
-screen and (max-width: 960px) {
+screen and (max-width: 1500px) {
   div.wrapper {
     width: auto;
     margin: 0
@@ -294,7 +262,7 @@ screen and (max-width: 960px) {
 }
 
 @media print,
-screen and (max-width: 720px) {
+screen and (max-width: 1200px) {
   body {
     word-wrap: break-word
   }
@@ -315,9 +283,9 @@ screen and (max-width: 720px) {
 }
 
 @media print,
-screen and (max-width: 480px) {
+screen and (max-width: 200px) {
   body {
-    padding: 15px
+    padding: 10px
   }
 
   header ul {
@@ -333,7 +301,7 @@ screen and (max-width: 480px) {
 @media print {
   body {
     padding: 0.4in;
-    font-size: 12pt;
+    font-size: 11pt;
     color: #444
   }
 }
