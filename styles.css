@@ -21,8 +21,8 @@ item.active,
   color: black;
 }
 
-.navbar-name::before,
-.navbar-name::after {
+/* #navbar::before,
+#navbar::after {
   content: "";
   position: absolute;
   top: 0;
@@ -31,16 +31,16 @@ item.active,
   bottom: 0;
 }
 
-.navbar-name::before {
+#navbar::before {
   background-color: darkgrey;
   animation: typewriter 4s ease forwards;
 }
 
 @keyframes typewriter {
   to {
-    left: 100%;
+    top: 100%;
   }
-}
+} */
 
 body {
   font-size: 17px;
@@ -192,7 +192,7 @@ section {
 }
 
 header {
-  width: 300px;
+  width: 200px;
   float: right;
   left: 80%;
   position: fixed;
@@ -201,11 +201,6 @@ header {
 
 small {
   font-size: 11px
-}
-
-.flex {
-  display: flex;
-  gap: var(--gap, 1rem);
 }
 
 header ul {
@@ -286,7 +281,7 @@ screen and (max-width: 1500px) {
   }
 
   header {
-    max-width: 300px;
+    max-width: 350px;
   }
 
   section {
@@ -331,7 +326,7 @@ screen and (max-width: 1200px) {
 @media print,
 screen and (max-width: 200px) {
   body {
-    padding: 10px
+    padding: 5px
   }
 
   header ul {
@@ -346,7 +341,7 @@ screen and (max-width: 200px) {
 
 @media print {
   body {
-    padding: 0.4in;
+    padding: 0.2in;
     font-size: 12pt;
     color: #444
   }
