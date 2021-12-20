@@ -16,6 +16,31 @@ item.active,
   max-width: 650px;
 }
 
+.navbar-name {
+  font-size: 30px;
+  color: black;
+}
+
+.navbar-name::before,
+.navbar-name::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.navbar-name::before {
+  background-color: darkgrey;
+  animation: typewriter 4s ease forwards;
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
 
 body {
   font-size: 17px;
@@ -90,10 +115,18 @@ pre {
   overflow-x: auto;
 }
 
+a {
+  text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+  text-underline-offset: 0.1em;
+  transition: text-decoration-color 300ms, text-underline-offset 300ms;
+}
+
 a:hover,
 a:focus {
   color: navy;
   font-weight: bold;
+  text-decoration-color: rgba(0, 0, 128, 1);
+  text-underline-offset: 0.1em;
 }
 
 a small {
@@ -168,6 +201,11 @@ header {
 
 small {
   font-size: 11px
+}
+
+.flex {
+  display: flex;
+  gap: var(--gap, 1rem);
 }
 
 header ul {
