@@ -125,6 +125,7 @@ a {
   transition: text-decoration-color 300ms, text-underline-offset 300ms;
 }
 
+
 a:hover,
 a:focus {
   color: navy;
@@ -148,6 +149,12 @@ header {
   float: none;
   position: static;
   width: 0 auto;
+  padding: 30px;
+  width: 300px;
+  float: right;
+  left: 80%;
+  position: fixed;
+  -webkit-font-smoothing: subpixel-antialiased
 }
 
 li.wrap {
@@ -193,14 +200,6 @@ section {
   width: 500px;
   float: left;
   padding-bottom: 50px
-}
-
-header {
-  width: 200px;
-  float: right;
-  left: 80%;
-  position: fixed;
-  -webkit-font-smoothing: subpixel-antialiased
 }
 
 small {
@@ -270,18 +269,24 @@ header ul a strong {
 
 
 @media print,
-screen and (max-width: 1500px) {
+screen and (max-width: 1300px) {
   div.wrapper {
     width: auto;
     margin: 0
   }
 
-  header,
   section,
   footer {
     float: none;
     position: static;
     width: auto
+  }
+
+  header {
+    float: none;
+    position: relative;
+    width: auto;
+    left: 15%;
   }
 
   header {
@@ -312,9 +317,7 @@ screen and (max-width: 1200px) {
     word-wrap: break-word
   }
 
-  header {
-    padding: 0
-  }
+  header {}
 
   header ul,
   header p.view {
@@ -337,6 +340,12 @@ screen and (max-width: 200px) {
     width: 99%
   }
 
+  header {
+    float: none;
+    position: absolute;
+    left: 0;
+  }
+
   header li,
   header ul li+li+li {
     width: 33%
@@ -349,4 +358,5 @@ screen and (max-width: 200px) {
     font-size: 12pt;
     color: #444
   }
+
 }
