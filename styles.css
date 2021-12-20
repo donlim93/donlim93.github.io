@@ -176,6 +176,7 @@ hr {
   white-space: normal;
 }
 
+<<<<<<< HEAD
 ul {
   margin: 0 0 20px
 }
@@ -346,3 +347,24 @@ screen and (max-width: 200px) {
     color: #444
   }
 }
+=======
+.right {
+  position: absolute;
+  margin: 0 auto;
+}
+
+.wrap_text {
+  position: sticky;
+  left: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+.text {
+  position: relative;
+}
+
+.box {
+  overflow: hidden;
+}
+>>>>>>> parent of c6accaa (u)
