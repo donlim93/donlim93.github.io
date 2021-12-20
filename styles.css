@@ -21,6 +21,10 @@ item.active,
   color: black;
 }
 
+.navbar-a {
+  padding-left: 5px;
+}
+
 /* #navbar::before,
 #navbar::after {
   content: "";
@@ -176,7 +180,6 @@ hr {
   white-space: normal;
 }
 
-<<<<<<< HEAD
 ul {
   margin: 0 0 20px
 }
@@ -327,7 +330,7 @@ screen and (max-width: 1200px) {
 @media print,
 screen and (max-width: 200px) {
   body {
-    padding: 5px
+    padding: 4px
   }
 
   header ul {
@@ -347,24 +350,3 @@ screen and (max-width: 200px) {
     color: #444
   }
 }
-=======
-.right {
-  position: absolute;
-  margin: 0 auto;
-}
-
-.wrap_text {
-  position: sticky;
-  left: 50%;
-  width: 300px;
-  height: 300px;
-}
-
-.text {
-  position: relative;
-}
-
-.box {
-  overflow: hidden;
-}
->>>>>>> parent of c6accaa (u)
