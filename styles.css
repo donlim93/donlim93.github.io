@@ -152,7 +152,7 @@ header {
   padding: 30px;
   width: 300px;
   float: right;
-  left: 80%;
+  left: 75%;
   position: fixed;
   -webkit-font-smoothing: subpixel-antialiased
 }
@@ -401,7 +401,11 @@ input[type=checkbox] {
   cursor: zoom-in;
 }
 
-input[type=checkbox]:checked ~ label > img {
-  transform: scale(2) translate(0,50%);
+input[type=checkbox]:checked~label>img {
+  transform: scale(2) translate(0, 50%);
   cursor: zoom-out;
+}
+
+footer {
+  display: block;
 }
