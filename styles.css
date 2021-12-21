@@ -269,7 +269,7 @@ header ul a strong {
 
 
 @media print,
-screen and (max-width: 1300px) {
+screen and (max-width: 1400px) {
   div.wrapper {
     width: auto;
     margin: 0
@@ -287,6 +287,10 @@ screen and (max-width: 1300px) {
     position: relative;
     width: auto;
     left: 15%;
+  }
+
+  html {
+    scroll-behavior: smooth;
   }
 
   header {
