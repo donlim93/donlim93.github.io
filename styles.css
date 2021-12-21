@@ -120,7 +120,7 @@ pre {
 }
 
 a {
-  text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+  text-decoration: underline 0.15em rgba(0, 0, 128, 0);
   text-underline-offset: 0.1em;
   transition: text-decoration-color 300ms, text-underline-offset 300ms;
 }
@@ -329,7 +329,10 @@ screen and (max-width: 1200px) {
     word-wrap: break-word
   }
 
-  header {}
+  header {
+    float: none;
+    left: 0;
+  }
 
   header ul,
   header p.view {
@@ -366,7 +369,7 @@ screen and (max-width: 200px) {
 
 @media print {
   body {
-    padding: 0.2in;
+    padding: 0.1in;
     font-size: 12pt;
     color: #444
   }
