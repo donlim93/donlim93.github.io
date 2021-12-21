@@ -370,5 +370,38 @@ screen and (max-width: 200px) {
     font-size: 12pt;
     color: #444
   }
+}
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar:hover,
+::-webkit-scrollbar:focus {
+  width: 15px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: darkgrey;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: grey;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+.wrap_text img {
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+input[type=checkbox]:checked ~ label > img {
+  transform: scale(2) translate(0,50%);
+  cursor: zoom-out;
 }
