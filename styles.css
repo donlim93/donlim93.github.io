@@ -188,12 +188,20 @@ hr {
 }
 
 ul {
-  margin: 0 0 20px
+  margin: 0 0 20px;
+  list-style: none;
 }
 
 .wrapper {
   width: 860px;
   margin: 0 auto
+}
+
+li.star::before {
+  list-style: none;
+  content: "\2606";
+  left: 0;
+  position: absolute;
 }
 
 section {
