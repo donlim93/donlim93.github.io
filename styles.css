@@ -13,7 +13,7 @@ item.active,
 #certifications,
 #coursework,
 #research {
-  max-width: 650px;
+  max-width: 700px;
 }
 
 .navbar-name {
@@ -275,9 +275,15 @@ header ul a strong {
   color: #222
 }
 
+.border {
+  border-style: dashed;
+  border-width: 1px;
+  border-color: grey;
+  padding: 15px;
+}
 
 @media print,
-screen and (max-width: 1400px) {
+screen and (max-width: 1450px) {
   div.wrapper {
     width: auto;
     margin: 0
