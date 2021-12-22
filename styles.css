@@ -19,6 +19,17 @@ item.active,
 .navbar-name {
   font-size: 30px;
   color: black;
+  text-decoration: underline 0.15em rgba(0, 0, 128, 0);
+  text-underline-offset: 0.1em;
+  transition: text-decoration-color 300ms, text-underline-offset 300ms;
+}
+
+.navbar-name:hover,
+.navbar-name:focus {
+  color: navy;
+  font-weight: bold;
+  text-decoration-color: rgba(0, 0, 128, 1);
+  text-underline-offset: 0.1em;
 }
 
 .navbar-a {
@@ -119,29 +130,33 @@ pre {
   overflow-x: auto;
 }
 
-a {
+p a,
+li a {
   text-decoration: underline 0.15em rgba(0, 0, 128, 0);
   text-underline-offset: 0.1em;
   transition: text-decoration-color 300ms, text-underline-offset 300ms;
 }
 
-
-a:hover,
-a:focus {
+p a:hover,
+p a:focus,
+li a:hover,
+li a:focus {
   color: navy;
   font-weight: bold;
   text-decoration-color: rgba(0, 0, 128, 1);
   text-underline-offset: 0.1em;
 }
 
-a small {
+p a small,
+li a small {
   font-size: 11px;
   color: #777;
   margin-top: -0.3em;
   display: block
 }
 
-a:hover small {
+p a:hover small,
+li a:hover small {
   color: navy;
 }
 
@@ -279,6 +294,7 @@ header ul a strong {
   border-style: dashed;
   border-width: 1px;
   border-color: grey;
+  border-radius: 0.25em;
   padding: 15px;
 }
 
@@ -417,4 +433,83 @@ input[type=checkbox]:checked~label>img {
 
 footer {
   display: block;
+}
+
+:root {
+  --clr-neon: hsl(0 1% 50%);
+  --clr-bg: hsl(323 21% 100%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.neon-button {
+  z-index: 9999;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  font-size: 2rem;
+
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--clr-neon);
+  background-color: var(--clr-bg);
+  border: var(--clr-neon) 0.125em solid;
+  padding: 0.25em 1em;
+  border-radius: 0.25em;
+
+  text-shadow:
+    0 0 0.125em hsl(0 0% 100% / 0.5),
+    0 0 0.45em currentColor;
+
+  box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em 0 var(--clr-neon);
+  transition: background-color 100ms linear;
+}
+
+.neon-button:focus {
+  color: var(--clr-neon);
+  background-color: var(--clr-bg);
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+
+  border: var(--clr-neon) 0.125em solid;
+  padding: 0.25em 1em;
+  border-radius: 0.25em;
+
+  text-shadow:
+    0 0 0.125em hsl(0 0% 100% / 0.5),
+    0 0 0.45em currentColor;
+
+  box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em 0 var(--clr-neon);
+  transition: background-color 100ms linear;
+}
+
+.neon-button::before {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+}
+
+.neon-button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.neon-button:hover::after {
+  opacity: 1;
+}
+
+.neon-button:hover {
+  color: var(--clr-bg);
+  background: var(--clr-neon);
+  text-decoration: none; 
 }
