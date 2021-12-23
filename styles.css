@@ -13,11 +13,11 @@ item.active,
 #certifications,
 #coursework,
 #research {
-  max-width: 700px;
+  max-width: 600px;
 }
 
 .navbar-name {
-  font-size: 30px;
+  font-size: 3.25rem;
   color: black;
   text-decoration: underline 0.15em rgba(0, 0, 128, 0);
   text-underline-offset: 0.1em;
@@ -30,6 +30,10 @@ item.active,
   font-weight: bold;
   text-decoration-color: rgba(0, 0, 128, 1);
   text-underline-offset: 0.1em;
+}
+
+#container-wrap {
+  width: 1000px;
 }
 
 .navbar-a {
@@ -58,57 +62,57 @@ item.active,
 } */
 
 body {
-  font-size: 17px;
+  font-size: 1.65rem;
 }
 
 td {
-  font-size: 17px;
+  font-size: 2px;
 }
 
 pre {
-  font-size: 17px;
+  font-size: 2px;
 }
 
 .r {
-  font-size: 12px;
+  font-size: 2px;
 }
 
 .title {
-  font-size: 38px;
+  font-size: 3rem;
   color: black;
 }
 
 h1 {
   /* Header 1 */
-  font-size: 24px;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
 h2 {
   /* Header 2 */
-  font-size: 24px;
+  font-size: 2.5rem;
   padding: 2px;
   text-align: center;
 }
 
 h3 {
   /* Header 3 */
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 h4 {
   /* Header 3 */
-  font-size: 23px;
+  font-size: 2.5rem;
 }
 
 h5 {
   /* Header 3 */
-  font-size: 17px;
+  font-size: 2rem;
 }
 
 h6 {
   /* Header 3 */
-  font-size: 5px;
+  font-size: 1rem;
   position: relative;
 }
 
@@ -149,7 +153,7 @@ li a:focus {
 
 p a small,
 li a small {
-  font-size: 11px;
+  font-size: 1.5rem;
   color: #777;
   margin-top: -0.3em;
   display: block
@@ -161,16 +165,13 @@ li a:hover small {
 }
 
 header {
-  float: none;
-  position: static;
-  width: 0 auto;
-  padding: 30px;
   width: 300px;
   float: right;
-  left: 75%;
+  margin-left: 43em;
   position: fixed;
   -webkit-font-smoothing: subpixel-antialiased
 }
+
 
 li.wrap {
   position: relative;
@@ -183,12 +184,13 @@ ul.a {
 }
 
 img {
+  max-width: 100%;
   border-radius: 50%;
 }
 
 hr {
   position: relative;
-  height: 2px;
+  height: 1px;
   width: 40%;
   margin-left: 0%;
   border-width: 0;
@@ -220,13 +222,13 @@ li.star::before {
 }
 
 section {
-  width: 500px;
+  max-width: 500px;
   float: left;
   padding-bottom: 50px
 }
 
 small {
-  font-size: 11px
+  font-size: 1rem;
 }
 
 header ul {
@@ -291,15 +293,15 @@ header ul a strong {
 }
 
 .border {
-  border-style: dashed;
+  border-style: ridge;
   border-width: 1px;
   border-color: grey;
-  border-radius: 0.25em;
-  padding: 15px;
+  border-radius: 0.5em;
+  padding: 10px 20px 10px;
 }
 
 @media print,
-screen and (max-width: 1450px) {
+screen and (max-width: 1600px) {
   div.wrapper {
     width: auto;
     margin: 0
@@ -315,6 +317,7 @@ screen and (max-width: 1450px) {
   header {
     float: none;
     position: relative;
+    margin-left: 0;
     width: auto;
     left: 15%;
   }
@@ -353,6 +356,7 @@ screen and (max-width: 1200px) {
 
   header {
     float: none;
+    margin-left: 0;
     left: 0;
   }
 
@@ -387,13 +391,21 @@ screen and (max-width: 200px) {
   header ul li+li+li {
     width: 33%
   }
+
+  .navbar-name {
+    padding-left: 10px;
+  }
 }
 
 @media print {
   body {
-    padding: 0.1in;
+    padding: 2px;
     font-size: 12pt;
     color: #444
+  }
+
+  .navbar-name {
+    padding-left: 10px;
   }
 }
 
@@ -448,7 +460,6 @@ footer {
 
 .neon-button {
   z-index: 9999;
-  scroll-behavior: smooth;
   position: fixed;
   bottom: 2rem;
   right: 2rem;
@@ -461,7 +472,7 @@ footer {
   background-color: var(--clr-bg);
   border: var(--clr-neon) 0.125em solid;
   padding: 0.25em 1em;
-  border-radius: 0.25em;
+  border-radius: 0.125em;
 
   text-shadow:
     0 0 0.125em hsl(0 0% 100% / 0.5),
@@ -471,7 +482,8 @@ footer {
   transition: background-color 100ms linear;
 }
 
-.neon-button:focus {
+.neon-button:focus,
+.neon-button:active {
   color: var(--clr-neon);
   background-color: var(--clr-bg);
   text-decoration: none;
