@@ -300,6 +300,15 @@ header ul a strong {
   padding: 10px 20px 10px;
 }
 
+.fade-in {
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}
+
 @media print,
 screen and (max-width: 1600px) {
   div.wrapper {
@@ -439,7 +448,7 @@ input[type=checkbox] {
 }
 
 input[type=checkbox]:checked~label>img {
-  transform: scale(2) translate(0, 50%);
+  transform: scale(1.5) translate(0, 50%);
   cursor: zoom-out;
 }
 
