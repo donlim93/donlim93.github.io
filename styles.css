@@ -234,6 +234,7 @@ ul.container2 {
 img {
   max-width: 100%;
   border-radius: 50%;
+  z-index: 9999;
 }
 
 hr {
