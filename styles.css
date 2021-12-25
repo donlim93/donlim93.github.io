@@ -63,6 +63,16 @@ item.active,
 
 body {
   font-size: 1.65rem;
+  overflow-x: hidden;
+}
+
+footer {
+  background: gray;
+  color: gray;
+  padding: 3em;
+
+  overflow-x: hidden;
+  margin-top: auto;
 }
 
 td {
@@ -333,6 +343,7 @@ screen and (max-width: 1600px) {
 
   html {
     scroll-behavior: smooth;
+    height: 100%;
   }
 
   header {
