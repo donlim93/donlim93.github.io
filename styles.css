@@ -177,8 +177,8 @@ li a:focus,
 a:hover,
 a:focus {
   text-decoration: none;
+  transition: all 0.2s ease-in;
   color: navy;
-  font-weight: bold;
 }
 
 p a::after,
