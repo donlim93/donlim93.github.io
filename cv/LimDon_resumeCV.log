@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.7)  4 JAN 2022 08:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.7)  7 JAN 2022 20:26
 entering extended mode
 **"c:/Users/Don/OneDrive - Texas Tech University/Documents/GitHub/donlim.github.io/donlim93.github.io/cv/LimDon_resumeCV.tex"
 (c:/Users/Don/OneDrive - Texas Tech University/Documents/GitHub/donlim.github.io/donlim93.github.io/cv/LimDon_resumeCV.tex
@@ -258,7 +258,7 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 15.
+Package hyperref Info: Option `colorlinks' set `true' on input line 16.
  (D:\Program Files\MikTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks24
@@ -292,25 +292,25 @@ File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
 ) (LimDon_resumeCV.aux)
 \openout1 = `LimDon_resumeCV.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-Package hyperref Info: Link coloring ON on input line 73.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+Package hyperref Info: Link coloring ON on input line 74.
  (D:\Program Files\MikTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (D:\Program Files\MikTeX\tex/latex/refcount\refcount.sty
@@ -320,9 +320,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count284
 )
-LaTeX Info: Redefining \ref on input line 73.
-LaTeX Info: Redefining \pageref on input line 73.
-LaTeX Info: Redefining \nameref on input line 73.
+LaTeX Info: Redefining \ref on input line 74.
+LaTeX Info: Redefining \pageref on input line 74.
+LaTeX Info: Redefining \nameref on input line 74.
  (LimDon_resumeCV.out) (LimDon_resumeCV.out)
 \@outlinefile=\write3
 \openout3 = `LimDon_resumeCV.out'.
@@ -375,7 +375,7 @@ LaTeX Info: Redefining \nameref on input line 73.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 91.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 90.
 (D:\Program Files\MikTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
@@ -412,15 +412,15 @@ Package rerunfilecheck Info: File `LimDon_resumeCV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10330 strings out of 478907
- 148018 string characters out of 2861755
- 472434 words of memory out of 3000000
- 28063 multiletter control sequences out of 15000+600000
+ 10331 strings out of 478907
+ 148028 string characters out of 2861755
+ 474529 words of memory out of 3000000
+ 28064 multiletter control sequences out of 15000+600000
  447102 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,5n,66p,429b,329s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,5n,66p,470b,329s stack positions out of 5000i,500n,10000p,200000b,80000s
 {D:/Program Files/MikTeX/fonts/enc/dvips/base/8r.enc}<D:/Program Files/MikTeX/fonts/type1/urw/times/utmb8a.pfb><D:/Program Files/MikTeX/fonts/type1/urw/times/utmr8a.pfb><D:/Program Files/MikTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on LimDon_resumeCV.pdf (1 page, 53302 bytes).
+Output written on LimDon_resumeCV.pdf (1 page, 53345 bytes).
 PDF statistics:
  31 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
