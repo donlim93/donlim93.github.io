@@ -1,0 +1,350 @@
+---
+title: "Data Cleaning"
+author: "Don Lim"
+date: "11/12/2021"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, results=F}
+library(readxl)
+library(tidyverse)
+library(countrycode)
+```
+
+# Importing Data
+
+## Obesity and overweight
+
+```{r, message=FALSE, results=F, warning=F}
+Prevalence_of_obesity_adult <- read_csv("Data/Prevalence of obesity adult.csv")
+Prevalence_of_obesity_children_adol <- read_csv("Data/Prevalence of obesity children adol.csv")
+Prevalence_of_overweight_adults <- read_csv("Data/Prevalence of overweight adults.csv")
+Prevalence_of_overweight_children_adol <- read_csv("Data/Prevalence of overweight children adol.csv")
+Mean_BMI_age_standardized <- read_csv("Data/Mean BMI age-standardized.csv")
+Mean_BMI_age_crude <- read_csv("Data/Mean BMI crude.csv")
+```
+
+## Health
+
+```{r, message=FALSE, results=F, warning=F}
+Cardiovascular_disease <- read_csv("Data/Cardiovascular disease.csv")
+High_blood_pressure_rate <- read_csv("Data/High blood pressure rate.csv")
+Diabetes_1990_2020 <- read_csv("Data/Diabetes 1990-2020.csv")
+```
+
+```{r}
+FBDG_countries <- read_excel("FBDG_countries.xlsx", sheet = "fbdg")
+FBDG_countries$`Country Code` <- countrycode(FBDG_countries$`Country Name`, "country.name", "iso3c")
+
+FBDG_countries <- FBDG_countries %>% 
+  select(-"Country Name")
+```
+
+## Covariates
+
+```{r}
+unemployment <- read_csv("Data/Unemployment 1991-2020.csv", skip=4)
+female <- read_csv("Data/Female population 1960-2020.csv", skip=4)
+phys <- read_csv("Data/Physician per 1000 1960-2020.csv", skip=4)
+gdp <- read_csv("Data/gdppercap.csv", skip=4)
+
+penn <- read_excel("Data/Penn World Table.xlsx", sheet="Data")
+Median_age_1950_2020 <- read_excel("Data/Median age 1950-2020.xlsx", 
+    sheet = "ESTIMATES", skip = 16)
+```
+
+# Obesity and overweight
+
+```{r}
+columns_prevalence <- c("IndicatorCode", "ValueType", "ParentLocation", "Location type", "SpatialDimValueCode", "IsLatestYear", "Dim2", "DataSource", "ParentLocationCode", "Period type", "Dim1", "Dim1 type", "Dim2 type", "Dim3 type", "Dim3", "Dim3ValueCode", "DataSourceDimValueCode", "FactValueNumericPrefix", "FactValueUoM", "FactValueNumericLowPrefix", "FactValueNumericLowPrefix", "FactComments", "Language", "FactValueNumericLow", "FactValueNumericHighPrefix", "FactValueNumericHigh", "Value", "FactValueTranslationID", "DateModified")
+
+# filter by both sexes
+Mean_BMI_age_standardized <- Mean_BMI_age_standardized %>% 
+  filter(Mean_BMI_age_standardized$Dim1ValueCode=="BTSX")
+
+mean_bmi_children <- Mean_BMI_age_crude %>% 
+  filter(Mean_BMI_age_crude$Dim1ValueCode=="BTSX" & Mean_BMI_age_crude$Dim2ValueCode=="YEARS05-09")
+
+mean_bmi_adol <- Mean_BMI_age_crude %>% 
+  filter(Mean_BMI_age_crude$Dim1ValueCode=="BTSX" & Mean_BMI_age_crude$Dim2ValueCode=="YEARS10-19")
+
+mean_bmi_adult <- Mean_BMI_age_crude %>% 
+  filter(Mean_BMI_age_crude$Dim1ValueCode=="BTSX" & Mean_BMI_age_crude$Dim2ValueCode=="YEARS18-PLUS")
+
+Prevalence_of_obesity_children <- Prevalence_of_obesity_children_adol %>% 
+  filter(Prevalence_of_obesity_children_adol$Dim1ValueCode=="BTSX" & Prevalence_of_obesity_children_adol$Dim2ValueCode=="YEARS05-09")
+
+Prevalence_of_overweight_children <- Prevalence_of_overweight_children_adol %>% 
+  filter(Prevalence_of_overweight_children_adol$Dim1ValueCode=="BTSX" & Prevalence_of_overweight_children_adol$Dim2ValueCode=="YEARS05-09")
+
+Prevalence_of_obesity_adol <- Prevalence_of_obesity_children_adol %>% 
+  filter(Prevalence_of_obesity_children_adol$Dim1ValueCode=="BTSX" & Prevalence_of_obesity_children_adol$Dim2ValueCode=="YEARS10-19")
+
+Prevalence_of_overweight_adol <- Prevalence_of_overweight_children_adol %>% 
+  filter(Prevalence_of_overweight_children_adol$Dim1ValueCode=="BTSX" & Prevalence_of_overweight_children_adol$Dim2ValueCode=="YEARS10-19")
+```
+
+```{r}
+combined_prevalence <- bind_rows(
+  Mean_BMI_age_standardized,
+  mean_bmi_children,
+  mean_bmi_adol,
+  mean_bmi_adult,
+  Prevalence_of_obesity_adult, 
+  Prevalence_of_overweight_adults, 
+  Prevalence_of_obesity_children, 
+  Prevalence_of_overweight_children,
+  Prevalence_of_obesity_adol,
+  Prevalence_of_overweight_adol
+  ) %>% 
+  
+  # remove unwanted columns
+  select(!all_of(columns_prevalence)) %>% 
+
+  pivot_wider(
+    names_from = c(Indicator, Dim2ValueCode),
+    values_from = FactValueNumeric
+    )
+```
+
+## Cleanup
+
+```{r}
+combined_prevalence <- combined_prevalence %>% 
+  filter(combined_prevalence$Dim1ValueCode=="BTSX") %>% 
+  select(-"Dim1ValueCode")
+
+colnames(combined_prevalence)[which(names(combined_prevalence) == "Period")] <- "Year" 
+colnames(combined_prevalence)[which(names(combined_prevalence) == "Location")] <- "Country Name" 
+
+# removes parentheses and string inside parentheses
+combined_prevalence$`Country Name` <-  gsub("\\s*\\([^\\)]+\\)","",as.character(combined_prevalence$`Country Name`))
+
+# converts country names to iso3c country codes
+combined_prevalence$`Country Code` <- countrycode(combined_prevalence$`Country Name`, "country.name", "iso3c")
+
+combined_prevalence <- combined_prevalence %>% 
+  select(-"Country Name")
+```
+
+
+# Health outcomes
+
+```{r}
+columns_health <- c("measure_id", "location_id", "age_id", "age_name", "sex_id", "metric_id", "rei_id", "cause_id", "upper", "lower", "sex_name", "metric_name")
+
+# filters measure_id (1=death, 5=prevalence, 6=incidence), sex_id (1=male, 2=female, 3=both sexes), and metric_id (1=number, 2=percent, 3=rate)
+Cardiovascular_disease_deaths <- Cardiovascular_disease %>% 
+  filter(Cardiovascular_disease$measure_id==1 & Cardiovascular_disease$sex_id==3 & Cardiovascular_disease$metric_id ==3)
+
+Cardiovascular_disease_incidence <- Cardiovascular_disease %>% 
+  filter(Cardiovascular_disease$measure_id==6 & Cardiovascular_disease$sex_id==3 & Cardiovascular_disease$metric_id ==3)
+
+# filters sex_id (1=male, 2=female, 3=both sexes)
+High_blood_pressure_rate <- High_blood_pressure_rate %>% 
+  filter(High_blood_pressure_rate$sex_id==3)
+
+Diabetes_prevalence <- Diabetes_1990_2020 %>% 
+  filter(Diabetes_1990_2020$measure_id==5 & Diabetes_1990_2020$sex_id==3 & Diabetes_1990_2020$metric_id==3)
+
+Diabetes_incidence <- Diabetes_1990_2020 %>% 
+  filter(Diabetes_1990_2020$measure_id==6 & Diabetes_1990_2020$sex_id==3 & Diabetes_1990_2020$metric_id==3)
+
+# changes rei_name to cause_name
+colnames(High_blood_pressure_rate)[which(names(High_blood_pressure_rate) == "rei_name")] <- "cause_name" 
+```
+
+```{r}
+combined_health_outcomes <- bind_rows(
+  # Cardiovascular_disease_deaths,
+  # Cardiovascular_disease_incidence,
+  High_blood_pressure_rate,
+  Diabetes_prevalence,
+  Diabetes_incidence
+) %>% 
+  
+  select(!all_of(columns_health)) %>% 
+  
+  pivot_wider(
+    names_from = c(cause_name, measure_name),
+    values_from = val
+  )
+```
+
+## Cleanup
+
+```{r}
+colnames(combined_health_outcomes)[which(names(combined_health_outcomes) == "year")] <- "Year" 
+colnames(combined_health_outcomes)[which(names(combined_health_outcomes) == "location_name")] <- "Country Name" 
+
+combined_health_outcomes$`Country Code` <- countrycode(combined_health_outcomes$`Country Name`, "country.name", "iso3c") 
+
+combined_health_outcomes <- combined_health_outcomes %>% 
+  select(-"Country Name")
+```
+
+# Covariates
+
+## Income
+
+```{r}
+income <- penn %>% 
+  select("country", "year", "rgdpe", "pop")
+
+income$income <- income$rgdpe/(income$pop)
+
+income$`Country Code` <- countrycode(income$country, "country.name", "iso3c")
+
+income <- income %>% 
+  select(-"country", -"rgdpe", -"pop") %>% 
+  rename("Year"="year")
+```
+
+## Percent female, unemployment, physicians per 1000
+
+```{r}
+combined_female_phys_unemployment <- bind_rows(
+  female,
+  phys,
+  unemployment,
+  gdp
+  
+) %>% 
+  select(-"Country Code", -"Indicator Code", -"...66") %>% 
+
+  pivot_longer(
+             `1960`:`2020`,
+             names_to = "Year",
+             ) %>% 
+  
+  pivot_wider(
+    names_from = "Indicator Name",
+    values_from = value
+  )
+
+combined_female_phys_unemployment$`Country Code` <- countrycode(combined_female_phys_unemployment$`Country Name`, "country.name", "iso3c")
+
+combined_female_phys_unemployment$`Country Code` <- countrycode(combined_female_phys_unemployment$`Country Name`, "country.name", "iso3c")
+
+combined_female_phys_unemployment <- combined_female_phys_unemployment %>% 
+  select(-"Country Name") %>% 
+  rename("female"="Population, female (% of total population)") %>% 
+  rename("physician"="Physicians (per 1,000 people)") %>% 
+  rename("unemployment"="Unemployment, total (% of total labor force) (modeled ILO estimate)") %>% 
+  rename("gdp"="GDP per capita (current US$)")
+```
+
+## Median age
+
+```{r}
+Median_age_1950_2020 <- Median_age_1950_2020 %>% 
+  filter(Median_age_1950_2020$Type=="Country/Area")
+
+Median_age_1950_2020 <- Median_age_1950_2020 %>% 
+  select("Region, subregion, country or area *", "Variant", `1950`:`2020`) %>% 
+  pivot_longer(
+    `1950`:`2020`,
+    names_to = "Year"
+  )
+
+Median_age_1950_2020$`Country Code` <- countrycode(Median_age_1950_2020$`Region, subregion, country or area *`, "country.name", "iso3c")
+
+Median_age_1950_2020 <- Median_age_1950_2020 %>% 
+  select(-"Region, subregion, country or area *", -"Variant") %>% 
+  rename("Median age"="value")
+```
+
+
+# Master data set
+
+```{r}
+# converts data frames into a list, merges them, and reduces back to a data frame, master_data
+master_data <- Reduce(function(...) merge.data.frame(..., all=TRUE), list(combined_health_outcomes, combined_prevalence, Median_age_1950_2020, combined_female_phys_unemployment, income, FBDG_countries)) %>% 
+  filter(!is.na(`Country Code`))
+
+# Last line filters out all the data that were not unambiguously converted by countrycode(), this includes countries, terriorties, regions, and other groupings: 
+
+# Micronesia, Belgium-Luxembourg, Czechoslovakia, Netherlands Antilles (former), Serbia and Montenegro, Yugoslav SFR, Africa Eastern and Southern, Africa Western and Central, Arab World, Caribbean small states, Central Europe and the Baltics, Channel Islands, Early-demographic dividend, East Asia & Pacific, East Asia & Pacific (excluding high income), East Asia & Pacific (IDA & IBRD countries), Euro area, Europe & Central Asia, Europe & Central Asia (excluding high income), Europe & Central Asia (IDA & IBRD countries), European Union, Fragile and conflict affected situations, Heavily indebted poor countries (HIPC), High income, IBRD only, IDA & IBRD total, IDA blend, IDA only, IDA total, Kosovo, Late-demographic dividend, Latin America & Caribbean, Latin America & Caribbean (excluding high income), Latin America & the Caribbean (IDA & IBRD countries), Least developed countries: UN classification, Low & middle income, Low income, Lower middle income, Middle East & North Africa, Middle East & North Africa (excluding high income), Middle East & North Africa
+```
+
+```{r}
+# converts iso3c code back to country names
+master_data$`Country Name` <- countrycode(master_data$`Country Code`, "iso3c", "country.name")
+
+# list of OECD countries
+OECD <- c("Australia|Austria|Belgium|Canada|Chile|Colombia|Costa Rica|Czechia|Denmark|Estonia|Finland|France|Germany|Greece|Hungary|Iceland|Ireland|Israel|Italy|Japan|South Korea|Latvia|Lithuania|Luxembourg|Mexico|Netherlands|New Zealand|Norway|Poland|Portugal|Slovakia|Slovenia|Spain|Sweden|Switzerland|Turkey|United Kingdom|United States")
+
+# searches if column country name contains any of the OECD countries; if true, returns 1; else 0
+master_data$OECD <- apply(sapply(OECD, grepl, master_data$`Country Name`), 1, all)
+
+
+master_data$FBDG[is.na(master_data$FBDG)] <- 0
+master_data$FBDG <- as.logical(master_data$FBDG)
+master_data$`Year Start`[is.na(master_data$`Year Start`)] <- 0
+
+# numbers unique countries from column country name by 1-223
+master_data <-  master_data %>% 
+  group_by(`Country Name`) %>% 
+  mutate(`Country Num` = cur_group_id()) %>% 
+  ungroup(`Country Name`)
+
+# master_data <- master_data[,c(15,1, 17, 16,11:14, 2:10)]
+
+master_data$`Year Start` <- as.numeric(master_data$`Year Start`)
+master_data$`Year Start` <- ifelse(master_data$`Year Start`=="0", NA, master_data$`Year Start`)
+master_data$Year <- as.numeric(master_data$Year)
+master_data$rel_year <- (master_data$Year-master_data$`Year Start`)
+master_data$rel_year <- ifelse(master_data$rel_year==master_data$Year,Inf,master_data$rel_year)
+
+master_data <- master_data %>% 
+  rename("mean.bmi.age.adjusted"="Mean BMI (kg/m²) (age-standardized estimate)_YEARS18-PLUS") %>% 
+  rename("High_blood_pressure_sum"="High systolic blood pressure_Summary exposure value") %>% 
+  rename("Diabetes_type2_prev"="Diabetes mellitus type 2_Prevalence") %>% 
+  rename("Diabetes_type2_inc"="Diabetes mellitus type 2_Incidence") %>% 
+  rename("Obesity_adult"="Prevalence of obesity among adults, BMI &GreaterEqual; 30 (age-standardized estimate) (%)_NA") %>% 
+  rename("Overweight_adult"="Prevalence of overweight among adults, BMI &GreaterEqual; 25 (age-standardized estimate) (%)_NA") %>% 
+  rename("Obesity_children"="Prevalence of obesity among children and adolescents, BMI > +2 standard deviations above the median (crude estimate) (%)_YEARS05-09") %>% 
+  rename("Overweight_children"="Prevalence of overweight among children and adolescents, BMI > +1 standard deviations above the median (crude estimate) (%)_YEARS05-09") %>% 
+  rename("Obesity_adol"="Prevalence of obesity among children and adolescents, BMI > +2 standard deviations above the median (crude estimate) (%)_YEARS10-19") %>% 
+  rename("Overweight_adol"="Prevalence of overweight among children and adolescents, BMI > +1 standard deviations above the median (crude estimate) (%)_YEARS10-19") %>% 
+  rename("mean.bmi.children"="Mean BMI (kg/m&#xb2;) (crude estimate)_YEARS05-09") %>% 
+  rename("mean.bmi.adol"="Mean BMI (kg/m&#xb2;) (crude estimate)_YEARS10-19") %>% 
+  rename("mean.bmi.adult"="Mean BMI (kg/m&#xb2;) (crude estimate)_YEARS18-PLUS")
+ 
+master_data$post <- ifelse(master_data$Year>=master_data$`Year Start` & master_data$FBDG==T,as.numeric(1),as.numeric(0))
+
+names(master_data) <-  gsub(" ", ".", names(master_data))
+names(master_data) <-  gsub("_", ".", names(master_data))
+names(master_data) <-  tolower(names(master_data))
+
+# master_data <- master_data %>% 
+#   filter(master_data$Year<2017 
+#          & !master_data$Country.Name=="American Samoa"
+#          & !master_data$Country.Name=="Bermuda"
+#          & !master_data$Country.Name=="Micronesia (Federated States of)"
+#          & !master_data$Country.Name=="Greenland"
+#          & !master_data$Country.Name=="Guam"
+#          & !master_data$Country.Name=="Monaco"
+#          & !master_data$Country.Name=="Northern Mariana Islands"
+#          & !master_data$Country.Name=="Puerto Rico"
+#          & !master_data$Country.Name=="Palestinian Territories"
+#          & !master_data$Country.Name=="Sudan"
+#          & !master_data$Country.Name=="San Marino"
+#          & !master_data$Country.Name=="South Sudan"
+#          & !master_data$Country.Name=="Tokelau"
+#          & !master_data$Country.Name=="Taiwan"
+#          & !master_data$Country.Name=="U.S. Virgin Islands"
+#          )
+```
+
+```{r}
+write.csv(master_data,file="master_data.csv", row.names = T)
+```
+
+
