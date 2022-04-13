@@ -1,0 +1,227 @@
+---
+title: "Our World in Data Sample"
+author: "Don Lim"
+date: "2/20/2022"
+output:
+  html_document:
+    df_print: paged
+    toc: yes
+    theme: cerulean
+    highlight: haddock
+    code_folding: show
+    number_sections: no
+    toc_float:
+      collapsed: yes
+      smooth_scroll: yes
+  always_allow_html: true
+  pdf_document:
+    toc: yes
+editor_options:
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  message = F,
+  warning = F,
+  tidy.opts = list(width.cutoff=80),
+  tidy = T
+  )
+```
+
+For this sample, I will be visualizing the dataset Global Database on Intergenerational Mobility from the World Bank. The dataset contains a number of absolute and relative measures of intergenerational mobility in education by 10-year cohorts between 1940 and 1989. The dataset is available [here](https://datacatalog.worldbank.org/search/dataset/0050771/global-database-on-intergenerational-mobility)
+
+# Import libraries
+
+```{r, results=F}
+library(readr)
+library(tidyverse)
+library(ggplot2)
+library(dplyr)
+library(plotly)
+```
+
+# Import dataset
+
+Unfortunately, the World Bank has not set up an API or a URL to directly download the .csv file. Therefore, we will have to load it in locally. 
+
+```{r}
+IGM <- read.csv("GDIM_2021_09.csv")
+```
+
+# Cleaning data
+
+First, we will create a list of relevant columns we will be using for this exercise. In this case, we want the
+
+* list of countries 
+* list of the corresponding ISO3 country code
+* 10-year cohorts
+* children and parent selection 
+* status of the data
+* income group
+* measure of absolute mobility (denoted by CAT)
+
+For this exercise, we will use the measure of absolute mobility (CAT). 
+
+```{r}
+cols_abs_mob <-
+  c("country",
+    "code",
+    "cohort",
+    "child",
+    "parent",
+    "status",
+    "incgroup4",
+    "CAT")
+```
+
+We want to keep only the maximum parental education and estimates for all children. Additionally, as the author notes, there is less confidence on the data from the 1940s cohort, therefore we will drop them. We also want to drop co-residents only as well, in order to show time trends and the same countries between all cohorts. 
+
+```{r}
+absolute_mobility <- IGM %>%
+  select(all_of(cols_abs_mob)) %>%
+  filter(
+    IGM$parent == "max" &
+      IGM$child == "all" &
+      IGM$cohort != 1940 & IGM$status != "Co-residents only"
+  ) %>% 
+  mutate(hover = paste0(country, "\n", CAT))
+```
+
+I have created a new column "hover" in order to more neatly portray the data when hovering over each country in a later visualization. To get a sense of our cleaned data, we can check the head of our data:
+
+```{r}
+head(absolute_mobility)
+```
+
+# Plotting data
+
+Let's plot the data by separating the cohorts into their respective income groups. We want to see the trend of absolute mobility between each cohort for each income group. 
+
+```{r}
+abs_mob <- absolute_mobility %>%
+  group_by(cohort, incgroup4) %>%
+  summarise(mean_CAT = mean(CAT))
+
+abs_mob_graph = ggplot(abs_mob,
+                       aes(
+                         x = cohort,
+                         y = mean_CAT,
+                         group = incgroup4,
+                         color = incgroup4
+                       )) + geom_line(size = 1) + labs(title = "Absolute mobility from the 1950s to the 1980s cohort", x =
+                                                         "Cohort (which decade individuals are born in)", y = "Absolute mobility (CAT)") + scale_color_discrete(name =
+                                                                                                                                                           "") +
+  geom_point(size = 2)
+
+abs_mob_graph
+```
+
+As we can see, from the 1950s cohort to the 1980s, absolute mobility, according to the dataset, has risen for low income and lower middle income. Upper middle income has remained the same, while the high income group has actually seen a decrease in absolute mobility.  
+
+# Choropleth graph
+
+For the next data visualization, let's take a look at a choropleth graph. We can do this with the plotly library. For aesthetic purposes, we can set up a uniform font style and the margins of the graph ahead of time.
+
+```{r}
+fontStyle = list(family = "DM Sans",
+                 size = 15,
+                 color = "black")
+
+label = list(bgcolor = "#EEEEEE",
+             bordercolor = "transparent",
+             font = fontStyle)
+m <- list(
+  l = 50,
+  r = 50,
+  b = 100,
+  t = 100,
+  pad = 4
+)
+```
+
+```{r}
+choropleth_graph = plot_geo(absolute_mobility,
+                            locationmode = "ISO-3",
+                            frame = ~ cohort) %>%
+  add_trace(
+    locations = ~ code,
+    z = ~ CAT,
+    zmin = 0,
+    zmax = 1,
+    color = ~ CAT,
+    colorscale = 'Blues',
+    reversescale = T,
+    text = ~ hover,
+    hoverinfo = 'text'
+  ) %>%
+  layout(font = list(family = "DM Sans"),
+         title = "Global absolute mobility\n 1950 to 1980 cohort",
+         margin = m) %>%
+  style(hoverlabel = label) %>%
+  config(displayModeBar = F)
+
+choropleth_graph
+```
+
+Here we are able to see the changes in absolute mobility between the cohorts for each country. 
+
+# Scatterplot
+
+## Import dataset 
+
+For the last visualization, we can plot the measure for absolute mobility against GDP per capita to get a crude sense of the relationship between the two. GDP per capita is also available through the World Bank and we can download the .zip file, extract the .csv, and import it into R using the following code.  
+
+```{r}
+url <-
+  "https://api.worldbank.org/v2/en/indicator/NY.GDP.PCAP.CD?downloadformat=csv"
+download.file(url, "gdp.zip", mode = "wb")
+unzip("gdp.zip")
+gdp <-
+  read.csv(
+    "API_NY.GDP.PCAP.CD_DS2_en_csv_v2_3632113.csv",
+    skip = 4,
+    check.names = F
+  )
+```
+
+## Cleaning data
+
+Next, let's select the columns we want. For this graph, we want GPD from 2020 to use with the 1980s cohort. 
+
+```{r}
+cols_gdp <- c("Country Code", "2020")
+
+gdp_data <- gdp %>%
+  select(all_of(cols_gdp)) %>%
+  rename("code" = "Country Code")
+
+abs_mobility_1980 <- absolute_mobility %>% 
+  filter(cohort == 1980)
+
+head(abs_mobility_1980)
+```
+
+The following code will left merge the data frame with the 1980s cohort with the 2020 GDP per capita data frame. 
+
+```{r}
+abs_mob_gdp <- merge(x = abs_mobility_1980, y = gdp_data, by = "code", all.x = T)
+```
+
+Finally, we can see our plot
+
+```{r}
+abs_mob_gdp_plot = ggplot(abs_mob_gdp, aes(y = `2020`, x = CAT)) + geom_point(colour = "blue") + geom_smooth(method = 'lm', se = T) + labs(title = "1980 cohort absolute mobility with 2020 GDP per capita", x = "Absolute mobility (CAT)", y = "2020 GPD per capita") + scale_y_continuous(labels=scales::dollar_format())
+
+abs_mob_gdp_plot
+```
+
+From this initial and simple regression, we see there is a slight positive relationship between intergenerational mobility and GDP per capita. However, we can also see that for countries with low GDP per capita, there is a wide range of absolute educational mobility. At the top of the graph, the two countries Ireland and Switzerland have the highest income, though there is a large gap between their intergenerational mobility scores.  This was, of course, a preliminary and surface-level analysis between intergenerational mobility and GDP per capita. 
+
+The relationship between income and mobility is outside the scope of this exercise. More robust methods are needed to determine the causal relationship between the two. Synthetic control and matching immediately come to mind, though more research on the literature to find the relevant covariates and control variables would be necessary. 
+
+
+
+
+
