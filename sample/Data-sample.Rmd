@@ -44,6 +44,7 @@ library(plotly)
 
 # Import dataset
 
+
 Unfortunately, the World Bank has not set up an API or a URL to directly download the .csv file. Therefore, we will have to load it in locally. 
 
 ```{r}
@@ -158,7 +159,7 @@ choropleth_graph = plot_geo(absolute_mobility,
   ) %>%
   layout(font = list(family = "DM Sans"),
          title = "Global absolute mobility\n 1950 to 1980 cohort",
-         margin = m) %>%
+         margin = m, autosize = F, width = 1000, height = 800) %>%
   style(hoverlabel = label) %>%
   config(displayModeBar = F)
 
@@ -180,7 +181,7 @@ download.file(url, "gdp.zip", mode = "wb")
 unzip("gdp.zip")
 gdp <-
   read.csv(
-    "API_NY.GDP.PCAP.CD_DS2_en_csv_v2_3632113.csv",
+    "API_NY.GDP.PCAP.CD_DS2_en_csv_v2_3930492.csv",
     skip = 4,
     check.names = F
   )
