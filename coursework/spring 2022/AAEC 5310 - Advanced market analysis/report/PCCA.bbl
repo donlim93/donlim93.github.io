@@ -1,0 +1,1219 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{aronowDoesRegressionProduce2016}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=edad3f3ce580076d5d7b40c23b2a494f}{%
+           family={Aronow},
+           familyi={A\bibinitperiod},
+           given={Peter\bibnamedelima M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a90ecb8b014be65da2e690c5ddd4e0f2}{%
+           family={Samii},
+           familyi={S\bibinitperiod},
+           given={Cyrus},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{961f9dcb3b73e64dd295e41f9181bd33}
+      \strng{fullhash}{961f9dcb3b73e64dd295e41f9181bd33}
+      \strng{bibnamehash}{961f9dcb3b73e64dd295e41f9181bd33}
+      \strng{authorbibnamehash}{961f9dcb3b73e64dd295e41f9181bd33}
+      \strng{authornamehash}{961f9dcb3b73e64dd295e41f9181bd33}
+      \strng{authorfullhash}{961f9dcb3b73e64dd295e41f9181bd33}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0092-5853, 1540-5907}
+      \field{journaltitle}{American Journal of Political Science}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{American Journal of Political Science}
+      \field{title}{Does {{Regression Produce Representative Estimates}} of {{Causal Effects}}?}
+      \field{urlday}{17}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{volume}{60}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{250\bibrangedash 267}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1111/ajps.12185
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\Don\\Zotero\\storage\\IY9BEEJP\\Aronow and Samii - 2016 - Does Regression Produce Representative Estimates o.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/10.1111/ajps.12185
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/10.1111/ajps.12185
+      \endverb
+    \endentry
+    \entry{chaddadUnderstandingNewCooperative2004}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=427ad6cbc356b1d385555072854c27e3}{%
+           family={Chaddad},
+           familyi={C\bibinitperiod},
+           given={Fabio\bibnamedelima R.},
+           giveni={F\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf4c4d04f6f71c3c9d75f843e5afb251}{%
+           family={Cook},
+           familyi={C\bibinitperiod},
+           given={Michael\bibnamedelima L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8646403f7daf44f5a6c45f2e9a89ff56}
+      \strng{fullhash}{8646403f7daf44f5a6c45f2e9a89ff56}
+      \strng{bibnamehash}{8646403f7daf44f5a6c45f2e9a89ff56}
+      \strng{authorbibnamehash}{8646403f7daf44f5a6c45f2e9a89ff56}
+      \strng{authornamehash}{8646403f7daf44f5a6c45f2e9a89ff56}
+      \strng{authorfullhash}{8646403f7daf44f5a6c45f2e9a89ff56}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{1058-7195, 1467-9353}
+      \field{journaltitle}{Review of Agricultural Economics}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{3}
+      \field{shortjournal}{Rev Agricultural Economics}
+      \field{shorttitle}{Understanding {{New Cooperative Models}}}
+      \field{title}{Understanding {{New Cooperative Models}}: {{An Ownership-Control Rights Typology}}}
+      \field{urlday}{24}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{volume}{26}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{348\bibrangedash 360}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1111/j.1467-9353.2004.00184.x
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\Don\\Zotero\\storage\\7I9PFL9X\\Chaddad and Cook - 2004 - Understanding New Cooperative Models An Ownership.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/aepp/article-lookup/doi/10.1111/j.1467-9353.2004.00184.x
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/aepp/article-lookup/doi/10.1111/j.1467-9353.2004.00184.x
+      \endverb
+    \endentry
+    \entry{ciruela-lorenzoDigitalizationAgriCooperativesSmart2020}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=08dbe4ada935003acec339eecb0ae78b}{%
+           family={Ciruela-Lorenzo},
+           familyi={C\bibinithyphendelim L\bibinitperiod},
+           given={Antonio\bibnamedelima Manuel},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=93913fcb34734d005b96de8cfb150498}{%
+           family={Del-Aguila-Obra},
+           familyi={D\bibinithyphendelim A\bibinithyphendelim O\bibinitperiod},
+           given={Ana\bibnamedelima Rosa},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c53fe2860262781757689de3d1b18b01}{%
+           family={Padilla-Meléndez},
+           familyi={P\bibinithyphendelim M\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f946dc160b7d029634ee753bc07f8e5}{%
+           family={Plaza-Angulo},
+           familyi={P\bibinithyphendelim A\bibinitperiod},
+           given={Juan\bibnamedelima José},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{0aadf33a880393cd67615e7d753e7eee}
+      \strng{fullhash}{e992463801376f1942d825a7dcc33e6e}
+      \strng{bibnamehash}{e992463801376f1942d825a7dcc33e6e}
+      \strng{authorbibnamehash}{e992463801376f1942d825a7dcc33e6e}
+      \strng{authornamehash}{0aadf33a880393cd67615e7d753e7eee}
+      \strng{authorfullhash}{e992463801376f1942d825a7dcc33e6e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The use of digital technologies has been recognized as one of the great challenges for businesses of the 21st century. This digitalization is characterized by the intensive use of information technologies in the different stages of the value chain of a sector. In this context, smart agriculture is transforming the agricultural sector in terms of economic, social, and environmental sustainability. In some countries, cooperatives, as the most common legal form of the incumbent companies, in this rather traditional low-intensive technology sector, are going to develop a relevant role in the process of adoption of these technologies. In this context, this paper provides, first, a review of the evolution of the main digital technologies, such as Internet of Things, robots, Artificial Intelligence, Big Data, and Blockchain, among others. Second, a description of the digital innovation process in agri-cooperatives in order to help them in the decision-making process, and third, a digital diagnosis tool for measuring cooperatives’ digital innovation. This tool is initially applied to two cases of agri-cooperatives in Spain. All of this contributes to a better understanding of digitalization of agri-cooperatives in the context of smart agriculture.}
+      \field{issn}{2071-1050}
+      \field{issue}{4}
+      \field{journaltitle}{Sustainability}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{4}
+      \field{title}{Digitalization of {{Agri-Cooperatives}} in the {{Smart Agriculture Context}}. {{Proposal}} of a {{Digital Diagnosis Tool}}}
+      \field{urlday}{24}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{volume}{12}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1325}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/su12041325
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\Don\\Zotero\\storage\\3VU2MY7A\\Ciruela-Lorenzo et al. - 2020 - Digitalization of Agri-Cooperatives in the Smart A.pdf;C\:\\Users\\Don\\Zotero\\storage\\3H8RXQ25\\1325.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2071-1050/12/4/1325
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2071-1050/12/4/1325
+      \endverb
+      \keyw{cooperatives,digital diagnosis tool,digital transformation,digitalization,smart agriculture}
+    \endentry
+    \entry{cookCooperativeLifeCycle2009}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=cf4c4d04f6f71c3c9d75f843e5afb251}{%
+           family={Cook},
+           familyi={C\bibinitperiod},
+           given={Michael\bibnamedelima L},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f0d1a37b18ebdf1b675d63b05aaea2b}{%
+           family={Burress},
+           familyi={B\bibinitperiod},
+           given={Molly\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ac53bede531e2e045d357ccf5e6e2883}
+      \strng{fullhash}{ac53bede531e2e045d357ccf5e6e2883}
+      \strng{bibnamehash}{ac53bede531e2e045d357ccf5e6e2883}
+      \strng{authorbibnamehash}{ac53bede531e2e045d357ccf5e6e2883}
+      \strng{authornamehash}{ac53bede531e2e045d357ccf5e6e2883}
+      \strng{authorfullhash}{ac53bede531e2e045d357ccf5e6e2883}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Multiple, often conflicting, theories regarding success and failure of collective action exist. We suggest a life cycle framework of patron-owned collective action in the agricultural sector as a systematic method of deciding when to selectively apply relevant theories of collective action. A dynamic framework appears to better inform the cooperative degeneration hypothesis and suggest actions cooperative leaders may take to avoid checkmate. After outlining endogenous reasons for decline, we recast heterogeneity and vaguely defined property right problems as opportunities for gathering information critical to survival. Of the five phases the framework outlines, we choose to focus on phase three: growth, glory and heterogeneity. We propose cooperative decision-makers possessing an intimate understanding of the dynamics of cooperative growth are in a unique position to evade ownership costs by selecting among regenerative solutions when faced with organizational decline.}
+      \field{langid}{english}
+      \field{title}{A {{Cooperative Life Cycle Framework}}}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb C\:\\Users\\Don\\Zotero\\storage\\8U343D6A\\Cook and Burress - 2009 - A Cooperative Life Cycle Framework.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://departments.agri.huji.ac.il/economics/en/events/p-cook.pdf
+      \endverb
+      \verb{url}
+      \verb http://departments.agri.huji.ac.il/economics/en/events/p-cook.pdf
+      \endverb
+    \endentry
+    \entry{culnanHowLargeCompanies2010}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d250a2db91a00b477c7ae0ad7bd82640}{%
+           family={Culnan},
+           familyi={C\bibinitperiod},
+           given={Mary},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=90a39f1a48147f594d73618a0e092f77}{%
+           family={McHugh},
+           familyi={M\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0280655f0c9f22a14b1bf6f5e9833b4}{%
+           family={Zubillaga},
+           familyi={Z\bibinitperiod},
+           given={Jesus},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6efdfb1a61cc42e37cb0d6e2abde2ecb}
+      \strng{fullhash}{e7712fab09933056b84e480e20c96d04}
+      \strng{bibnamehash}{e7712fab09933056b84e480e20c96d04}
+      \strng{authorbibnamehash}{e7712fab09933056b84e480e20c96d04}
+      \strng{authornamehash}{6efdfb1a61cc42e37cb0d6e2abde2ecb}
+      \strng{authorfullhash}{e7712fab09933056b84e480e20c96d04}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Social media platforms such as Twitter and Facebook enable the creation of virtual customer environments (VCEs) where online communities of interest form around specific firms, brands, or products. While these platforms can be used as another means to deliver familiar e-commerce applications, when firms fail to fully engage their customers, they also fail to fully exploit the capabilities of social media platforms. To gain business value, organizations need to incorporate community building as part of the implementation of social media. This article starts by describing the Fortune 500's use of four of the most popular social media platforms-Twitter, Facebook, blogs, and client-hosted forums-to interact with customers. We then argue that to gain full business value from social media, firms need to develop implementation strategies based on three elements: mindful adoption, community building, and absorptive capacity. Next, we use case studies of three Fortune 100 corporations to illustrate how they are managing their respective networks of social media applications. Finally, we provide guidelines for implementing social media.}
+      \field{day}{1}
+      \field{journaltitle}{MIS Quarterly Executive}
+      \field{month}{12}
+      \field{shortjournal}{MIS Quarterly Executive}
+      \field{title}{How {{Large U}}.{{S}}. {{Companies Can Use Twitter}} and {{Other Social Media}} to {{Gain Business Value}}.}
+      \field{volume}{9}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{pages}{243\bibrangedash 259}
+      \range{pages}{17}
+      \verb{file}
+      \verb C\:\\Users\\Don\\Zotero\\storage\\C8B2AUIJ\\Culnan et al. - 2010 - How Large U.S. Companies Can Use Twitter and Other.pdf
+      \endverb
+    \endentry
+    \entry{dehejiaPropensityScoreMatchingMethods2002a}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c2c0d665a050ce219aa742ff0d016901}{%
+           family={Dehejia},
+           familyi={D\bibinitperiod},
+           given={Rajeev\bibnamedelima H},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fcfb7d1de0905e30f32412785828fbdb}{%
+           family={Wahba},
+           familyi={W\bibinitperiod},
+           given={Sadek},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{956f357ca16171a2a49637970026d3aa}
+      \strng{fullhash}{956f357ca16171a2a49637970026d3aa}
+      \strng{bibnamehash}{956f357ca16171a2a49637970026d3aa}
+      \strng{authorbibnamehash}{956f357ca16171a2a49637970026d3aa}
+      \strng{authornamehash}{956f357ca16171a2a49637970026d3aa}
+      \strng{authorfullhash}{956f357ca16171a2a49637970026d3aa}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper considers causal inference and sample selection bias in nonexperimental settings in which (i) few units in the nonexperimental comparison group are comparable to the treatment units, and (ii) selecting a subset of comparison units similar to the treatment units is difficult because units must be compared across a high-dimensional set of pretreatment characteristics. We discuss the use of propensity score-matching methods, and implement them using data from the National Supported Work experiment. Following LaLonde (1986), we pair the experimental treated units with nonexperimental comparison units from the CPS and PSID, and compare the estimates of the treatment effect obtained using our methods to the benchmark results from the experiment. For both comparison groups, we show that the methods succeed in focusing attention on the small subset of the comparison units comparable to the treated units and, hence, in alleviating the bias due to systematic differences between the treated and comparison units.}
+      \field{journaltitle}{The Review of Economics and Statistics}
+      \field{langid}{english}
+      \field{number}{1}
+      \field{title}{Propensity {{Score-Matching Methods}} for {{Nonexperimental Causal Studies}}}
+      \field{volume}{84}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{pages}{151\bibrangedash 161}
+      \range{pages}{11}
+      \verb{file}
+      \verb C\:\\Users\\Don\\Zotero\\storage\\AHCKABF8\\Dehejia and Wahba - PROPENSITY SCORE-MATCHING METHODS FOR NONEXPERIMEN.pdf
+      \endverb
+    \endentry
+    \entry{erdmanRevolvingFinanceAgricultural1965}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2907a597615b1b9f02a216420deafdbc}{%
+           family={Erdman},
+           familyi={E\bibinitperiod},
+           given={Henry\bibnamedelima E.},
+           giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc78254ea8a13998e5332c37d2db3ff3}{%
+           family={Larsen},
+           familyi={L\bibinitperiod},
+           given={Grace\bibnamedelima Hutchinson},
+           giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Madison, Wis}%
+      }
+      \list{publisher}{1}{%
+        {Mimir Publishers}%
+      }
+      \strng{namehash}{adb3b88050f2b31e9c50ee5e06a443e7}
+      \strng{fullhash}{adb3b88050f2b31e9c50ee5e06a443e7}
+      \strng{bibnamehash}{adb3b88050f2b31e9c50ee5e06a443e7}
+      \strng{authorbibnamehash}{adb3b88050f2b31e9c50ee5e06a443e7}
+      \strng{authornamehash}{adb3b88050f2b31e9c50ee5e06a443e7}
+      \strng{authorfullhash}{adb3b88050f2b31e9c50ee5e06a443e7}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Revolving {{Finance}} in {{Agricultural Co-Operatives}}}
+      \field{year}{1965}
+      \field{dateera}{ce}
+      \keyw{Agriculture; Cooperative,Finance}
+    \endentry
+    \entry{grovesSurveyMethodology2009}{book}{}
+      \name{editor}{1}{}{%
+        {{un=0,uniquepart=base,hash=fc80c28145bfbcb4429404be3befc52a}{%
+           family={Groves},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Hoboken, N.J}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{fc80c28145bfbcb4429404be3befc52a}
+      \strng{fullhash}{fc80c28145bfbcb4429404be3befc52a}
+      \strng{bibnamehash}{fc80c28145bfbcb4429404be3befc52a}
+      \strng{editorbibnamehash}{fc80c28145bfbcb4429404be3befc52a}
+      \strng{editornamehash}{fc80c28145bfbcb4429404be3befc52a}
+      \strng{editorfullhash}{fc80c28145bfbcb4429404be3befc52a}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{annotation}{OCLC: ocn302189175}
+      \field{edition}{2nd ed}
+      \field{isbn}{978-0-470-46546-2}
+      \field{pagetotal}{461}
+      \field{series}{Wiley Series in Survey Methodology}
+      \field{title}{Survey {{Methodology}}}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb C\:\\Users\\Don\\Zotero\\storage\\UKB8L5MQ\\Lepkowski et al. - Survey Methodology.pdf
+      \endverb
+      \keyw{Methodology,Research Statistical methods,Social sciences,Social surveys,Surveys}
+    \endentry
+    \entry{hansmannOwnershipEnterprise2000}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d23fe3646f5b0c597b79e37941f6b400}{%
+           family={Hansmann},
+           familyi={H\bibinitperiod},
+           given={Henry},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, Mass.}%
+      }
+      \list{publisher}{1}{%
+        {Belknap Press of Harvard Univ. Press}%
+      }
+      \strng{namehash}{d23fe3646f5b0c597b79e37941f6b400}
+      \strng{fullhash}{d23fe3646f5b0c597b79e37941f6b400}
+      \strng{bibnamehash}{d23fe3646f5b0c597b79e37941f6b400}
+      \strng{authorbibnamehash}{d23fe3646f5b0c597b79e37941f6b400}
+      \strng{authornamehash}{d23fe3646f5b0c597b79e37941f6b400}
+      \strng{authorfullhash}{d23fe3646f5b0c597b79e37941f6b400}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Harvard Univ. Press Paperback Ed}
+      \field{isbn}{978-0-674-00171-8 978-0-674-64970-5}
+      \field{langid}{english}
+      \field{pagetotal}{372}
+      \field{title}{The {{Ownership}} of {{Enterprise}}}
+      \field{year}{2000}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb C\:\\Users\\Don\\Zotero\\storage\\KTZ3QCWN\\Hansmann - 2000 - The ownership of enterprise.pdf
+      \endverb
+    \endentry
+    \entry{HistoryPlainsCotton2004}{online}{}
+      \list{organization}{1}{%
+        {FundingUniverse}%
+      }
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{title}{History of {{Plains Cotton Cooperative Association}}}
+      \field{urlday}{13}
+      \field{urlmonth}{4}
+      \field{urlyear}{2022}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C\:\\Users\\Don\\Zotero\\storage\\4UF2LS3A\\plains-cotton-cooperative-association-history.html
+      \endverb
+      \verb{urlraw}
+      \verb http://www.fundinguniverse.com/company-histories/plains-cotton-cooperative-association-history/
+      \endverb
+      \verb{url}
+      \verb http://www.fundinguniverse.com/company-histories/plains-cotton-cooperative-association-history/
+      \endverb
+    \endentry
+    \entry{hoMatchingNonparametricPreprocessing2007}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=2e146a981c17f3c9b6f92736f5fde3c1}{%
+           family={Ho},
+           familyi={H\bibinitperiod},
+           given={Daniel\bibnamedelima E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3fb69a8c942c769b74775b484c82bbe9}{%
+           family={Imai},
+           familyi={I\bibinitperiod},
+           given={Kosuke},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e62a3c431989b28a48ea18aa5cfcfbed}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc9216d91954f9b5dc8d8a294d4c2611}{%
+           family={Stuart},
+           familyi={S\bibinitperiod},
+           given={Elizabeth\bibnamedelima A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{dbc9f2dfaf346e5308d721c8fece27e9}
+      \strng{fullhash}{d24638ffa9628eaaeb88ec45993b6a1a}
+      \strng{bibnamehash}{d24638ffa9628eaaeb88ec45993b6a1a}
+      \strng{authorbibnamehash}{d24638ffa9628eaaeb88ec45993b6a1a}
+      \strng{authornamehash}{dbc9f2dfaf346e5308d721c8fece27e9}
+      \strng{authorfullhash}{d24638ffa9628eaaeb88ec45993b6a1a}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Although published works rarely include causal estimates from more than a few model specifications, authors usually choose the presented estimates from numerous trial runs readers never see. Given the often large variation in estimates across choices of control variables, functional forms, and other modeling assumptions, how can researchers ensure that the few estimates presented are accurate or representative? How do readers know that publications are not merely demonstrations that it is possible to find a specification that fits the author's favorite hypothesis? And how do we evaluate or even define statistical properties like unbiasedness or mean squared error when no unique model or estimator even exists? Matching methods, which offer the promise of causal inference with fewer assumptions, constitute one possible way forward, but crucial results in this fast-growing methodological literature are often grossly misinterpreted. We explain how to avoid these misinterpretations and propose a unified approach that makes it possible for researchers to preprocess data with matching (such as with the easy-to-use software we offer) and then to apply the best parametric techniques they would have used anyway. This procedure makes parametric models produce more accurate and considerably less model-dependent causal inferences.}
+      \field{issn}{1047-1987, 1476-4989}
+      \field{journaltitle}{Political Analysis}
+      \field{langid}{english}
+      \field{number}{3}
+      \field{title}{Matching as {{Nonparametric Preprocessing}} for {{Reducing Model Dependence}} in {{Parametric Causal Inference}}}
+      \field{urlday}{17}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{volume}{15}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{199\bibrangedash 236}
+      \range{pages}{38}
+      \verb{doi}
+      \verb 10.1093/pan/mpl013
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\Don\\Zotero\\storage\\8Q2A8TQL\\Ho et al. - 2007 - Matching as Nonparametric Preprocessing for Reduci.pdf;C\:\\Users\\Don\\Zotero\\storage\\Y6QT8BZW\\4D7E6D07C9727F5A604E5C9FCCA2DD21.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/journals/political-analysis/article/matching-as-nonparametric-preprocessing-for-reducing-model-dependence-in-parametric-causal-inference/4D7E6D07C9727F5A604E5C9FCCA2DD21
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/journals/political-analysis/article/matching-as-nonparametric-preprocessing-for-reducing-model-dependence-in-parametric-causal-inference/4D7E6D07C9727F5A604E5C9FCCA2DD21
+      \endverb
+    \endentry
+    \entry{hohlerDimensionsMemberHeterogeneity2018}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d5f463519676660cc612ea2fdf1414ac}{%
+           family={Höhler},
+           familyi={H\bibinitperiod},
+           given={Julia},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c7c71c567abd5bc45d612df7473da01b}{%
+           family={Kühl},
+           familyi={K\bibinitperiod},
+           given={Rainer},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{89e43b4c4793229905dce6c0098d9369}
+      \strng{fullhash}{89e43b4c4793229905dce6c0098d9369}
+      \strng{bibnamehash}{89e43b4c4793229905dce6c0098d9369}
+      \strng{authorbibnamehash}{89e43b4c4793229905dce6c0098d9369}
+      \strng{authornamehash}{89e43b4c4793229905dce6c0098d9369}
+      \strng{authorfullhash}{89e43b4c4793229905dce6c0098d9369}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Member heterogeneity is often seen as a disadvantage of cooperatives. Though, a comprehensive understanding of member heterogeneity, its dimensions and impacts on member interests, organizations and their performance is still missing. The following literature review is intended to summarize the existing literature on member heterogeneity with a focus on agricultural cooperatives in order to provide further areas of research. Different dimensions of heterogeneity are identified and ways of measuring their impact on cooperative organization are proposed.}
+      \field{annotation}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/apce.12177}
+      \field{issn}{1467-8292}
+      \field{journaltitle}{Annals of Public and Cooperative Economics}
+      \field{langid}{english}
+      \field{number}{4}
+      \field{title}{Dimensions of {{Member Heterogeneity}} in {{Cooperatives}} and {{Their Impact}} on {{Organization}} – a {{Literature Review}}}
+      \field{urlday}{24}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{volume}{89}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{697\bibrangedash 712}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1111/apce.12177
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\Don\\Zotero\\storage\\Z9WAFHU6\\Höhler and Kühl - 2018 - Dimensions of Member Heterogeneity in Cooperatives.pdf;C\:\\Users\\Don\\Zotero\\storage\\W83DLQ72\\apce.html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/apce.12177
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/apce.12177
+      \endverb
+      \keyw{cooperatives,D20,D70,L20,member heterogeneity,organization,Q13}
+    \endentry
+    \entry{iliopoulosInfluenceCostsAgribusiness2009}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3295395843351d9d818b45cb94b4d6ae}{%
+           family={Iliopoulos},
+           familyi={I\bibinitperiod},
+           given={Constantine},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f816288b78187eea5a224a4d0e6ac6a0}{%
+           family={Hendrikse},
+           familyi={H\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{76e032e0da56ee96076425ecac70de9f}
+      \strng{fullhash}{76e032e0da56ee96076425ecac70de9f}
+      \strng{bibnamehash}{76e032e0da56ee96076425ecac70de9f}
+      \strng{authorbibnamehash}{76e032e0da56ee96076425ecac70de9f}
+      \strng{authornamehash}{76e032e0da56ee96076425ecac70de9f}
+      \strng{authorfullhash}{76e032e0da56ee96076425ecac70de9f}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This paper addresses the influence costs problem in the governance structure of “agribusiness cooperative.” Influence costs are higher in cooperatives than in investor-oriented firms due to the unique governance structure of the former. Hypotheses are formulated and tested regarding the relationship between influence costs and seven variables: membership size, member heterogeneity, average member age, singleness of purpose, managerial power over members, level of managerial compensation, and professional versus inside management. The main results are that heterogeneous member preferences, older average member age, and investment in multiple product lines all contribute to higher influence costs. At the same time, cooperatives with well-paid, powerful, and professional managers incur lower influence costs. The impact of membership size on the level of influence costs is undetermined.}
+      \field{day}{1}
+      \field{journaltitle}{International Studies of Management and Organization}
+      \field{month}{12}
+      \field{shortjournal}{International Studies of Management and Organization}
+      \field{shorttitle}{Iliopoulos, {{C}}., and {{G}}.{{W}}.{{J}}. {{Hendrikse}}. 2009. “{{Influence Costs}} in {{Agribusiness Cooperatives}}}
+      \field{title}{Influence {{Costs}} in {{Agribusiness Cooperatives}}: {{Evidence}} from {{Case Studies}}}
+      \field{volume}{39}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{pages}{60\bibrangedash 80}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.2753/IMO0020-8825390404
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\Don\\Zotero\\storage\\6FHT834Q\\Iliopoulos and Hendrikse - 2009 - Iliopoulos, C., and G.W.J. Hendrikse. 2009. “Influ.pdf
+      \endverb
+    \endentry
+    \entry{kingDangersExtremeCounterfactuals2006}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e62a3c431989b28a48ea18aa5cfcfbed}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f3a390e23dc81bf8e05b73ea53c4a871}{%
+           family={Zeng},
+           familyi={Z\bibinitperiod},
+           given={Langche},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{36528a65549594fdf6865387021d93a2}
+      \strng{fullhash}{36528a65549594fdf6865387021d93a2}
+      \strng{bibnamehash}{36528a65549594fdf6865387021d93a2}
+      \strng{authorbibnamehash}{36528a65549594fdf6865387021d93a2}
+      \strng{authornamehash}{36528a65549594fdf6865387021d93a2}
+      \strng{authorfullhash}{36528a65549594fdf6865387021d93a2}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We address the problem that occurs when inferences about counterfactuals—predictions, “what-if” questions, and causal effects—are attempted far from the available data. The danger of these extreme counterfactuals is that substantive conclusions drawn from statistical models that fit the data well turn out to be based largely on speculation hidden in convenient modeling assumptions that few would be willing to defend. Yet existing statistical strategies provide few reliable means of identifying extreme counterfactuals. We offer a proof that inferences farther from the data allow more model dependence and then develop easy-to-apply methods to evaluate how model dependent our answers would be to specified counterfactuals. These methods require neither sensitivity testing over specified classes of models nor evaluating any specific modeling assumptions. If an analysis fails the simple tests we offer, then we know that substantive results are sensitive to at least some modeling choices that are not based on empirical evidence. Free software that accompanies this article implements all the methods developed.}
+      \field{issn}{1047-1987, 1476-4989}
+      \field{journaltitle}{Political Analysis}
+      \field{langid}{english}
+      \field{number}{2}
+      \field{shortjournal}{Polit. anal.}
+      \field{title}{The {{Dangers}} of {{Extreme Counterfactuals}}}
+      \field{urlday}{17}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{volume}{14}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{131\bibrangedash 159}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1093/pan/mpj004
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\Don\\Zotero\\storage\\9MXLW93L\\King and Zeng - 2006 - The Dangers of Extreme Counterfactuals.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/product/identifier/S1047198700001340/type/journal_article
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/product/identifier/S1047198700001340/type/journal_article
+      \endverb
+    \endentry
+    \entry{kleinDeterminantsCooperativePatronage1997}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=fda526ea8ee2c4e8b6a23c38597e3100}{%
+           family={Klein},
+           familyi={K\bibinitperiod},
+           given={Kurt\bibnamedelima K},
+           giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a7cb1bf33529c15027c2aac7b391c182}{%
+           family={Richards},
+           familyi={R\bibinitperiod},
+           given={Timothy\bibnamedelima J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8fe1912ec03877b94e7ded1b2e466695}{%
+           family={Walburger},
+           familyi={W\bibinitperiod},
+           given={Allan},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{060d8c95a5a9f5efc2a0d4f9bf2a6524}
+      \strng{fullhash}{180657de471f9d5884895555a2c46b41}
+      \strng{bibnamehash}{180657de471f9d5884895555a2c46b41}
+      \strng{authorbibnamehash}{180657de471f9d5884895555a2c46b41}
+      \strng{authornamehash}{060d8c95a5a9f5efc2a0d4f9bf2a6524}
+      \strng{authorfullhash}{180657de471f9d5884895555a2c46b41}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Canadian Journal of Agricultural Economics}
+      \field{title}{Determinants of {{Co-operative Patronage}} in {{Alberta}}}
+      \field{volume}{45}
+      \field{year}{1997}
+      \field{dateera}{ce}
+      \field{pages}{93\bibrangedash 110}
+      \range{pages}{18}
+    \endentry
+    \entry{kollerCooperativesCapitalisticEconomy1947}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=61bc9e3565f77943f01a2174128d774d}{%
+           family={Koller},
+           familyi={K\bibinitperiod},
+           given={E.\bibnamedelimi Fred},
+           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {[Oxford University Press, Agricultural \& Applied Economics Association]}%
+      }
+      \strng{namehash}{61bc9e3565f77943f01a2174128d774d}
+      \strng{fullhash}{61bc9e3565f77943f01a2174128d774d}
+      \strng{bibnamehash}{61bc9e3565f77943f01a2174128d774d}
+      \strng{authorbibnamehash}{61bc9e3565f77943f01a2174128d774d}
+      \strng{authornamehash}{61bc9e3565f77943f01a2174128d774d}
+      \strng{authorfullhash}{61bc9e3565f77943f01a2174128d774d}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{jstor}
+      \field{issn}{1071-1031}
+      \field{journaltitle}{Journal of Farm Economics}
+      \field{number}{4}
+      \field{title}{Cooperatives in a {{Capitalistic Economy}}}
+      \field{volume}{29}
+      \field{year}{1947}
+      \field{dateera}{ce}
+      \field{pages}{1133\bibrangedash 1144}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.2307/1232742
+      \endverb
+      \verb{eprint}
+      \verb 1232742
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\Don\\Zotero\\storage\\DQWAE3CU\\Koller - 1947 - Cooperatives in a Capitalistic Economy.pdf
+      \endverb
+    \endentry
+    \entry{lalondeEvaluatingEconometricEvaluations1986}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d1b6702eda308520cc8931149a7bfcf4}{%
+           family={Lalonde},
+           familyi={L\bibinitperiod},
+           given={Robert\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d1b6702eda308520cc8931149a7bfcf4}
+      \strng{fullhash}{d1b6702eda308520cc8931149a7bfcf4}
+      \strng{bibnamehash}{d1b6702eda308520cc8931149a7bfcf4}
+      \strng{authorbibnamehash}{d1b6702eda308520cc8931149a7bfcf4}
+      \strng{authornamehash}{d1b6702eda308520cc8931149a7bfcf4}
+      \strng{authorfullhash}{d1b6702eda308520cc8931149a7bfcf4}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The American Economic Review}
+      \field{langid}{english}
+      \field{number}{4}
+      \field{title}{Evaluating the {{Econometric Evaluations}} of {{Training Programs}} with {{Experimental Data}}}
+      \field{volume}{76}
+      \field{year}{1986}
+      \field{dateera}{ce}
+      \field{pages}{604\bibrangedash 620}
+      \range{pages}{17}
+      \verb{file}
+      \verb C\:\\Users\\Don\\Zotero\\storage\\SH8VH9EV\\Lalonde - Evaluating the Econometric Evaluations of Training.pdf
+      \endverb
+    \endentry
+    \entry{munchAssessingValueCooperative2021}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=98dae7c2a5691e1a4ab355548da89f96}{%
+           family={Munch},
+           familyi={M\bibinitperiod},
+           given={Daniel\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=63958504dcd443ce90ddd0a7e1a73781}{%
+           family={Schmit},
+           familyi={S\bibinitperiod},
+           given={Todd\bibnamedelima M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe104a5f516a83612df68004fe554eb0}{%
+           family={Severson},
+           familyi={S\bibinitperiod},
+           given={Roberta\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5a53cb2019fb1442d4c59d799dfff1fb}
+      \strng{fullhash}{20005a6d80010c92a711ad5244ee75ef}
+      \strng{bibnamehash}{20005a6d80010c92a711ad5244ee75ef}
+      \strng{authorbibnamehash}{20005a6d80010c92a711ad5244ee75ef}
+      \strng{authornamehash}{5a53cb2019fb1442d4c59d799dfff1fb}
+      \strng{authorfullhash}{20005a6d80010c92a711ad5244ee75ef}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The existence of cooperative organizations in today’s business environment, particularly in agriculture, signals their continued ability to provide value to their member owners. However, due largely to data limitations, we know very little about the monetary value of ownership held by members and how value changes across members of differing characteristics. Through a discrete choice experiment with more than 200 dairy farmers in the United States, we examine these issues explicitly for dairy marketing cooperatives that purchase their members’ milk and process it into finished dairy products. Results suggest that dairy farmers, on aggregate, are willing to accept lower per hundredweight compensation, 2.3\% of the average milk price, to be cooperative members relative to selling to independent handlers. Results also suggest dairy farmers actively consider the industry wide impacts within pricing offers on preferences for other milk pricing attributes. The inclusion of demographic covariates highlights preferences important to understanding heterogeneous member interests and, thus, informing improved cooperative governance strategies and board decision making to address them.}
+      \field{day}{1}
+      \field{issn}{2213-297X}
+      \field{journaltitle}{Journal of Co-operative Organization and Management}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{1}
+      \field{shortjournal}{Journal of Co-operative Organization and Management}
+      \field{shorttitle}{Assessing the {{Value}} of {{Cooperative Membership}}}
+      \field{title}{Assessing the {{Value}} of {{Cooperative Membership}}: {{A Case}} of {{Dairy Marketing}} in the {{United States}}}
+      \field{urlday}{24}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{volume}{9}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{100129}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.jcom.2021.100129
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\Don\\Zotero\\storage\\RAFP292N\\Munch et al. - 2021 - Assessing the Value of Cooperative Membership A C.pdf;C\:\\Users\\Don\\Zotero\\storage\\M2EDU5QH\\S2213297X2100001X.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2213297X2100001X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2213297X2100001X
+      \endverb
+      \keyw{Cooperatives,Discrete choice experiment,Membership value,Property rights}
+    \endentry
+    \entry{nelsonhodgesEmploymentTextileApparel2006}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=06432fdb4e9bec8898485b910766c190}{%
+           family={Nelson\bibnamedelima Hodges},
+           familyi={N\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Nancy},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b87d3fdc00102e5ae652aba94f131fac}{%
+           family={Karpova},
+           familyi={K\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{027a6f875be608d5ad18ccbb021ad564}
+      \strng{fullhash}{027a6f875be608d5ad18ccbb021ad564}
+      \strng{bibnamehash}{027a6f875be608d5ad18ccbb021ad564}
+      \strng{authorbibnamehash}{027a6f875be608d5ad18ccbb021ad564}
+      \strng{authornamehash}{027a6f875be608d5ad18ccbb021ad564}
+      \strng{authorfullhash}{027a6f875be608d5ad18ccbb021ad564}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Fashion Marketing and Management: An International Journal}
+      \field{number}{2}
+      \field{title}{Employment in the {{U}}.{{S}}. {{Textile}} and {{Apparel Industries}}: {{A Comparative Analysis}} of {{Regional}} vs. {{National Trends}}}
+      \field{urlday}{16}
+      \field{urlmonth}{4}
+      \field{urlyear}{2022}
+      \field{volume}{10}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{209\bibrangedash 226}
+      \range{pages}{18}
+      \verb{urlraw}
+      \verb https://libres.uncg.edu/ir/uncg/f/N_Nelson%20Hodges_Employment_2006.pdf
+      \endverb
+      \verb{url}
+      \verb https://libres.uncg.edu/ir/uncg/f/N_Nelson%20Hodges_Employment_2006.pdf
+      \endverb
+    \endentry
+    \entry{nilssonAreLargeComplex2012}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1e98d2f9e68263fe8b96ca52a50992b2}{%
+           family={Nilsson},
+           familyi={N\bibinitperiod},
+           given={Jerker},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=55f3ced22a126e54b75baf112130702c}{%
+           family={Svendsen},
+           familyi={S\bibinitperiod},
+           given={Gunnar\bibnamedelima L.H.},
+           giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=861641c3edd947fe8c89d2b46a5e4cf7}{%
+           family={Svendsen},
+           familyi={S\bibinitperiod},
+           given={Gert\bibnamedelima Tinggaard},
+           giveni={G\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{13579022eacbfb7d6361695341da6a92}
+      \strng{fullhash}{fefff40d54bb07ed4e466d2487285aab}
+      \strng{bibnamehash}{fefff40d54bb07ed4e466d2487285aab}
+      \strng{authorbibnamehash}{fefff40d54bb07ed4e466d2487285aab}
+      \strng{authornamehash}{13579022eacbfb7d6361695341da6a92}
+      \strng{authorfullhash}{fefff40d54bb07ed4e466d2487285aab}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{During the last 20 years many traditionally organized agricultural cooperatives have been forced to abandon their business form. Explanations have been put forward, comprising a variety of economic and sociological theories. The present study suggests that the social capital paradigm may add explanatory power when analyzing this development. It is claimed that the problems are due to the members having increasingly little trust in the cooperatives and in each other. The cooperatives’ decision makers have no instruments for estimating how much social capital is lost when they pursue strategies of vertical and horizontal integration. Therefore, they do not consider this loss in their calculations. Thus, the problems caused by the cooperatives’ vaguely defined property rights are becoming increasingly serious. This reasoning is summarized into a model, which is influenced by the consumer choice model.[EconLit Classification; A130; P130; Q130].}
+      \field{annotation}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/agr.21285}
+      \field{issn}{1520-6297}
+      \field{journaltitle}{Agribusiness}
+      \field{langid}{english}
+      \field{number}{2}
+      \field{title}{Are {{Large}} and {{Complex Agricultural Cooperatives Losing Their Social Capital}}?}
+      \field{urlday}{24}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{volume}{28}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{187\bibrangedash 204}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1002/agr.21285
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\Don\\Zotero\\storage\\9Y2AG6DJ\\Nilsson et al. - 2012 - Are Large and Complex Agricultural Cooperatives Lo.pdf;C\:\\Users\\Don\\Zotero\\storage\\IHXMVWVI\\nilsson2012.pdf;C\:\\Users\\Don\\Zotero\\storage\\W9XKE2J5\\agr.html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/agr.21285
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/agr.21285
+      \endverb
+      \keyw{A130,EconLit Classification,P130,Q130}
+    \endentry
+    \entry{pedersonInternationalDirectoryCompany2004}{book}{}
+      \name{editor}{1}{}{%
+        {{un=0,uniquepart=base,hash=ef90062c77bfd84abfcb7cc0ccadaa87}{%
+           family={Pederson},
+           familyi={P\bibinitperiod},
+           given={Jay\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Detroit}%
+      }
+      \list{publisher}{1}{%
+        {St. James Press [u.a.]}%
+      }
+      \strng{namehash}{ef90062c77bfd84abfcb7cc0ccadaa87}
+      \strng{fullhash}{ef90062c77bfd84abfcb7cc0ccadaa87}
+      \strng{bibnamehash}{ef90062c77bfd84abfcb7cc0ccadaa87}
+      \strng{editorbibnamehash}{ef90062c77bfd84abfcb7cc0ccadaa87}
+      \strng{editornamehash}{ef90062c77bfd84abfcb7cc0ccadaa87}
+      \strng{editorfullhash}{ef90062c77bfd84abfcb7cc0ccadaa87}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-55862-493-1}
+      \field{langid}{english}
+      \field{pagetotal}{701}
+      \field{title}{International {{Directory}} of {{Company Histories}}}
+      \field{volume}{57}
+      \field{year}{2004}
+      \field{dateera}{ce}
+    \endentry
+    \entry{pinsonneaultSurveyResearchMethodology1993}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=44b616d5ee4acc70ed5bb99f84fd420c}{%
+           family={Pinsonneault},
+           familyi={P\bibinitperiod},
+           given={Alain},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f0716622d7c041727de756fced83f9c}{%
+           family={Kraemer},
+           familyi={K\bibinitperiod},
+           given={Kenneth},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{597d4c7aa4d657a0c5c644dc54c53aa5}
+      \strng{fullhash}{597d4c7aa4d657a0c5c644dc54c53aa5}
+      \strng{bibnamehash}{597d4c7aa4d657a0c5c644dc54c53aa5}
+      \strng{authorbibnamehash}{597d4c7aa4d657a0c5c644dc54c53aa5}
+      \strng{authornamehash}{597d4c7aa4d657a0c5c644dc54c53aa5}
+      \strng{authorfullhash}{597d4c7aa4d657a0c5c644dc54c53aa5}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Survey research is believed to be well understood and applied by management information systems (MIS) scholars. It has been applied for several years and.}
+      \field{annotation}{\_eprint: https://doi.org/10.1080/07421222.1993.11518001}
+      \field{day}{1}
+      \field{issn}{0742-1222}
+      \field{journaltitle}{Journal of Management Information Systems}
+      \field{month}{9}
+      \field{number}{2}
+      \field{shorttitle}{Survey {{Research Methodology}} in {{Management Information Systems}}}
+      \field{title}{Survey {{Research Methodology}} in {{Management Information Systems}}: {{An Assessment}}}
+      \field{urlday}{24}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{volume}{10}
+      \field{year}{1993}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{75\bibrangedash 105}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1080/07421222.1993.11518001
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\Don\\Zotero\\storage\\DAKWUZ2R\\Pinsonneault and Kraemer - 1993 - Survey Research Methodology in Management Informat.pdf;C\:\\Users\\Don\\Zotero\\storage\\DFYYQ9DH\\07421222.1993.html
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/07421222.1993.11518001
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/07421222.1993.11518001
+      \endverb
+      \keyw{research methodology,research of management information systems,survey research}
+    \endentry
+    \entry{porterEconomicEfficiencyCooperatives1987}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2e4a46b955ee63b8b85c163f974ce864}{%
+           family={Porter},
+           familyi={P\bibinitperiod},
+           given={Philip\bibnamedelima K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=720cc4fa980ef0d2b4e6ca551286a1e8}{%
+           family={Scully},
+           familyi={S\bibinitperiod},
+           given={Gerald\bibnamedelima W.},
+           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The University of Chicago Press}%
+      }
+      \strng{namehash}{3f191994151b91a1be6b01210b83fafc}
+      \strng{fullhash}{3f191994151b91a1be6b01210b83fafc}
+      \strng{bibnamehash}{3f191994151b91a1be6b01210b83fafc}
+      \strng{authorbibnamehash}{3f191994151b91a1be6b01210b83fafc}
+      \strng{authornamehash}{3f191994151b91a1be6b01210b83fafc}
+      \strng{authorfullhash}{3f191994151b91a1be6b01210b83fafc}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-2186}
+      \field{journaltitle}{The Journal of Law and Economics}
+      \field{month}{10}
+      \field{number}{2}
+      \field{title}{Economic {{Efficiency}} in {{Cooperatives}}}
+      \field{urlday}{24}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{volume}{30}
+      \field{year}{1987}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{489\bibrangedash 512}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1086/467146
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\Don\\Zotero\\storage\\EPE4KG4M\\Porter and Scully - 1987 - Economic Efficiency in Cooperatives.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.journals.uchicago.edu/doi/abs/10.1086/467146
+      \endverb
+      \verb{url}
+      \verb https://www.journals.uchicago.edu/doi/abs/10.1086/467146
+      \endverb
+    \endentry
+    \entry{stuartMatchingMethodsCausal2010a}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dc9216d91954f9b5dc8d8a294d4c2611}{%
+           family={Stuart},
+           familyi={S\bibinitperiod},
+           given={Elizabeth\bibnamedelima A},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dc9216d91954f9b5dc8d8a294d4c2611}
+      \strng{fullhash}{dc9216d91954f9b5dc8d8a294d4c2611}
+      \strng{bibnamehash}{dc9216d91954f9b5dc8d8a294d4c2611}
+      \strng{authorbibnamehash}{dc9216d91954f9b5dc8d8a294d4c2611}
+      \strng{authornamehash}{dc9216d91954f9b5dc8d8a294d4c2611}
+      \strng{authorfullhash}{dc9216d91954f9b5dc8d8a294d4c2611}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{When estimating causal effects using observational data, it is desirable to replicate a randomized experiment as closely as possible by obtaining treated and control groups with similar covariate distributions. This goal can often be achieved by choosing well-matched samples of the original treated and control groups, thereby reducing bias due to the covariates. Since the 1970’s, work on matching methods has examined how to best choose treated and control subjects for comparison. Matching methods are gaining popularity in fields such as economics, epidemiology, medicine, and political science. However, until now the literature and related advice has been scattered across disciplines. Researchers who are interested in using matching methods–or developing methods related to matching–do not have a single place to turn to learn about past and current research. This paper provides a structure for thinking about matching methods and guidance on their use, coalescing the existing research (both old and new) and providing a summary of where the literature on matching methods is now and where it should be headed.}
+      \field{journaltitle}{Statistical Science}
+      \field{langid}{english}
+      \field{number}{1}
+      \field{title}{Matching Methods for Causal Inference: {{A}} Review and a Look Forward}
+      \field{volume}{25}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 21}
+      \range{pages}{21}
+      \verb{file}
+      \verb C\:\\Users\\Don\\Zotero\\storage\\BQZZKGBS\\Stuart - 2010 - Matching methods for causal inference A review an.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

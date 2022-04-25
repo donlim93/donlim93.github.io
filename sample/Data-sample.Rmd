@@ -30,7 +30,7 @@ knitr::opts_chunk$set(
   )
 ```
 
-For this sample, I will be visualizing the dataset Global Database on Intergenerational Mobility from the World Bank. The dataset contains a number of absolute and relative measures of intergenerational mobility in education by 10-year cohorts between 1940 and 1989. The dataset is available [here](https://datacatalog.worldbank.org/search/dataset/0050771/global-database-on-intergenerational-mobility)
+For this sample, I will be visualizing the dataset Global Database on Intergenerational Mobility from the World Bank. The dataset contains a number of absolute and relative measures of intergenerational mobility in education by 10-year cohorts between 1940 and 1989. The dataset is available [here](https://datacatalog.worldbank.org/search/dataset/0050771/global-database-on-intergenerational-mobility).
 
 # Import libraries
 
