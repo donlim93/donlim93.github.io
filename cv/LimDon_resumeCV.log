@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.7)  24 APR 2022 19:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.7)  26 APR 2022 09:22
 entering extended mode
 **"c:/Users/Don/OneDrive - Texas Tech University/Documents/GitHub/donlim.github.io/donlim93.github.io/cv/LimDon_resumeCV.tex"
 (c:/Users/Don/OneDrive - Texas Tech University/Documents/GitHub/donlim.github.io/donlim93.github.io/cv/LimDon_resumeCV.tex
@@ -349,15 +349,15 @@ LaTeX Info: Redefining \nameref on input line 74.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* h-part:(L,W,R)=(50.58878pt, 496.33032pt, 50.58878pt)
+* v-part:(T,H,B)=(50.58878pt, 743.8693pt, 50.58878pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=452.9679pt
+* \textwidth=496.33032pt
 * \textheight=722.7pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=0.0pt
+* \oddsidemargin=-21.68121pt
+* \evensidemargin=-21.68121pt
+* \topmargin=-21.68121pt
 * \headheight=0.0pt
 * \headsep=0.0pt
 * \topskip=11.0pt
@@ -414,13 +414,13 @@ Package rerunfilecheck Info: File `LimDon_resumeCV.out' has not changed.
 Here is how much of TeX's memory you used:
  10331 strings out of 478907
  148028 string characters out of 2861755
- 475503 words of memory out of 3000000
+ 476528 words of memory out of 3000000
  28064 multiletter control sequences out of 15000+600000
  447102 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,5n,66p,470b,329s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,5n,66p,476b,329s stack positions out of 5000i,500n,10000p,200000b,80000s
 {D:/Program Files/MikTeX/fonts/enc/dvips/base/8r.enc}<D:/Program Files/MikTeX/fonts/type1/urw/times/utmb8a.pfb><D:/Program Files/MikTeX/fonts/type1/urw/times/utmr8a.pfb><D:/Program Files/MikTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on LimDon_resumeCV.pdf (1 page, 53614 bytes).
+Output written on LimDon_resumeCV.pdf (1 page, 53993 bytes).
 PDF statistics:
  31 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
