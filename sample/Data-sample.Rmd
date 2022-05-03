@@ -159,7 +159,7 @@ choropleth_graph = plot_geo(absolute_mobility,
   ) %>%
   layout(font = list(family = "DM Sans"),
          title = "Global absolute mobility\n 1950 to 1980 cohort",
-         margin = m, autosize = F, width = 1000, height = 800) %>%
+         margin = m, autosize = F, width = 1000, height = 600) %>%
   style(hoverlabel = label) %>%
   config(displayModeBar = F)
 
