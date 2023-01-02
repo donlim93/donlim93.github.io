@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.7)  2 JAN 2023 16:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.7)  2 JAN 2023 17:06
 entering extended mode
 **"c:/Users/Don/OneDrive - Texas Tech University/Documents/GitHub/donlim.github.io/donlim93.github.io/cv/LimDon_resumeCV.tex"
 (c:/Users/Don/OneDrive - Texas Tech University/Documents/GitHub/donlim.github.io/donlim93.github.io/cv/LimDon_resumeCV.tex
@@ -375,7 +375,7 @@ LaTeX Info: Redefining \nameref on input line 74.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 87.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 88.
 (D:\Program Files\MikTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
@@ -412,15 +412,15 @@ Package rerunfilecheck Info: File `LimDon_resumeCV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10332 strings out of 478907
- 148034 string characters out of 2861755
- 476529 words of memory out of 3000000
- 28064 multiletter control sequences out of 15000+600000
+ 10330 strings out of 478907
+ 147970 string characters out of 2861755
+ 475511 words of memory out of 3000000
+ 28062 multiletter control sequences out of 15000+600000
  447102 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,5n,66p,476b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,5n,66p,491b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
 {D:/Program Files/MikTeX/fonts/enc/dvips/base/8r.enc}<D:/Program Files/MikTeX/fonts/type1/urw/times/utmb8a.pfb><D:/Program Files/MikTeX/fonts/type1/urw/times/utmr8a.pfb><D:/Program Files/MikTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on LimDon_resumeCV.pdf (2 pages, 56265 bytes).
+Output written on LimDon_resumeCV.pdf (2 pages, 56294 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
