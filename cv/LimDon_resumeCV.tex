@@ -1,25 +1,26 @@
 \documentclass[a4paper,11pt]{article}
-    \usepackage{fullpage}
-    \usepackage{amsmath}
-    \usepackage{amssymb}
-    \usepackage{textcomp}
-    \usepackage{enumitem}
-    \setlist[itemize]{align=parleft,left=5pt..1.5em}
-    \usepackage{mathptmx}
-    \usepackage{hyperref}
-    \usepackage{xcolor}
-    \hypersetup{
-    	colorlinks,
-    	linkcolor=blue,
-    	citecolor={blue!50!black},
-    	urlcolor={blue!80!black}
-    }
-    \usepackage[utf8]{inputenc}
-    \usepackage[T1]{fontenc}
-    \usepackage[margin=0.8in]{geometry}
-    \textheight=10in
-    \pagestyle{empty}
-    \raggedright
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{mathptmx}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks,
+    linkcolor=blue,
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=0.9in]{geometry}
+\textheight=10in
+\pagestyle{empty}
+\raggedright
+\usepackage{inconsolata}
+
 
 \def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
 
@@ -70,9 +71,10 @@
     #4 \\
 }
 % END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
-\setlist[itemize]{noitemsep, nolistsep}
+\setlist[itemize]{noitemsep, nolistsep,leftmargin=1.5em}
 \begin{document}
 \vspace*{-40pt}
+\fontsize{10.5}{12}\selectfont
 
 %==== Profile ====%
 \vspace*{-10pt}
@@ -85,7 +87,7 @@
 \textbf{DocuNav Solutions} \hfill Frisco, TX \\
 \textit{Support Engineer} \hfill June 2022 --- Present \\
 \begin{itemize}
-    \item Troubleshooting automated workflows and forms processes; maintaining non-clustered SQL databases; internal IT support
+    \item Troubleshooting automated workflows and forms processes; maintaining non-clustered SQL databases; administering folder-, document-, and user-level security; internal IT support
 \end{itemize}    
 
 \textbf{Free Market Institute, Texas Tech University} \hfill Lubbock, TX\\
