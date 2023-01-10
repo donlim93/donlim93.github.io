@@ -611,7 +611,7 @@ INPUT D:\Program Files\MikTeX\tex\latex\upquote\upquote.sty
 INPUT D:\Program Files\MikTeX\tex\latex\base\textcomp.sty
 INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmr8t.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmrc8t.tfm
+INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmb8t.tfm
 INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmbc8t.tfm
 INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmrc8t.tfm
 INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmrc8t.tfm
@@ -667,9 +667,8 @@ INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmr8t.tfm
-INPUT D:\Program Files\MikTeX\fonts\vf\adobe\times\ptmbc8t.vf
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT D:\Program Files\MikTeX\fonts\vf\adobe\times\ptmr8t.vf
+INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\Don\AppData\Local\MiKTeX\pdftex\config\pdftex.map
 INPUT D:\Program Files\MikTeX\fonts\vf\adobe\times\ptmr8t.vf
 INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmr8r.tfm

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.7)  4 JAN 2023 19:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.7)  9 JAN 2023 18:14
 entering extended mode
 **"c:/Users/Don/OneDrive - Texas Tech University/Documents/GitHub/donlim.github.io/donlim93.github.io/cv/LimDon_resumeCV.tex"
 (c:/Users/Don/OneDrive - Texas Tech University/Documents/GitHub/donlim.github.io/donlim93.github.io/cv/LimDon_resumeCV.tex
@@ -394,33 +394,33 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 90
  (D:\Program Files\MikTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 165.
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 165.
+LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 167.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 167.
  (D:\Program Files\MikTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 165.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 167.
  (D:\Program Files\MikTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 165.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 167.
  (D:\Program Files\MikTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 165.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 167.
  (D:\Program Files\MikTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 165.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 167.
  (D:\Program Files\MikTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 165.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 167.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.77005> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 165.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 167.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.30006> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 165.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 167.
  [1
 
 {C:/Users/Don/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (LimDon_resumeCV.aux)
@@ -428,15 +428,15 @@ Package rerunfilecheck Info: File `LimDon_resumeCV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10624 strings out of 478907
- 152994 string characters out of 2861755
+ 10623 strings out of 478907
+ 152987 string characters out of 2861755
  481749 words of memory out of 3000000
  28339 multiletter control sequences out of 15000+600000
- 448746 words of font info for 71 fonts, out of 8000000 for 9000
+ 445168 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,5n,66p,491b,329s stack positions out of 5000i,500n,10000p,200000b,80000s
 {D:/Program Files/MikTeX/fonts/enc/dvips/base/8r.enc}<D:/Program Files/MikTeX/fonts/type1/urw/times/utmb8a.pfb><D:/Program Files/MikTeX/fonts/type1/urw/times/utmr8a.pfb><D:/Program Files/MikTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on LimDon_resumeCV.pdf (1 page, 55815 bytes).
+Output written on LimDon_resumeCV.pdf (1 page, 55819 bytes).
 PDF statistics:
  35 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
