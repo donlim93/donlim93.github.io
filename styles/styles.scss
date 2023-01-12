@@ -1,111 +1,97 @@
-@import "compass-mixins/lib/compass/css3";
-
-@import url("https://fonts.googleapis.com/css?family=Lato");
-
-$background: Blue;
-$tabs-base-color: Blue;
 * {
-  margin: 0;
-  padding: 0;
-  @include box-sizing(border-box);
+  box-sizing: border-box;
 }
 body {
-  padding: 20px;
-  text-align: left;
-  font-family: Lato;
-  color: #fff;
-  background: $background;
-}
-h1 {
-  font-weight: normal;
-  font-size: 40px;
-  font-weight: normal;
-  text-transform: uppercase;
-  float: left;
-  margin: 20px 0 100px 10px;
-  span {
-    font-size: 13px;
-    display: block;
-    padding-left: 4px;
-  }
-}
-.tabs {
-  width: 650px;
-  float: none;
-  list-style: none;
-  position: relative;
-  margin: 80px 0 0 10px;
-  text-align: left;
-  li {
-    float: left;
-    display: block;
-  }
-  input[type="radio"] {
-    position: absolute;
-    top: 0;
-    left: -9999px;
-  }
-  label {
-    display: block;
-    padding: 14px 21px;
-    border-radius: 2px 2px 0 0;
-    font-size: 20px;
-    font-weight: normal;
-    text-transform: uppercase;
-    background: $tabs-base-color;
-    cursor: pointer;
-    position: relative;
-    top: 4px;
-    @include transition(all 0.2s ease-in-out);
-    &:hover {
-      background: darken($tabs-base-color, 10);
-    }
-  }
-  .tab-content {
-    z-index: 2;
-    display: none;
-    overflow: hidden;
-    width: 100%;
-    font-size: 17px;
-    line-height: 25px;
-    padding: 25px;
-    position: absolute;
-    top: 53px;
-    left: 0;
-    background: darken($tabs-base-color, 15);
-  }
-  //The Magic
-  [id^="tab"]:checked + label {
-    top: 0;
-    padding-top: 17px;
-    background: darken($tabs-base-color, 15);
-  }
-  [id^="tab"]:checked ~ [id^="tab-content"] {
-    display: block;
-  }
-}
-p.link {
-  clear: both;
-  margin: 380px 0 0 15px;
-  a {
-    text-transform: uppercase;
-    text-decoration: none;
-    display: inline-block;
-    color: #fff;
-    padding: 5px 10px;
-    margin: 0 5px;
-    background-color: darken($tabs-base-color, 15);
-    @include transition(all 0.2s ease-in);
-    &:hover {
-      background-color: darken($tabs-base-color, 20);
-    }
-  }
+  font-family: "Open Sans";
+  background: #2c3e50;
+  color: #ecf0f1;
+  line-height: 1.618em;
 }
 
-footer {
+.wrapper {
+  max-width: 50rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.tabs {
+  position: relative;
+  margin: 3rem 0;
+  background: #1abc9c;
+  height: 14.75rem;
+}
+
+.tabs::before,
+.tabs::after {
+  content: "";
+  display: table;
+}
+
+.tabs::after {
+  clear: both;
+}
+
+.tab {
+  float: left;
+}
+
+.tab-switch {
+  display: none;
+}
+
+.tab-label {
+  position: relative;
   display: block;
-  position: inherit;
-  text-align: center;
-  padding: 3px;
-  color: white;
+  line-height: 2.75em;
+  height: 3em;
+  padding: 0 1.618em;
+  background: #1abc9c;
+  border-right: 0.125rem solid #16a085;
+  color: #fff;
+  cursor: pointer;
+  top: 0;
+  transition: all 0.25s;
+}
+
+.tab-label:hover {
+  top: -0.25rem;
+  transition: top 0.25s;
+}
+
+.tab-content {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  top: 2.75em;
+  left: 0;
+  padding: 1.618rem;
+  background: #fff;
+  color: #2c3e50;
+  border-bottom: 0.25rem solid #bdc3c7;
+  opacity: 0;
+  transition: all 0.35s;
+}
+
+.tab-switch:checked + .tab-label {
+  background: #fff;
+  color: #2c3e50;
+  border-bottom: 0;
+  border-right: 0.125rem solid #fff;
+  transition: all 0.35s;
+  z-index: 1;
+  top: -0.0625rem;
+}
+
+.tab-switch:checked + label + .tab-content {
+  z-index: 3;
+  opacity: 1;
+  transition: all 0.35s;
+}
+
+.border {
+  border-style: ridge;
+  border-width: 1px;
+  border-color: grey;
+  border-radius: 0.5em;
+  padding: 10px 20px 10px;
 }

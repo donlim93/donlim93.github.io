@@ -23,6 +23,87 @@ item.active,
 .navbar-a {
   padding-left: 5px;
 }
+<h2>Spring 2021</h2>
+<div class="border">
+  <h3>AAEC 5303 Applied Econometrics II</h3>
+  <ul class="container2">
+    <li>
+      Lab 1: Implementation of instrumental variable (IV) procedures
+      analyzing the effect of education (as years of schooling) on
+      earnings (as hourly wages) (Card & Krueger,
+      <a href="https://www.jstor.org/stable/2117925" target="_blank" rel="noopener noreferrer">1995</a>) - [<a
+        href="coursework/spring 2021/AAEC 5303 - Econometrics II/Lab 1/Lab 1.pdf" target="_blank" rel="noopener noreferrer"
+        >PDF</a
+      >]
+    </li>
+    <li>
+      Lab 2: Estimating treatment effects assuming homogeneous and
+      heterogeneous effects of education on fertility for women of
+      childbearing age in Botswana - [<a
+        href="coursework/spring 2021/AAEC 5303 - Econometrics II/Lab 2/Lab 2.pdf" target="_blank" rel="noopener noreferrer"
+        >PDF</a
+      >]
+    </li>
+    <li>
+      Lab 3: Testing and correcting for heteroskedasticity using
+      White's test, Breusch-Pagan test, and White's
+      Heteroskedasticity-Consistent Covariance Matrix (HCCM) for the
+      study of efficiency in the production of U.S. airline services
+      (Greene, 2007) - [<a
+        href="coursework/spring 2021/AAEC 5303 - Econometrics II/Lab 3/Lab 3.pdf" target="_blank" rel="noopener noreferrer"
+        >PDF</a
+      >]
+    </li>
+    <li>
+      Lab 4: Estimating system of equations using seemingly
+      unrelated regression (SUR) and simultaneous equations model
+      (SEM) developed by Muellbauer (1980a; 1980b) in order to model
+      a simplified version of a linear approximate almost ideal
+      demand system (LA/AIDS) - [<a
+        href="coursework/spring 2021/AAEC 5303 - Econometrics II/Lab 4/Lab 4.pdf" target="_blank" rel="noopener noreferrer"
+        >PDF</a
+      >]
+    </li>
+    <li>
+      Lab 5: Estimation of panel data models using the pooled model,
+      fixed-effect model, or random-effects model regarding the
+      outcome of wages (Cornell & Rupert, 1988) - [<a
+        href="coursework/spring 2021/AAEC 5303 - Econometrics II/Lab 5/Lab 5.pdf" target="_blank" rel="noopener noreferrer"
+        >PDF</a
+      >]
+    </li>
+  </ul>
+  <h3>AAEC 6311 Advanced Production Economics</h3>
+  <ul class="container2">
+    <li>
+      Homework 1: Calculus review - [<a
+        href="coursework/spring 2021/AAEC 6311 - Production/Homework 1/AAEC5303_HW1_Lim.pdf" target="_blank" rel="noopener noreferrer"
+        >PDF</a
+      >]
+    </li>
+    <li>
+      Homework 2: Rates of return, rate of technical substitution,
+      and the elasticity of demand - [<a
+        href="coursework/spring 2021/AAEC 6311 - Production/Homework 2/AAEC6311_HW2_Lim.pdf" target="_blank" rel="noopener noreferrer"
+        >PDF</a
+      >]
+    </li>
+    <li>
+      Homework 3: Profit under monopoly, Pareto optimal price and
+      quantity, monopsony, and general equilibrium - [<a
+        href="coursework/spring 2021/AAEC 6311 - Production/Homework 3/AAEC6311_HW3_Lim.pdf" target="_blank" rel="noopener noreferrer"
+        >PDF</a
+      >]
+    </li>
+    <li>
+      Homework 4: Social welfare, social costs, and marginal benefit
+      - [<a
+        href="coursework/spring 2021/AAEC 6311 - Production/Homework 4/AAEC6311_HW_Lim.pdf" target="_blank" rel="noopener noreferrer"
+        >PDF</a
+      >]
+    </li>
+  </ul>
+</div>
 
 /* #navbar::before,
 #navbar::after {
@@ -209,7 +290,7 @@ li a small {
   font-size: 1.5rem;
   color: #777;
   margin-top: -0.3em;
-  display: block
+  display: block;
 }
 
 header {
@@ -217,9 +298,8 @@ header {
   float: right;
   margin-left: 44em;
   position: fixed;
-  -webkit-font-smoothing: subpixel-antialiased
+  -webkit-font-smoothing: subpixel-antialiased;
 }
-
 
 li.wrap {
   position: relative;
@@ -260,7 +340,7 @@ ul {
 
 .wrapper {
   width: 860px;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 li.star::before {
@@ -273,7 +353,7 @@ li.star::before {
 section {
   max-width: 500px;
   float: left;
-  padding-bottom: 50px
+  padding-bottom: 50px;
 }
 
 small {
@@ -287,22 +367,22 @@ header ul {
   background: #f4f4f4;
   border-radius: 5px;
   border: 1px solid #e0e0e0;
-  width: 270px
+  width: 270px;
 }
 
 header li {
   width: 89px;
   float: left;
   border-right: 1px solid #e0e0e0;
-  height: 40px
+  height: 40px;
 }
 
 header li:first-child a {
-  border-radius: 5px 0 0 5px
+  border-radius: 5px 0 0 5px;
 }
 
 header li:last-child a {
-  border-radius: 0 5px 5px 0
+  border-radius: 0 5px 5px 0;
 }
 
 header ul a {
@@ -312,33 +392,33 @@ header ul a {
   display: block;
   text-align: center;
   padding-top: 6px;
-  height: 34px
+  height: 34px;
 }
 
 header ul a:hover,
 header ul a:focus {
-  color: #675C5C;
-  font-weight: bold
+  color: #675c5c;
+  font-weight: bold;
 }
 
 header ul a:active {
-  background-color: #f0f0f0
+  background-color: #f0f0f0;
 }
 
 strong {
   color: #222;
-  font-weight: 700
+  font-weight: 700;
 }
 
-header ul li+li+li {
+header ul li + li + li {
   border-right: none;
-  width: 89px
+  width: 89px;
 }
 
 header ul a strong {
   font-size: 14px;
   display: block;
-  color: #222
+  color: #222;
 }
 
 .border {
@@ -358,18 +438,17 @@ header ul a strong {
   opacity: 1;
 }
 
-@media print,
-screen and (max-width: 1600px) {
+@media print, screen and (max-width: 1600px) {
   div.wrapper {
     width: auto;
-    margin: 0
+    margin: 0;
   }
 
   section,
   footer {
     float: none;
     position: static;
-    width: auto
+    width: auto;
   }
 
   header {
@@ -393,24 +472,23 @@ screen and (max-width: 1600px) {
     border: 1px solid #e5e5e5;
     border-width: 1px 0;
     padding: 20px 0;
-    margin: 0 0 20px
+    margin: 0 0 20px;
   }
 
   header a small {
-    display: inline
+    display: inline;
   }
 
   header ul {
     position: absolute;
     right: 50px;
-    top: 52px
+    top: 52px;
   }
 }
 
-@media print,
-screen and (max-width: 1200px) {
+@media print, screen and (max-width: 1200px) {
   body {
-    word-wrap: break-word
+    word-wrap: break-word;
   }
 
   header {
@@ -421,23 +499,22 @@ screen and (max-width: 1200px) {
 
   header ul,
   header p.view {
-    position: static
+    position: static;
   }
 
   pre,
   code {
-    word-wrap: normal
+    word-wrap: normal;
   }
 }
 
-@media print,
-screen and (max-width: 200px) {
+@media print, screen and (max-width: 200px) {
   body {
-    padding: 4px
+    padding: 4px;
   }
 
   header ul {
-    width: 99%
+    width: 99%;
   }
 
   header {
@@ -447,8 +524,8 @@ screen and (max-width: 200px) {
   }
 
   header li,
-  header ul li+li+li {
-    width: 33%
+  header ul li + li + li {
+    width: 33%;
   }
 
   .navbar-name {
@@ -460,7 +537,7 @@ screen and (max-width: 200px) {
   body {
     padding: 2px;
     font-size: 12pt;
-    color: #444
+    color: #444;
   }
 
   .navbar-name {
@@ -488,7 +565,7 @@ screen and (max-width: 200px) {
   background: grey;
 }
 
-input[type=checkbox] {
+input[type="checkbox"] {
   display: none;
 }
 
@@ -497,7 +574,7 @@ input[type=checkbox] {
   cursor: zoom-in;
 }
 
-input[type=checkbox]:checked~label>img {
+input[type="checkbox"]:checked ~ label > img {
   transform: scale(1.1) translate(0, 0);
   cursor: zoom-out;
 }
@@ -533,9 +610,7 @@ footer {
   padding: 0.25em 1em;
   border-radius: 0.125em;
 
-  text-shadow:
-    0 0 0.125em hsl(0 0% 100% / 0.5),
-    0 0 0.45em currentColor;
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.5), 0 0 0.45em currentColor;
 
   box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em 0 var(--clr-neon);
   transition: background-color 100ms linear;
@@ -553,9 +628,7 @@ footer {
   padding: 0.25em 1em;
   border-radius: 0.25em;
 
-  text-shadow:
-    0 0 0.125em hsl(0 0% 100% / 0.5),
-    0 0 0.45em currentColor;
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.5), 0 0 0.45em currentColor;
 
   box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em 0 var(--clr-neon);
   transition: background-color 100ms linear;
@@ -583,5 +656,5 @@ footer {
 .neon-button:hover {
   color: var(--clr-bg);
   background: var(--clr-neon);
-  text-decoration: none; 
+  text-decoration: none;
 }
