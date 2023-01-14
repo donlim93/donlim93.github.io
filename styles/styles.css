@@ -18,7 +18,7 @@ body {
 .tabs {
   position: relative;
   margin: 3rem 0;
-  background: #1abc9c;
+  background: CornflowerBlue;
   height: 14.75rem;
 }
 
@@ -46,8 +46,8 @@ body {
   line-height: 2.75em;
   height: 3em;
   padding: 0 1.618em;
-  background: #1abc9c;
-  border-right: 0.125rem solid #16a085;
+  background: CornflowerBlue;
+  border-right: 0.125rem solid CornflowerBlue;
   color: #fff;
   cursor: pointer;
   top: 0;
@@ -95,4 +95,20 @@ body {
   border-color: grey;
   border-radius: 0.5em;
   padding: 10px 20px 10px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 50%;
+  z-index: 9999;
+}
+
+.wrap_text img {
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+input[type=checkbox]:checked ~ label > img {
+  transform: scale(1.1) translate(0, 0);
+  cursor: zoom-out;
 }/*# sourceMappingURL=styles.css.map */
