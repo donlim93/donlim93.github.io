@@ -1,102 +1,429 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+  <meta
+    http-equiv="content-type"
+    content="text/html;charset=utf-8"
+
   <head>
-    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="pandoc" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
     <title>Don Lim | Portfolio</title>
     <link rel="icon" href="photos/me.jpg" type="image/x-icon" />
+    <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
+    <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+    <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+    <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+    <script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+    <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+    <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+    <script src="site_libs/navigation-1.1/tabsets.js"></script>
+    <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+    <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+    <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+    <link
+      href="site_libs/font-awesome-5.1.0/css/v4-shims.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" integrity="sha512-i8+QythOYyQke6XbStjt9T4yQHhhM+9Y9yTY1fOxoDQwsQpKMEpIoSQZ8mVomtnVCf9PBvoQDnKl06gGOOD19Q==" crossorigin="anonymous" />
+    <style type="text/css">
+      code {
+        white-space: pre;
+      }
+    </style>
+    <style type="text/css">
+      pre:not([class]) {
+        background-color: white;
+      }
+    </style>
+    <script type="text/javascript">
+      if (window.hljs) {
+        hljs.configure({ languages: [] });
+        hljs.initHighlightingOnLoad();
+        if (document.readyState && document.readyState === "complete") {
+          window.setTimeout(function () {
+            hljs.initHighlighting();
+          }, 0);
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <style type="text/css">
+      .main-container {
+        max-width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      code {
+        color: inherit;
+        background-color: rgba(0, 0, 0, 0.04);
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      .tabbed-pane {
+        padding-top: 12px;
+      }
+
+      .html-widget {
+        margin-bottom: 20px;
+      }
+
+      button.code-folding-btn:focus {
+        outline: none;
+      }
+
+      summary {
+        display: list-item;
+      }
+    </style>
+    <style type="text/css">
+      /* padding for bootstrap navbar */
+      body {
+        padding-top: 54px;
+        padding-bottom: 40px;
+      }
+
+      /* offset scroll position for anchor links (for fixed navbar)  */
+      .section h1 {
+        padding-top: 59px;
+        margin-top: -59px;
+      }
+
+      .section h2 {
+        padding-top: 59px;
+        margin-top: -59px;
+      }
+
+      .section h3 {
+        padding-top: 59px;
+        margin-top: -59px;
+      }
+
+      .section h4 {
+        padding-top: 59px;
+        margin-top: -59px;
+      }
+
+      .section h5 {
+        padding-top: 59px;
+        margin-top: -59px;
+      }
+
+      .section h6 {
+        padding-top: 59px;
+        margin-top: -59px;
+      }
+
+      .dropdown-submenu {
+        position: relative;
+      }
+
+      .dropdown-submenu > .dropdown-menu {
+        top: 0;
+        left: 100%;
+        margin-top: -6px;
+        margin-left: -1px;
+        border-radius: 0 6px 6px 6px;
+      }
+
+      .dropdown-submenu:hover > .dropdown-menu {
+        display: block;
+      }
+
+      .dropdown-submenu > a:after {
+        display: block;
+        content: " ";
+        float: right;
+        width: 0;
+        height: 0;
+        border-color: transparent;
+        border-style: solid;
+        border-width: 5px 0 5px 5px;
+        border-left-color: #cccccc;
+        margin-top: 5px;
+        margin-right: -10px;
+      }
+
+      .dropdown-submenu:hover > a:after {
+        border-left-color: #ffffff;
+      }
+
+      .dropdown-submenu.pull-left {
+        float: none;
+      }
+
+      .dropdown-submenu.pull-left > .dropdown-menu {
+        left: -100%;
+        margin-left: 10px;
+        border-radius: 6px 0 6px 6px;
+      }
+    </style>
+    <script>
+      // manage active state of menu based on current page
+      $(document).ready(function () {
+        // active menu anchor
+        href = window.location.pathname;
+        href = href.substr(href.lastIndexOf("index.html") + 1);
+        if (href === "") href = "index-2.html";
+        var menuAnchor = $('a[href="' + href + '"]');
+
+        // mark it active
+        menuAnchor.parent().addClass("active");
+
+        // if it's got a parent navbar menu mark it active as well
+        menuAnchor.closest("li.dropdown").addClass("active");
+      });
+    </script>
+    <!-- tabsets -->
+    <style type="text/css">
+      .tabset-dropdown > .nav-tabs {
+        display: inline-table;
+        max-height: 500px;
+        min-height: 44px;
+        overflow-y: auto;
+        background: white;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+
+      .tabset-dropdown > .nav-tabs > li.active:before {
+        content: "";
+        font-family: "Glyphicons Halflings";
+        display: inline-block;
+        padding: 10px;
+        border-right: 1px solid #ddd;
+      }
+
+      .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+        content: "&#xe258;";
+        border: none;
+      }
+
+      .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+        content: "";
+        font-family: "Glyphicons Halflings";
+        display: inline-block;
+        padding: 10px;
+        border-right: 1px solid #ddd;
+      }
+
+      .tabset-dropdown > .nav-tabs > li.active {
+        display: block;
+      }
+
+      .tabset-dropdown > .nav-tabs > li > a,
+      .tabset-dropdown > .nav-tabs > li > a:focus,
+      .tabset-dropdown > .nav-tabs > li > a:hover {
+        border: none;
+        display: inline-block;
+        border-radius: 4px;
+        background-color: transparent;
+      }
+
+      .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+        display: block;
+        float: none;
+      }
+
+      .tabset-dropdown > .nav-tabs > li {
+        display: none;
+      }
+    </style>
+    <!-- code folding -->
+    <style type="text/css">
+      #TOC {
+        margin: 25px 0px 20px 0px;
+      }
+
+      @media (max-width: 768px) {
+        #TOC {
+          position: relative;
+          width: 100%;
+        }
+      }
+
+      @media print {
+        .toc-content {
+          float: right;
+        }
+      }
+
+      .toc-content {
+        padding-left: 30px;
+        padding-right: 40px;
+      }
+
+      div.main-container {
+        max-width: 1500px;
+      }
+
+      div.tocify {
+        width: 20%;
+        max-width: 260px;
+        max-height: 85%;
+      }
+
+      @media (min-width: 768px) and (max-width: 991px) {
+        div.tocify {
+          width: 25%;
+        }
+      }
+
+      @media (max-width: 767px) {
+        div.tocify {
+          width: 100%;
+          max-width: none;
+        }
+      }
+
+      .tocify ul,
+      .tocify li {
+        line-height: 20px;
+      }
+
+      .tocify-subheader .tocify-item {
+        font-size: 0.9em;
+      }
+
+      .tocify .list-group-item {
+        border-radius: 0px;
+      }
+    </style>
   </head>
-  <body <div class="wrapper">
-    <div class="tabs">
-      <div class="tab">
-        <input type="radio" name="css-tabs" id="tab-1" class="tab-switch" />
-        <label for="tab-1" class="tab-label">Home</label>
-        <div class="tab-content"><center>
-          <input type="checkbox" id="zoombCheck">
-          <label for="zoombCheck"><img src="photos/me.jpg" align="center" style="padding-top: 20px;"/></label>
-        </center></div>
-      </div>
-      <div class="tab">
-        <input
-          type="radio"
-          name="css-tabs"
-          id="tab-1"
-          checked
-          class="tab-switch"
-        />
-        <label for="tab-1" class="tab-label">Education</label>
-        <div class="tab-content">
-          <b>M.S. Agricultural and Applied Economics</b><br />
-          <a
-            href="https://www.ttu.edu/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Texas Tech University</a
-          >
-          <br />
-          <a
-            href="https://www.depts.ttu.edu/aaec/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Department of Agricultural and Applied Economics</a
-          >
-          <br />
-          Lubbock, Texas<br /><br />
-          <b>M.A. Philosophy, Political Science, and Economics (PPE)</b><br />
-          <a
-            href="https://www.cevroinstitut.cz/en/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Cevro Institute</a
-          ><br />
-          School of Political Studies <br />
-          Prague, Czech Republic<br /><br />
-          <b>B.A. General Studies (Political Science, Philosophy, History) </b
-          ><br />
-          <a href="https://umich.edu/" target="_blank" rel="noopener noreferrer"
-            >University of Michigan</a
-          ><br />
-          <a
-            href="https://lsa.umich.edu/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >College of Literature, Science and the Arts</a
-          >
-          <br />
-          Ann Arbor, Michigan
+
+  <body>
+    <button onclick="topFunction()" class="neon-button" id="myBtn" title="Go to top" style="display: none;">^</button>
+    <div class="container-fluid main-container">
+      <!-- setup 3col/9col grid for toc_float and main content  -->
+      <div class="row-fluid">
+        <div class="col-xs-12 col-sm-4 col-md-3">
+          <div id="TOC" class="tocify"></div>
         </div>
-      </div>
-      <div class="tab">
-        <input type="radio" name="css-tabs" id="tab-2" class="tab-switch" />
-        <label for="tab-2" class="tab-label">Projects</label>
-        <div class="tab-content">
+        <div class="toc-content col-xs-12 col-sm-8 col-md-9">
+          <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+              <div class="navbar-header">
+                <button
+                  type="button"
+                  class="navbar-toggle collapsed"
+                  data-toggle="collapse"
+                  data-target="#navbar"
+                >
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                <a class="navbar-name" href="https://donlim93.github.io/"
+                  ><span><span class="navbar-name">Don Lim</span></span>
+                    </a
+                >
+              </div>
+              <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav"></ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li>
+                    <a href="https://www.linkedin.com/in/lim-don/" target="_blank" rel="noopener noreferrer">
+                      <span class="fa fa-linkedin"></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/donlim93" target="_blank" rel="noopener noreferrer">
+                      <span class="fa fa-github"></span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <!--/.nav-collapse -->
+            </div>
+            <!--/.container -->
+          </div>
+          <!--/.navbar -->
+
+            <div class="wrap_text" id="container-wrap">
+              <header>
+                <center>
+                  <input type="checkbox" id="zoombCheck">
+                  <label for="zoombCheck"><img src="photos/me.jpg" align="center" style="padding-top: 20px;"/></label>
+                </center>
+                <br>
+                <p>
+                  Welcome! Feel free to take a look at the projects I have
+                  completed during my time as a graduate student.
+                </p>
+                <p>
+                  Email -
+                  <a href="mailto:lim.don93@gmail.com" class="email"
+                    >lim.don93@gmail.com</a
+                  >
+                </p>
+                <p>Resume - [<a href="cv/LimDon_resumeCV.pdf" target="_blank" rel="noopener noreferrer">PDF</a>]</p>
+              </header>
+              <br>
+              <section>
+            </div>
+          <div id="education" class="education">
+            Link to new website: <a href="index_new.html">Here</a> (Work in progress)
+            <br>
+            <br>
+            <h1>Education</h1>
+            <hr />
+            <b>M.S. Agricultural and Applied Economics</b><br />
+            <a href="https://www.ttu.edu/" target="_blank" rel="noopener noreferrer">Texas Tech University</a> <br />
+            <a href="https://www.depts.ttu.edu/aaec/"
+            target="_blank" rel="noopener noreferrer">Department of Agricultural and Applied Economics</a
+                  > <br />
+            Lubbock, Texas<br /><br />
+            <b>M.A. Philosophy, Political Science, and Economics (PPE)</b><br />
+            <a href="https://www.cevroinstitut.cz/en/" target="_blank" rel="noopener noreferrer">Cevro Institute</a><br />
+            School of Political Studies <br />
+            Prague, Czech Republic<br /><br />
+            <b>B.A. General Studies (Political Science, Philosophy, History) </b
+            ><br />
+            <a href="https://umich.edu/" target="_blank" rel="noopener noreferrer">University of Michigan</a><br />
+            <a href="https://lsa.umich.edu/" target="_blank" rel="noopener noreferrer">College of Literature, Science and the Arts</a> <br />
+            Ann Arbor, Michigan
+          </div>
+
+        <div id="certifications">
+          <h1>Data Work Samples</h1>
+          <hr />
           <ul class="container2">
             <li>
-              The World Bank -
-              <a
-                href="https://datacatalog.worldbank.org/search/dataset/0050771/global-database-on-intergenerational-mobility"
-                >Global Database on Intergenerational Mobility</a
-              >
-              (GDIM) - [<a href="sample/Data-sample.html">R</a>]
+              The World Bank - <a href="https://datacatalog.worldbank.org/search/dataset/0050771/global-database-on-intergenerational-mobility">Global Database on Intergenerational Mobility</a> (GDIM) - [<a href="sample/Data-sample.html" target="_blank" rel="noopener noreferrer">R</a>]
             </li>
             <li>
-              <a
-                href="https://archive.ics.uci.edu/ml/datasets/Online%20Retail%20II"
-                >Retail Data Set II</a
-              >
-              Online from Dr. Daqing Chen, School of Engineering, London South
-              Bank University - [<a href="sample/RFM_sample.html">R</a>]
+              <a href="https://archive.ics.uci.edu/ml/datasets/Online%20Retail%20II">Retail Data Set II</a> Online  from Dr. Daqing Chen, School of Engineering, London South Bank University - [<a href="sample/RFM_sample.html" target="_blank" rel="noopener noreferrer">R</a>]
             </li>
           </ul>
         </div>
-      </div>
-      <div class="tab">
-        <input type="radio" name="css-tabs" id="tab-3" class="tab-switch" />
-        <label for="tab-3" class="tab-label">Coursework</label>
-        <div class="tab-content">
-          <h2>Spring 2022</h2>
+          
+          <div id="certifications">
+            <h1>Certification</h1>
+            <hr />
+            <div class="container2">
+              <ul class="container2">
+                <li>
+                  <a href="https://www.coursera.org/learn/intro-sql"
+                  target="_blank" rel="noopener noreferrer">Introduction to Structured Query Language (SQL)</a
+                  >, University of Michigan (<a
+                    href="https://www.coursera.org/account/accomplishments/verify/GA25HJ4B4XRD" target="_blank" rel="noopener noreferrer"
+                    >GA25HJ4B4XRD</a
+                  >)
+                </li>
+              </ul>
+            </div>
+          </div>
+          
+          <div id="coursework">
+            <h1>Texas Tech University</h1>
+            <hr />
+            <h2>Spring 2022</h2>
             <div class="border">
               <h3>AAEC 5310 Advanced Market Analysis</h3>
               <ul class="container2">
@@ -117,7 +444,7 @@
                 </li>
               </ul>
             </div>
-          <h2>Fall 2021</h2>
+            <h2>Fall 2021</h2>
             <div class="border">
               <h3>AAEC 5301 Institutional Analysis</h3>
               <ul class="container2">
@@ -257,7 +584,7 @@
                 </li>
               </ul>
             </div>
-          <h2>Spring 2021</h2>
+            <h2>Spring 2021</h2>
             <div class="border">
               <h3>AAEC 5303 Applied Econometrics II</h3>
               <ul class="container2">
@@ -338,7 +665,7 @@
                 </li>
               </ul>
             </div>
-          <h2>Fall 2020</h2>
+            <h2>Fall 2020</h2>
             <div class="border">
               <h3>AAEC 5307 Applied Econometrics I</h3>
               <ul class="container2">
@@ -346,48 +673,40 @@
                   Homework 1: Introduction to probability density functions and
                   calculating the rate of returns for the capital asset pricing
                   model (CAPM) - [<a
-                    href="coursework/fall 2020/AAEC 5307 - Econometrics I/Homework 1/AAEC_HW1_Lim.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href="coursework/fall 2020/AAEC 5307 - Econometrics I/Homework 1/AAEC_HW1_Lim.pdf" target="_blank" rel="noopener noreferrer"
                     >PDF</a
                   >]
                 </li>
                 <li>
                   Homework 2: Best linear estimation, confidence intervals, and
                   matrix algebra - [<a
-                    href="coursework/fall 2020/AAEC 5307 - Econometrics I/Homework 2/AAEC_HW2_Lim.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href="coursework/fall 2020/AAEC 5307 - Econometrics I/Homework 2/AAEC_HW2_Lim.pdf" target="_blank" rel="noopener noreferrer"
                     >PDF</a
                   >]
                 </li>
                 <li>
-                  Homework 3: Interpreting linear regression outputs, calculating
-                  marginal effects, and constructing t-tests and F-tests - [<a
-                    href="coursework/fall 2020/AAEC 5307 - Econometrics I/Homework 3/AAEC_HW3_Lim.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  Homework 3: Interpreting linear regression outputs,
+                  calculating marginal effects, and constructing t-tests and
+                  F-tests - [<a
+                    href="coursework/fall 2020/AAEC 5307 - Econometrics I/Homework 3/AAEC_HW3_Lim.pdf" target="_blank" rel="noopener noreferrer"
                     >PDF</a
                   >]
                 </li>
                 <li>
-                  Homework 4: Alternative model testing, dummy variables as slope
-                  and intercept shifters, and interpreting log-log function models
-                  - [<a
-                    href="coursework/fall 2020/AAEC 5307 - Econometrics I/Homework 4/AAEC_HW4_Lim.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  Homework 4: Alternative model testing, dummy variables as
+                  slope and intercept shifters, and interpreting log-log
+                  function models - [<a
+                    href="coursework/fall 2020/AAEC 5307 - Econometrics I/Homework 4/AAEC_HW4_Lim.pdf" target="_blank" rel="noopener noreferrer"
                     >PDF</a
                   >]
                 </li>
                 <li>
                   Homework 5: Interpreting log-linear models, testing for
-                  endogeneity affecting models (use of instrumental variables and
-                  the Hausman test), and using the just-identified or two-stage
-                  least squares method to estimate the parameters - [<a
-                    href="coursework/fall 2020/AAEC 5307 - Econometrics I/Homework 5/AAEC_HW5_Lim.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  endogeneity affecting models (use of instrumental variables
+                  and the Hausman test), and using the just-identified or
+                  two-stage least squares method to estimate the parameters -
+                  [<a
+                    href="coursework/fall 2020/AAEC 5307 - Econometrics I/Homework 5/AAEC_HW5_Lim.pdf" target="_blank" rel="noopener noreferrer"
                     >PDF</a
                   >]
                 </li>
@@ -396,47 +715,101 @@
                   computing the feasible generalized least squares (FGLS)
                   estimator, and checking for the presence of autocorrelation
                   errors in time-series data - [<a
-                    href="coursework/fall 2020/AAEC 5307 - Econometrics I/Homework 6/AAEC_HW6_Lim.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href="coursework/fall 2020/AAEC 5307 - Econometrics I/Homework 6/AAEC_HW6_Lim.pdf" target="_blank" rel="noopener noreferrer"
                     >PDF</a
                   >]
                 </li>
                 <li class="star">
-                  Term paper: <i>Economic Freedom and COVID-19</i>. (where PDF
-                  contains the final submission, ZIP contains the original data,
-                  and R contains the R code used to clean the original data) - [<a
-                    href="coursework/fall 2020/AAEC 5307 - Econometrics I/Term Project/AAEC_TermProject_Lim.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  Term paper: <i>Economic Freedom and COVID-19</i>. (where PDF contains
+                  the final submission, ZIP contains the original data, and R
+                  contains the R code used to clean the original data) - [<a
+                    href="coursework/fall 2020/AAEC 5307 - Econometrics I/Term Project/AAEC_TermProject_Lim.pdf" target="_blank" rel="noopener noreferrer"
                     >PDF</a
                   >] [<a
-                    href="coursework/fall 2020/AAEC 5307 - Econometrics I/Term Project/Original Data.zip"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href="coursework/fall 2020/AAEC 5307 - Econometrics I/Term Project/Original Data.zip" target="_blank" rel="noopener noreferrer"
                     >ZIP</a
                   >] [<a
-                    href="coursework/fall 2020/AAEC 5307 - Econometrics I/Term Project/r_code.rmd"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href="coursework/fall 2020/AAEC 5307 - Econometrics I/Term Project/r_code.rmd" target="_blank" rel="noopener noreferrer"
                     >R</a
                   >]
                 </li>
               </ul>
             </div>
           </div>
-        </div>
-        <div class="tab">
-          <input type="radio" name="css-tabs" id="tab-4" class="tab-switch" />
-          <label for="tab-4" class="tab-label">Certifications</label>
-          <div class="tab-content">Less</div>
+          
+          <div id="research" class="section level1">
+            <br>
+            <h1>CEVRO Institute</h1>
+            <hr />
+            <div id="cevro" class="container2">
+              <ul class="container2">
+                <li class="star">
+                  Master's thesis:
+                  <i
+                    >An Institutional Analysis on Open Source: How Developers
+                    Use Knowledge and Entrepreneurship in Communities</i
+                  >
+                  - [<a href="research/LimDon_WritingSample_Thesis.pdf" target="_blank" rel="noopener noreferrer">PDF</a>]
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+  </section>
+    <script>
+      // add bootstrap table styles to pandoc tables
+      function bootstrapStylePandocTables() {
+        $("tr.header")
+          .parent("thead")
+          .parent("table")
+          .addClass("table table-condensed");
+      }
+      $(document).ready(function () {
+        bootstrapStylePandocTables();
+      });
+    </script>
+    <!-- tabsets -->
+    <script>
+      $(document).ready(function () {
+        window.buildTabsets("TOC");
+      });
 
+      $(document).ready(function () {
+        $(".tabset-dropdown > .nav-tabs > li").click(function () {
+          $(this).parent().toggleClass("nav-tabs-open");
+        });
+      });
+    </script>
+    <!-- code folding -->
+    <script>
+      $(document).ready(function () {
+        // move toc-ignore selectors from section div to header
+        $("div.section.toc-ignore")
+          .removeClass("toc-ignore")
+          .children("h1,h2,h3,h4,h5")
+          .addClass("toc-ignore");
+
+        // establish options
+        var options = {
+          selectors: "h1,h2,h3",
+          theme: "bootstrap3",
+          context: ".toc-content",
+          hashGenerator: function (text) {
+            return text.replace(/[.\\/?&!#<>]/g, "").replace(/\s/g, "_");
+          },
+          ignoreSelector: ".toc-ignore",
+          scrollTo: 0,
+        };
+        options.showAndHide = true;
+        options.smoothScroll = true;
+
+        // tocify
+        var toc = $("#TOC").tocify(options).data("toc-tocify");
+      });
+    </script>
     <script src="js/scroll.js"></script>
-    <script src="js/bottom-footer.js"></script>
   </body>
-  <footer>
-  </footer>
+  <footer></footer>
 </html>
