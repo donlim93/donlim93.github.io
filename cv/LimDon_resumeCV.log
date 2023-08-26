@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.7)  23 JUL 2023 12:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.7)  25 AUG 2023 19:49
 entering extended mode
 **"c:/Users/Don/OneDrive - Texas Tech University/Documents/GitHub/donlim.github.io/donlim93.github.io/cv/LimDon_resumeCV.tex"
 (c:/Users/Don/OneDrive - Texas Tech University/Documents/GitHub/donlim.github.io/donlim93.github.io/cv/LimDon_resumeCV.tex
@@ -502,32 +502,59 @@ File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \twemojiDefaultHeight=\skip55
+) (D:\Program Files\MikTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box64
+\beforetitleunit=\skip56
+\aftertitleunit=\skip57
+\ttl@plus=\dimen269
+\ttl@minus=\dimen270
+\ttl@toksa=\toks41
+\titlewidth=\dimen271
+\titlewidthlast=\dimen272
+\titlewidthfirst=\dimen273
+) (D:\Program Files\MikTeX\tex/latex/xhfill\xhfill.sty (D:\Program Files\MikTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count306
+\calc@Bcount=\count307
+\calc@Adimen=\dimen274
+\calc@Bdimen=\dimen275
+\calc@Askip=\skip58
+\calc@Bskip=\skip59
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count308
+\calc@Cskip=\skip60
+) (D:\Program Files\MikTeX\tex/latex/tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+Package: xhfill 2011/05/14\ v 1.01\ modify width and color of hrulefill
 ) (D:\Program Files\MikTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count306
-\l__pdf_internal_box=\box64
+\l__color_backend_stack_int=\count309
+\l__pdf_internal_box=\box65
 ) (LimDon_resumeCV.aux)
 \openout1 = `LimDon_resumeCV.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-Package hyperref Info: Link coloring ON on input line 78.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+Package hyperref Info: Link coloring ON on input line 85.
  (D:\Program Files\MikTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (D:\Program Files\MikTeX\tex/latex/refcount\refcount.sty
@@ -535,28 +562,28 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (D:\Program Files\MikTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count307
+\c@section@level=\count310
 )
-LaTeX Info: Redefining \ref on input line 78.
-LaTeX Info: Redefining \pageref on input line 78.
-LaTeX Info: Redefining \nameref on input line 78.
+LaTeX Info: Redefining \ref on input line 85.
+LaTeX Info: Redefining \pageref on input line 85.
+LaTeX Info: Redefining \nameref on input line 85.
  (LimDon_resumeCV.out) (LimDon_resumeCV.out)
 \@outlinefile=\write4
 \openout4 = `LimDon_resumeCV.out'.
 
  (D:\Program Files\MikTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count308
-\scratchdimen=\dimen269
-\scratchbox=\box65
-\nofMPsegments=\count309
-\nofMParguments=\count310
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count311
-\MPscratchDim=\dimen270
-\MPnumerator=\count312
-\makeMPintoPDFobject=\count313
-\everyMPtoPDFconversion=\toks42
+\scratchcounter=\count311
+\scratchdimen=\dimen276
+\scratchbox=\box66
+\nofMPsegments=\count312
+\nofMParguments=\count313
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count314
+\MPscratchDim=\dimen277
+\MPnumerator=\count315
+\makeMPintoPDFobject=\count316
+\everyMPtoPDFconversion=\toks43
 ) (D:\Program Files\MikTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -600,48 +627,44 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 (D:\Program Files\MikTeX\tex/latex/upquote\upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
 )
-LaTeX Font Info:    Trying to load font information for U+mvs on input line 86.
+LaTeX Font Info:    Trying to load font information for U+mvs on input line 93.
  (D:\Program Files\MikTeX\tex/latex/marvosym\umvs.fd)
 <all-twemojis.pdf, id=8, page=333, 27.10126pt x 27.10126pt>
 File: all-twemojis.pdf Graphic file (type pdf)
 <use all-twemojis.pdf, page 333>
-Package pdftex.def Info: all-twemojis.pdf , page333 used on input line 86.
+Package pdftex.def Info: all-twemojis.pdf , page333 used on input line 93.
 (pdftex.def)             Requested size: 7.12804pt x 7.12831pt.
-LaTeX Font Info:    Trying to load font information for U+fontawesometwo on input line 91.
- (D:\Program Files\MikTeX\tex/latex/fontawesome\ufontawesometwo.fd
-File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
-)
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 97.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 104.
  (D:\Program Files\MikTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 176.
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 176.
+LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 183.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 183.
  (D:\Program Files\MikTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 176.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 183.
  (D:\Program Files\MikTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 176.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 183.
  (D:\Program Files\MikTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 176.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 183.
  (D:\Program Files\MikTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 176.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 183.
  (D:\Program Files\MikTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 176.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 183.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.77005> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 176.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 183.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.30006> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 176.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 183.
  [1
 
 {C:/Users/Don/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <D:/Program Files/MikTeX/tex/latex/twemojis/all-twemojis.pdf>] (LimDon_resumeCV.aux)
@@ -649,17 +672,17 @@ Package rerunfilecheck Info: File `LimDon_resumeCV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31258 strings out of 478907
- 626967 string characters out of 2861755
- 1002161 words of memory out of 3000000
- 48713 multiletter control sequences out of 15000+600000
- 445905 words of font info for 72 fonts, out of 8000000 for 9000
+ 31647 strings out of 478907
+ 632202 string characters out of 2861755
+ 1009817 words of memory out of 3000000
+ 49092 multiletter control sequences out of 15000+600000
+ 445589 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,5n,122p,525b,329s stack positions out of 5000i,500n,10000p,200000b,80000s
-{D:/Program Files/MikTeX/fonts/enc/dvips/base/8r.enc}{D:/Program Files/MikTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc}<D:/Program Files/MikTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><D:/Program Files/MikTeX/fonts/type1/public/marvosym/marvosym.pfb><D:/Program Files/MikTeX/fonts/type1/urw/times/utmb8a.pfb><D:/Program Files/MikTeX/fonts/type1/urw/times/utmr8a.pfb><D:/Program Files/MikTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on LimDon_resumeCV.pdf (1 page, 75709 bytes).
+ 117i,5n,122p,525b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
+{D:/Program Files/MikTeX/fonts/enc/dvips/base/8r.enc}<D:/Program Files/MikTeX/fonts/type1/public/marvosym/marvosym.pfb><D:/Program Files/MikTeX/fonts/type1/urw/times/utmb8a.pfb><D:/Program Files/MikTeX/fonts/type1/urw/times/utmr8a.pfb><D:/Program Files/MikTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on LimDon_resumeCV.pdf (1 page, 74541 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
+ 46 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
