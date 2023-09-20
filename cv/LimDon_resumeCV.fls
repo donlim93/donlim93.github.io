@@ -1030,11 +1030,6 @@ INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
 INPUT C:\Users\Don\AppData\Local\MiKTeX\pdftex\config\pdftex.map
 INPUT D:\Program Files\MikTeX\fonts\vf\adobe\helvetic\phvr8t.vf
 INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
-INPUT D:\Program Files\MikTeX\fonts\vf\adobe\times\zptmcm7v.vf
-INPUT D:\Program Files\MikTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\symbol\psyr.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\symbol\psyr.tfm
 INPUT D:\Program Files\MikTeX\fonts\vf\adobe\helvetic\phvrc8t.vf
 INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
 INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
@@ -1052,10 +1047,10 @@ INPUT D:\Program Files\MikTeX\fonts\enc\dvips\base\8r.enc
 INPUT D:\Program Files\MikTeX\fonts\enc\dvips\fontawesome\fontawesometwo.enc
 INPUT D:\Program Files\MikTeX\fonts\type1\public\fontawesome\FontAwesome.pfb
 INPUT D:\Program Files\MikTeX\fonts\type1\public\fontawesome\FontAwesome.pfb
-INPUT D:\Program Files\MikTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
-INPUT D:\Program Files\MikTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT D:\Program Files\MikTeX\fonts\type1\public\marvosym\marvosym.pfb
 INPUT D:\Program Files\MikTeX\fonts\type1\public\marvosym\marvosym.pfb
+INPUT D:\Program Files\MikTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
+INPUT D:\Program Files\MikTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
 INPUT D:\Program Files\MikTeX\fonts\type1\urw\helvetic\uhvb8a.pfb
 INPUT D:\Program Files\MikTeX\fonts\type1\urw\helvetic\uhvb8a.pfb
 INPUT D:\Program Files\MikTeX\fonts\type1\urw\helvetic\uhvr8a.pfb
