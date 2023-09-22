@@ -8,13 +8,13 @@
 \usepackage{hyperref}
 \usepackage{xcolor}
 
-\hypersetup{
-    colorlinks,
+\hypersetup{%
+    colorlinks=true,
     linkcolor=blue,
-    citecolor={blue!50!black},
-    urlcolor={blue!80!black}
+    linkbordercolor=blue,
+    citecolor=blue,
+    urlcolor=blue
 }
-
 
 \usepackage[margin=0.9in]{geometry}
 \textheight=10in
@@ -52,9 +52,8 @@
 }
 
 \newcommand{\header} [1] {
-    \vspace*{1mm}
-    {\textsc{\large{\xrfill[0.1ex]{0.5pt}~#1~\xrfill[0.1ex]{0.5pt}}}} % center and underline
-    \vspace*{1mm}
+    \vspace{1mm}
+    {\textsc{\large{\xrfill[0.5ex]{0.5pt}~#1~\xrfill[0.5ex]{0.5pt}}}} % center and underline
 }
 
 \newcommand{\employer} [3] {
@@ -100,8 +99,10 @@
     \href{mailto:lim.don93@gmail.com}{\Letter\space lim.don93@gmail.com} $\blacklozenge$  \Mobilefone\space (806) 317-7937 $\blacklozenge$ \href{https://donlim93.github.io/}{\faGlobe\space donlim93.github.io} $\blacklozenge$ Frisco, Texas \\
 \end{center}
 %==== Experience ====%
-\vspace*{-2mm}
+\vspace*{-1mm}
+
 \header{Work and Research Experience} \\
+\vspace{1mm}
 \textbf{Green Brick Partners, Inc.} \hfill Plano, TX \\
 \textit{Sales and Marketing Analyst \& Salesforce Admin} \hfill  \emph{May 2023 --- Present} \\
 \begin{itemize}
@@ -116,7 +117,7 @@
 \begin{itemize}
     \item Troubleshooted Laserfiche automated workflows, quick fields, and forms processes
     \item Maintained non-clustered SQL relational databases
-    \item Administered folder-, document-, and user-level security using admin consoles and AD
+    \item Administered folder-, document-, and user-level security using admin consoles and active directory
     \item Served as internal IT support
 \end{itemize}    
 \vspace{1mm}
@@ -158,7 +159,9 @@
 \vspace{1mm}
 
 %==== Education ====%
+
 \header{Education} \\
+\vspace{1mm}
 \textbf{Texas Tech University Department of Agricultural and Applied Economics}\hfill Lubbock, Texas\\
 \textit{M.S. Agricultural and Applied Economics; 3.6 GPA} \hfill  \emph{May 2022} \\
 \begin{itemize}
@@ -178,7 +181,9 @@
 
 \vspace{1mm}
 %==== Certificates ====%
+
 \header{Certifications and Exams} \\
+\vspace{1mm}
 \begin{itemize}
     \item Applied Data Science with Python (\href{https://www.coursera.org/account/accomplishments/specialization/9E4EZST8HHFE}{9E4EZST8HHFE}) - Specialization (5 courses) \hfill \emph{Aug 2023}
     \item Django for Everybody (\href{https://www.coursera.org/account/accomplishments/specialization/SVTRKEJV62T6}{SVTRKEJV62T6}) - Specialization (4 courses) \hfill \emph{Jul 2023}
@@ -188,7 +193,9 @@
 \vspace{1mm}
 
 %==== Skills ====%
+
 \header{Skills} \\
+\vspace{1mm}
 Technical: Python (regex, numpy, pandas, scikit-learn, matplotlib, seaborn, nltk, networkx), R (dplyr, tidyr, stringr, ggplot2), HTML5, CSS, \LaTeX, SQL \\
 
 Statistical: OLS, IV, TWFE, DiD, 2SDiD, RDD, matching (propensity score, Mahalanobis distance, kernel, entropy, nearest-neighbor), synthetic control, event study, factor and cluster analysis, logit/probit \\
