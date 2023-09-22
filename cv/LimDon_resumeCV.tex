@@ -14,12 +14,14 @@
     citecolor={blue!50!black},
     urlcolor={blue!80!black}
 }
-\usepackage[scaled]{helvet}
-\usepackage[T1]{fontenc}
+
+
 \usepackage[margin=0.9in]{geometry}
 \textheight=10in
 \pagestyle{empty}
 \raggedright
+
+\renewcommand{\labelitemi}{$\circ$}
 
 \usepackage{marvosym}
 \usepackage{fontawesome}
@@ -30,6 +32,8 @@
 
 \def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
 
+\usepackage[T1]{fontenc}
+\usepackage[scaled]{helvet}
 \renewcommand\familydefault{\sfdefault}
 
 \renewcommand{\hrulefill}{%
@@ -156,7 +160,7 @@
 %==== Education ====%
 \header{Education} \\
 \textbf{Texas Tech University Department of Agricultural and Applied Economics}\hfill Lubbock, Texas\\
-\textit{M.S. Agricultural and Applied Economics}; 3.595 GPA \hfill  \emph{May 2022} \\
+\textit{M.S. Agricultural and Applied Economics}; 3.6 GPA \hfill  \emph{May 2022} \\
 \begin{itemize}
     \item Relevant coursework: Causal Inference (R, Stata), Economic Optimization and Machine Learning (Matlab, Python), Applied Econometrics I (Python, Matlab, R), Applied Econometrics II (SAS), Advanced Production Economics, Mathematical Economics, Advanced Market Analysis, Applied Macroeconomics, Applied Microeconomics I \& II
 \end{itemize}
@@ -176,16 +180,16 @@
 %==== Certificates ====%
 \header{Certifications and Exams} \\
 \begin{itemize}
-    \item Specialization (5 courses) - \textbf{Applied Data Science with Python} (\href{https://www.coursera.org/account/accomplishments/specialization/9E4EZST8HHFE}{9E4EZST8HHFE}) \hfill \emph{Aug 2023}
-    \item Specialization (4 courses) - \textbf{Django for Everybody} (\href{https://www.coursera.org/account/accomplishments/specialization/SVTRKEJV62T6}{SVTRKEJV62T6}) \hfill \emph{Jul 2023}
-    \item Passed SOA Exam P \hfill \emph{May 2023}
+    \item \textbf{Applied Data Science with Python} (\href{https://www.coursera.org/account/accomplishments/specialization/9E4EZST8HHFE}{9E4EZST8HHFE}) - Specialization (5 courses) \hfill \emph{Aug 2023}
+    \item \textbf{Django for Everybody} (\href{https://www.coursera.org/account/accomplishments/specialization/SVTRKEJV62T6}{SVTRKEJV62T6}) - Specialization (4 courses) \hfill \emph{Jul 2023}
+    \item Passed SOA \textbf{Exam P} \hfill \emph{May 2023}
     \item Introduction to SQL (\href{https://www.coursera.org/account/accomplishments/verify/GA25HJ4B4XRD}{GA25HJ4B4XRD}) \hfill  \emph{Dec 2021}
 \end{itemize}
 \vspace{1mm}
 
 %==== Skills ====%
 \header{Skills} \\
-Technical: Python (regex, numpy, pandas, scikit-learn, matplotlib, nltk, networkx), R (dplyr, tidyr, stringr, ggplot2), HTML5, CSS, \LaTeX, SQL \\
+Technical: Python (regex, numpy, pandas, scikit-learn, matplotlib, seaborn, nltk, networkx), R (dplyr, tidyr, stringr, ggplot2), HTML5, CSS, \LaTeX, SQL \\
 
 Statistical: OLS, IV, TWFE, DiD, 2SDiD, RDD, matching (propensity score, Mahalanobis distance, kernel, entropy, nearest-neighbor), synthetic control, event study, factor and cluster analysis, logit/probit \\
 
