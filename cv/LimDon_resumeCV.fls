@@ -1037,6 +1037,10 @@ INPUT D:\Program Files\MikTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\symbol\psyr.tfm
 INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\Don\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT D:\Program Files\MikTeX\fonts\vf\adobe\times\zptmcm7m.vf
+INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\psyro.tfm
+INPUT D:\Program Files\MikTeX\fonts\tfm\public\cm\cmmi10.tfm
+INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT D:\Program Files\MikTeX\fonts\vf\adobe\helvetic\phvr8t.vf
 INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
 INPUT LimDon_resumeCV.aux
@@ -1046,6 +1050,8 @@ INPUT D:\Program Files\MikTeX\fonts\enc\dvips\base\8r.enc
 INPUT D:\Program Files\MikTeX\fonts\enc\dvips\fontawesome\fontawesometwo.enc
 INPUT D:\Program Files\MikTeX\fonts\type1\public\fontawesome\FontAwesome.pfb
 INPUT D:\Program Files\MikTeX\fonts\type1\public\fontawesome\FontAwesome.pfb
+INPUT D:\Program Files\MikTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT D:\Program Files\MikTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT D:\Program Files\MikTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT D:\Program Files\MikTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT D:\Program Files\MikTeX\fonts\type1\public\marvosym\marvosym.pfb
