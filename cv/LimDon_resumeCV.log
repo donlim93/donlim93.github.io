@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.7)  28 SEP 2023 14:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.7)  29 SEP 2023 06:57
 entering extended mode
 **"c:/Users/Don/OneDrive - Texas Tech University/Documents/GitHub/donlim.github.io/donlim93.github.io/cv/LimDon_resumeCV.tex"
 (c:/Users/Don/OneDrive - Texas Tech University/Documents/GitHub/donlim.github.io/donlim93.github.io/cv/LimDon_resumeCV.tex
@@ -600,15 +600,15 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(61.42993pt, 474.64801pt, 61.42993pt)
-* v-part:(T,H,B)=(61.42993pt, 722.18698pt, 61.42993pt)
+* h-part:(L,W,R)=(59.62253pt, 478.26282pt, 59.62253pt)
+* v-part:(T,H,B)=(59.62253pt, 725.80179pt, 59.62253pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=474.64801pt
+* \textwidth=478.26282pt
 * \textheight=722.7pt
-* \oddsidemargin=-10.84006pt
-* \evensidemargin=-10.84006pt
-* \topmargin=-10.84006pt
+* \oddsidemargin=-12.64746pt
+* \evensidemargin=-12.64746pt
+* \topmargin=-12.64746pt
 * \headheight=0.0pt
 * \headsep=0.0pt
 * \topskip=11.0pt
@@ -688,13 +688,13 @@ Package rerunfilecheck Info: File `LimDon_resumeCV.out' has not changed.
 Here is how much of TeX's memory you used:
  31425 strings out of 478907
  628348 string characters out of 2861755
- 1009010 words of memory out of 3000000
+ 1009012 words of memory out of 3000000
  48867 multiletter control sequences out of 15000+600000
  452307 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,5n,122p,525b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
 {D:/Program Files/MikTeX/fonts/enc/dvips/base/8r.enc}{D:/Program Files/MikTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc}<D:/Program Files/MikTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><D:/Program Files/MikTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Program Files/MikTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files/MikTeX/fonts/type1/public/marvosym/marvosym.pfb><D:/Program Files/MikTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><D:/Program Files/MikTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><D:/Program Files/MikTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><D:/Program Files/MikTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on LimDon_resumeCV.pdf (1 page, 84510 bytes).
+Output written on LimDon_resumeCV.pdf (1 page, 84616 bytes).
 PDF statistics:
  61 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
