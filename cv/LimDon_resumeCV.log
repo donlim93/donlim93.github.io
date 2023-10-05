@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.7)  3 OCT 2023 07:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.7)  4 OCT 2023 21:06
 entering extended mode
 **"c:/Users/Don/OneDrive - Texas Tech University/Documents/GitHub/donlim.github.io/donlim93.github.io/cv/LimDon_resumeCV.tex"
 (c:/Users/Don/OneDrive - Texas Tech University/Documents/GitHub/donlim.github.io/donlim93.github.io/cv/LimDon_resumeCV.tex
@@ -638,12 +638,6 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 21.3968pt on input line 102.
 LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
 (Font)              scaled to size 21.3968pt on input line 102.
-LaTeX Font Info:    Trying to load font information for U+mvs on input line 103.
-(D:\Program Files\MikTeX\tex/latex/marvosym\umvs.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesometwo on input line 103.
- (D:\Program Files\MikTeX\tex/latex/fontawesome\ufontawesometwo.fd
-File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
-)
 LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
 (Font)              scaled to size 9.46pt on input line 108.
 LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
@@ -656,7 +650,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 9.46pt on input line 111.
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 113.
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 113.
- (D:\Program Files\MikTeX\tex/latex/psnfss\ot1ztmcm.fd
+(D:\Program Files\MikTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 113.
@@ -690,17 +684,17 @@ Package rerunfilecheck Info: File `LimDon_resumeCV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31448 strings out of 478907
- 628799 string characters out of 2861755
- 1009208 words of memory out of 3000000
- 48887 multiletter control sequences out of 15000+600000
- 452307 words of font info for 82 fonts, out of 8000000 for 9000
+ 31425 strings out of 478907
+ 628289 string characters out of 2861755
+ 1009209 words of memory out of 3000000
+ 48874 multiletter control sequences out of 15000+600000
+ 449706 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,5n,122p,525b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
-{D:/Program Files/MikTeX/fonts/enc/dvips/base/8r.enc}{D:/Program Files/MikTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc}<D:/Program Files/MikTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><D:/Program Files/MikTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Program Files/MikTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files/MikTeX/fonts/type1/public/marvosym/marvosym.pfb><D:/Program Files/MikTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><D:/Program Files/MikTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><D:/Program Files/MikTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><D:/Program Files/MikTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on LimDon_resumeCV.pdf (1 page, 84796 bytes).
+{D:/Program Files/MikTeX/fonts/enc/dvips/base/8r.enc}<D:/Program Files/MikTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files/MikTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><D:/Program Files/MikTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><D:/Program Files/MikTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><D:/Program Files/MikTeX/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on LimDon_resumeCV.pdf (1 page, 59336 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
+ 46 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
