@@ -719,7 +719,6 @@ body:hover .visually-hidden button {
 }
 
 .navicon {
-    display: none;
     position: relative;
     width: 28px;
     height: 4px;
@@ -731,7 +730,6 @@ body:hover .visually-hidden button {
 
 .navicon:before,
 .navicon:after {
-    display: none;
     content: "";
     position: absolute;
     left: 0;
@@ -751,7 +749,6 @@ body:hover .visually-hidden button {
 }
 
 .close .navicon {
-    display: none;
     background: transparent
 }
 
@@ -1630,7 +1627,6 @@ th {
 }
 
 .greedy-nav button {
-    display: none;
     position: absolute;
     height: 100%;
     right: 0;
