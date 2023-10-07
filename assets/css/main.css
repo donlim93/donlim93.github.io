@@ -67,7 +67,7 @@ audio:not([controls]) {
 }
 
 a {
-    color: #52adc8
+    color: #0e1078
 }
 
 a:hover,
@@ -1622,7 +1622,7 @@ th {
 }
 
 .greedy-nav a:hover {
-    color: cornflowerblue;
+    color: #0e1078;
     transform: scale(1.1); 
 }
 
