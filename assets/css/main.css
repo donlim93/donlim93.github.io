@@ -7361,10 +7361,25 @@ screen and (max-height: 300px) {
     }
 }
 
-.border {
-    border-style: ridge;
-    border-width: 1px;
-    border-color: grey;
-    border-radius: 0.5em;
-    padding: 10px 20px 10px;
-  }
+/* Add your CSS styles here */
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.content.active {
+    max-height: 1000px; /* Adjust this value as needed */
+}
+
+.expandButton {
+    display: inline-flex;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    justify-content: stretch;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
