@@ -7,7 +7,6 @@
 \usepackage{mathptmx}
 \usepackage{hyperref}
 \usepackage{xcolor}
-
 \usepackage{pifont}
 
 \hypersetup{%
@@ -23,11 +22,14 @@
 \pagestyle{empty}
 \raggedright
 
-\renewcommand{\labelitemi}{$\circ$}
-\renewcommand{\labelitemii}{$\circ$}
+% First bullet point
+\renewcommand{\labelitemi}{\textopenbullet}
+
+% Second bullet point
+\renewcommand{\labelitemii}{\textbullet}
 
 \usepackage{marvosym}
-\usepackage{fontawesome}
+% \usepackage{fontawesome}
 \usepackage{twemojis}
 
 \usepackage[explicit]{titlesec}
@@ -110,17 +112,17 @@
 \textbf{Green Brick Partners, Inc.} \hfill Plano, TX \\
 \textit{Sales and Marketing Analyst \& Salesforce Admin} \hfill  \emph{May 2023 --- Present} \\
 \begin{itemize}
-    \item Assisting in implementing, testing, and training Salesforce development, UAT, and production environments (Salesforce CRM, Marketing Cloud, Sales Cloud) 
+    \item Developing IBM TM1/Planning Analytics processes and business rules for financial reporting and forecasting (ETL, TurboIntegrator processes, TM1 business rules, MDX)
+    \item Assisting implementing, testing, and training in  Salesforce development, UAT, and production environments (Salesforce CRM, Marketing Cloud, Sales Cloud) 
     \item Querying relational databases to validate and clean data for migration into Salesforce (SQL, Python)
     \item Creating Salesforce reports, dashboards, flows, cadences, and email templates
-    \item Developing IBM TM1/Planning Analytics processes and business rules for financial reporting and forecasting (ETL, TurboIntegrator processes, TM1 business rules, MDX)
 \end{itemize}
 \vspace{1mm}
 
 \textbf{DocuNav Solutions} \hfill Frisco, TX \\
 \textit{Support Engineer} \hfill  \emph{June 2022 --- May 2023} \\
 \begin{itemize}
-    \item Troubleshooted, built, and tested Laserfiche automated Workflow, Quick Fields, and Form processes
+    \item Troubleshooted, built, and tested Laserfiche automation Workflow, Quick Fields, and Form processes
     \item Maintained non-clustered SQL servers (stored procedures, task scheduler, SSL certs, TLS config)
     \item Configured folder-, document-, and user-level security using admin consoles and active directory
     \item Administered internal IT support
