@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.6)  9 APR 2024 20:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.6)  21 APR 2024 12:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -644,7 +644,9 @@ LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
 (Font)              scaled to size 21.3968pt on input line 104.
 LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
 (Font)              scaled to size 9.03pt on input line 110.
-LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
+LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
+(Font)              scaled to size 9.03pt on input line 110.
+LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
 (Font)              scaled to size 10.32pt on input line 110.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 9.03pt on input line 112.
@@ -695,9 +697,6 @@ Package textcomp Info: Symbol \textopenbullet not provided by
 Package textcomp Info: Symbol \textopenbullet not provided by
 (textcomp)             font family phv in TS1 encoding.
 (textcomp)             Default family used instead on input line 135.
-Package textcomp Info: Symbol \textopenbullet not provided by
-(textcomp)             font family phv in TS1 encoding.
-(textcomp)             Default family used instead on input line 146.
 Package textcomp Info: Symbol \textopenbullet not provided by
 (textcomp)             font family phv in TS1 encoding.
 (textcomp)             Default family used instead on input line 153.
@@ -788,15 +787,15 @@ Package rerunfilecheck Info: File `LimDon_resumeCV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30849 strings out of 474423
- 632955 string characters out of 5751540
+ 30850 strings out of 474423
+ 632971 string characters out of 5751540
  1955496 words of memory out of 5000000
- 52777 multiletter control sequences out of 15000+600000
- 603946 words of font info for 85 fonts, out of 8000000 for 9000
+ 52778 multiletter control sequences out of 15000+600000
+ 607772 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,5n,121p,524b,445s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Don\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss1095.pk><D:/Program Files/MikTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><D:/Program Files/MikTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><D:/Program Files/MikTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><D:/Program Files/MikTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on LimDon_resumeCV.pdf (1 page, 52292 bytes).
+Output written on LimDon_resumeCV.pdf (1 page, 52605 bytes).
 PDF statistics:
  47 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
