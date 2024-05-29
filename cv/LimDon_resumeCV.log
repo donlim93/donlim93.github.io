@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.6)  5 MAY 2024 22:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.6)  23 MAY 2024 13:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -767,10 +767,10 @@ Package textcomp Info: Symbol \textopenbullet not provided by
 (textcomp)             Default family used instead on input line 207.
 Package textcomp Info: Symbol \textopenbullet not provided by
 (textcomp)             font family phv in TS1 encoding.
-(textcomp)             Default family used instead on input line 212.
+(textcomp)             Default family used instead on input line 211.
 Package textcomp Info: Symbol \textopenbullet not provided by
 (textcomp)             font family phv in TS1 encoding.
-(textcomp)             Default family used instead on input line 216.
+(textcomp)             Default family used instead on input line 215.
  [1
 
 {C:/Users/Don/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{D:/Program Files/MikTeX/fonts/enc/dvips/base/8r.enc}] (LimDon_resumeCV.aux)
@@ -789,13 +789,13 @@ Package rerunfilecheck Info: File `LimDon_resumeCV.out' has not changed.
 Here is how much of TeX's memory you used:
  30850 strings out of 474423
  632971 string characters out of 5751540
- 1955496 words of memory out of 5000000
+ 1954496 words of memory out of 5000000
  52778 multiletter control sequences out of 15000+600000
  607772 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,5n,121p,524b,445s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Don\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss1095.pk><D:/Program Files/MikTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><D:/Program Files/MikTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><D:/Program Files/MikTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><D:/Program Files/MikTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on LimDon_resumeCV.pdf (1 page, 52685 bytes).
+Output written on LimDon_resumeCV.pdf (1 page, 52659 bytes).
 PDF statistics:
  47 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
