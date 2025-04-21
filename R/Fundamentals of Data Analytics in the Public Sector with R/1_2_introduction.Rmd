@@ -37,8 +37,8 @@ Let's create a new code chunk and look at some language fundamentals.
 # <- for a left hand assignment, or -> for a right hand assignment. Let's create
 # two variables, a and b.
 
-a<-3
-4->b
+a <- 3
+4 -> b
 
 # Assigning a variable on the right hand side of an expression isn't very
 # common, so you'll mostly see the former syntax of <- used. You can also use
@@ -53,16 +53,16 @@ Variables persist between code chunks. If you execute the code you'll see the `E
 # equals sign will check if the two variables are equal, while the greater than
 # sign will check if the one variable is larger than the other
 
-a>b
+a > b
 ```
 
 When we have executed a cell and output is printed to the console in RStudio. RStudio does this just as if we entered the lines in manually on the console as well, so we get to see our code comments written there too. The actual output, which is made up of the the result of expressions, is also placed in an output cell underneath the code chunk. This cell exists both in the source editor, as well as in the visual editor. If you want to have text displayed along with your outputs, you need to use the `print` function.
 
 ```{r}
 print("Checking if a is greater than b...")
-a>b
+a > b
 print("Checking if a is equal to b...")
-a==b
+a == b
 ```
 
 The base R language has many different functions and operators included, and while I'll introduce several of them in this course I'm also going to move fairly quickly in doing so and expect that you have either a little bit of programming knowledge already. If not that's ok -- but I would encourage you to check out some of the reference material I've linked in the course shell as a guide to the basics of the language.
@@ -82,7 +82,7 @@ This vectorization feature of R is a bit confusing at first for those who have p
 
 ```{r}
 # Create a vector of three numbers
-a<-c(2,4,6,8)
+a <- c(2, 4, 6, 8)
 # Print the type of items in a
 print(typeof(a))
 # Print the number of items in a
@@ -104,15 +104,15 @@ print(a[2:4])
 This slicing notation is very commonly used for operations on vectors. A useful functionality of vectorized languages like R is that we can do operations between two vectors of the same length. For instance, let's add two three item vectors together.
 
 ```{r}
-a<-c(1,2,3)
-b<-c(4,5,6)
-print(a+b)
+a <- c(1, 2, 3)
+b <- c(4, 5, 6)
+print(a + b)
 ```
 
 We can also take a vector of size one, for instance a single number, and apply it to all items in a larger vector. Let's create a new vector which is each item in `a` multiplied by 5.
 
 ```{r}
-d<-a*5
+d <- a * 5
 print(d)
 ```
 
@@ -137,12 +137,12 @@ Lets take a look at lists first. To make a list we just use the combine function
 
 ```{r}
 # Lets create a new list using the list() function
-my_list<-list(1,2,TRUE,'text')
+my_list <- list(1, 2, TRUE, "text")
 # Now we can print the type of the list
 print(typeof(my_list))
 
 # Lets compare that with a vectored version using c()
-my_vector<-c(1,2,TRUE,'text')
+my_vector <- c(1, 2, TRUE, "text")
 # Lets print the type of the vector
 print(typeof(my_vector))
 ```
@@ -156,10 +156,10 @@ And speaking of data, there's a new entry in the environment pane, called Data, 
 In R, data can have attributes, or a list of key/value pairs which describe the data in some way. A commonly used attribute is the `name` for a given variable, and this becomes useful when we start talking about complex structures such as lists and dataframes. Let's create a list for a person, and set the name attribute for each of the items in that list to be something we might expect to see in a personnel management system.
 
 ```{r}
-# Let's create a new employee record for me. Remember that each item in a list 
+# Let's create a new employee record for me. Remember that each item in a list
 # is actually a vector, and we can name the vectors just by prepending them
 # with a word
-employee<-list(userid='brooksch', name='Christopher Brooks', 43, instructor=TRUE, courses=c(101,102,200))
+employee <- list(userid = "brooksch", name = "Christopher Brooks", 43, instructor = TRUE, courses = c(101, 102, 200))
 ```
 
 When you expand the data field for this list in the environment pane you can get a sense of how this works. We can see that we have four vectors with names -- userid, name, instructor, and courses -- all of length one except for my course list, which is of length three. We can see the type for each of these items, and we can see that there is one item in there which has no name, the number 43. So we're starting to deal with our first really structured data, and being able to read this environment pane will be critical to your understanding of your work!
@@ -191,12 +191,12 @@ So we see that the names are stored in something called `$names`. Be careful! Th
 
 ```{r}
 # First we get the names out of the employee object
-attribute_names<-names(employee)
+attribute_names <- names(employee)
 # Then we change the one we want
-attribute_names[3]<-"age"
+attribute_names[3] <- "age"
 # Now we update the names, this returns a new employee so we need to assign it
 # back to our employee reference
-employee<-setNames(employee,attribute_names)
+employee <- setNames(employee, attribute_names)
 ```
 
 ### Nothing
@@ -205,13 +205,13 @@ One last fundamental and then we'll start playing with real data! We often have 
 
 ```{r}
 # We represent the lack of a reference to something as a null value
-x<-NULL
+x <- NULL
 # When we print out the type of this object, we'll see that it is called NULL
 print(typeof(x))
 # How long is this vector?
 print(length(x))
 # And we can' do logical comparison on null values with ==
-print(x==NULL)
+print(x == NULL)
 ```
 
 You'll see that the `x==NULL` generates a warning in R, that annoying little red squiggle underline, and that the return value is something of `logical(0)`. This is a logical vector, but of length zero! There are no values in it. It's not `TRUE` nor is it `FALSE`. When we use `NULL` to represent the lack of something we need to use the `is.null()` function to see if it actually is null.
@@ -224,7 +224,7 @@ The missing value indicator, `NA`, is actually something similar. It also is rep
 
 ```{r}
 # We represent missing data with an NA
-x<-NA
+x <- NA
 # When we print out the type of this object, we'll see that it is also a logical
 # vector, not an NA
 print(typeof(x))
