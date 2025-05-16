@@ -1,262 +1,262 @@
-PWD c:\Users\Don\OneDrive - Texas Tech University\Documents\GitHub\donlim.github.io\donlim93.github.io\cv
-INPUT C:\Users\Don\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Don\OneDrive - Texas Tech University\Documents\GitHub\donlim.github.io\donlim93.github.io\cv\LimDon_resumeCV.tex
+PWD c:\Users\asian\OneDrive\Documents\limdon93.github.io\donlim93.github.io\cv
+INPUT C:\Users\asian\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\asian\OneDrive\Documents\limdon93.github.io\donlim93.github.io\cv\LimDon_resumeCV.tex
 OUTPUT LimDon_resumeCV.log
-INPUT D:\Program Files\MikTeX\tex\latex\base\article.cls
-INPUT D:\Program Files\MikTeX\tex\latex\base\article.cls
-INPUT D:\Program Files\MikTeX\tex\latex\base\size11.clo
-INPUT D:\Program Files\MikTeX\tex\latex\base\size11.clo
-INPUT D:\Program Files\MikTeX\tex\latex\base\size11.clo
-INPUT D:\Program Files\MikTeX\fonts\tfm\public\cm\cmr10.tfm
-INPUT D:\Program Files\MikTeX\tex\latex\preprint\fullpage.sty
-INPUT D:\Program Files\MikTeX\tex\latex\preprint\fullpage.sty
-INPUT D:\Program Files\MikTeX\tex\latex\amsmath\amsmath.sty
-INPUT D:\Program Files\MikTeX\tex\latex\amsmath\amsmath.sty
-INPUT D:\Program Files\MikTeX\tex\latex\amsmath\amsopn.sty
-INPUT D:\Program Files\MikTeX\tex\latex\amsmath\amstext.sty
-INPUT D:\Program Files\MikTeX\tex\latex\amsmath\amstext.sty
-INPUT D:\Program Files\MikTeX\tex\latex\amsmath\amsgen.sty
-INPUT D:\Program Files\MikTeX\tex\latex\amsmath\amsgen.sty
-INPUT D:\Program Files\MikTeX\tex\latex\amsmath\amsbsy.sty
-INPUT D:\Program Files\MikTeX\tex\latex\amsmath\amsbsy.sty
-INPUT D:\Program Files\MikTeX\tex\latex\amsmath\amsopn.sty
-INPUT D:\Program Files\MikTeX\tex\latex\amsfonts\amssymb.sty
-INPUT D:\Program Files\MikTeX\tex\latex\amsfonts\amssymb.sty
-INPUT D:\Program Files\MikTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT D:\Program Files\MikTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT D:\Program Files\MikTeX\tex\latex\base\textcomp.sty
-INPUT D:\Program Files\MikTeX\tex\latex\base\textcomp.sty
-INPUT D:\Program Files\MikTeX\tex\latex\enumitem\enumitem.sty
-INPUT D:\Program Files\MikTeX\tex\latex\enumitem\enumitem.sty
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\mathptmx.sty
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\mathptmx.sty
-INPUT D:\Program Files\MikTeX\tex\latex\hyperref\hyperref.sty
-INPUT D:\Program Files\MikTeX\tex\latex\hyperref\hyperref.sty
-INPUT D:\Program Files\MikTeX\tex\generic\iftex\iftex.sty
-INPUT D:\Program Files\MikTeX\tex\generic\iftex\iftex.sty
-INPUT D:\Program Files\MikTeX\tex\latex\graphics\keyval.sty
-INPUT D:\Program Files\MikTeX\tex\latex\graphics\keyval.sty
-INPUT D:\Program Files\MikTeX\tex\latex\kvsetkeys\kvsetkeys.sty
-INPUT D:\Program Files\MikTeX\tex\latex\kvsetkeys\kvsetkeys.sty
-INPUT D:\Program Files\MikTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
-INPUT D:\Program Files\MikTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
-INPUT D:\Program Files\MikTeX\tex\generic\pdfescape\pdfescape.sty
-INPUT D:\Program Files\MikTeX\tex\generic\pdfescape\pdfescape.sty
-INPUT D:\Program Files\MikTeX\tex\generic\ltxcmds\ltxcmds.sty
-INPUT D:\Program Files\MikTeX\tex\generic\ltxcmds\ltxcmds.sty
-INPUT D:\Program Files\MikTeX\tex\generic\pdftexcmds\pdftexcmds.sty
-INPUT D:\Program Files\MikTeX\tex\generic\pdftexcmds\pdftexcmds.sty
-INPUT D:\Program Files\MikTeX\tex\generic\infwarerr\infwarerr.sty
-INPUT D:\Program Files\MikTeX\tex\generic\infwarerr\infwarerr.sty
-INPUT D:\Program Files\MikTeX\tex\latex\hycolor\hycolor.sty
-INPUT D:\Program Files\MikTeX\tex\latex\hycolor\hycolor.sty
-INPUT D:\Program Files\MikTeX\tex\latex\auxhook\auxhook.sty
-INPUT D:\Program Files\MikTeX\tex\latex\auxhook\auxhook.sty
-INPUT D:\Program Files\MikTeX\tex\latex\hyperref\nameref.sty
-INPUT D:\Program Files\MikTeX\tex\latex\hyperref\nameref.sty
-INPUT D:\Program Files\MikTeX\tex\latex\refcount\refcount.sty
-INPUT D:\Program Files\MikTeX\tex\latex\refcount\refcount.sty
-INPUT D:\Program Files\MikTeX\tex\generic\gettitlestring\gettitlestring.sty
-INPUT D:\Program Files\MikTeX\tex\generic\gettitlestring\gettitlestring.sty
-INPUT D:\Program Files\MikTeX\tex\latex\kvoptions\kvoptions.sty
-INPUT D:\Program Files\MikTeX\tex\latex\kvoptions\kvoptions.sty
-INPUT D:\Program Files\MikTeX\tex\latex\etoolbox\etoolbox.sty
-INPUT D:\Program Files\MikTeX\tex\latex\etoolbox\etoolbox.sty
-INPUT D:\Program Files\MikTeX\tex\latex\hyperref\pd1enc.def
-INPUT D:\Program Files\MikTeX\tex\latex\hyperref\pd1enc.def
-INPUT D:\Program Files\MikTeX\tex\latex\hyperref\pd1enc.def
-INPUT D:\Program Files\MikTeX\tex\generic\intcalc\intcalc.sty
-INPUT D:\Program Files\MikTeX\tex\generic\intcalc\intcalc.sty
-INPUT D:\Program Files\MikTeX\tex\latex\hyperref\puenc.def
-INPUT D:\Program Files\MikTeX\tex\latex\hyperref\puenc.def
-INPUT D:\Program Files\MikTeX\tex\latex\hyperref\puenc.def
-INPUT D:\Program Files\MikTeX\tex\latex\url\url.sty
-INPUT D:\Program Files\MikTeX\tex\latex\url\url.sty
-INPUT D:\Program Files\MikTeX\tex\generic\bitset\bitset.sty
-INPUT D:\Program Files\MikTeX\tex\generic\bitset\bitset.sty
-INPUT D:\Program Files\MikTeX\tex\generic\bigintcalc\bigintcalc.sty
-INPUT D:\Program Files\MikTeX\tex\generic\bigintcalc\bigintcalc.sty
-INPUT D:\Program Files\MikTeX\tex\generic\atbegshi\atbegshi.sty
-INPUT D:\Program Files\MikTeX\tex\latex\base\atbegshi-ltx.sty
-INPUT D:\Program Files\MikTeX\tex\latex\base\atbegshi-ltx.sty
-INPUT D:\Program Files\MikTeX\tex\latex\hyperref\hpdftex.def
-INPUT D:\Program Files\MikTeX\tex\latex\hyperref\hpdftex.def
-INPUT D:\Program Files\MikTeX\tex\latex\hyperref\hpdftex.def
-INPUT D:\Program Files\MikTeX\tex\latex\atveryend\atveryend.sty
-INPUT D:\Program Files\MikTeX\tex\latex\base\atveryend-ltx.sty
-INPUT D:\Program Files\MikTeX\tex\latex\base\atveryend-ltx.sty
-INPUT D:\Program Files\MikTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
-INPUT D:\Program Files\MikTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
-INPUT D:\Program Files\MikTeX\tex\generic\uniquecounter\uniquecounter.sty
-INPUT D:\Program Files\MikTeX\tex\generic\uniquecounter\uniquecounter.sty
-INPUT D:\Program Files\MikTeX\tex\latex\xcolor\xcolor.sty
-INPUT D:\Program Files\MikTeX\tex\latex\xcolor\xcolor.sty
-INPUT D:\Program Files\MikTeX\tex\latex\graphics-cfg\color.cfg
-INPUT D:\Program Files\MikTeX\tex\latex\graphics-cfg\color.cfg
-INPUT D:\Program Files\MikTeX\tex\latex\graphics-cfg\color.cfg
-INPUT D:\Program Files\MikTeX\tex\latex\graphics-def\pdftex.def
-INPUT D:\Program Files\MikTeX\tex\latex\graphics-def\pdftex.def
-INPUT D:\Program Files\MikTeX\tex\latex\graphics-def\pdftex.def
-INPUT D:\Program Files\MikTeX\tex\latex\graphics\mathcolor.ltx
-INPUT D:\Program Files\MikTeX\tex\latex\graphics\mathcolor.ltx
-INPUT D:\Program Files\MikTeX\tex\latex\graphics\mathcolor.ltx
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\pifont.sty
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\pifont.sty
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\upzd.fd
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\upzd.fd
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\upzd.fd
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\zapfding\pzdr.tfm
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\upsy.fd
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\upsy.fd
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\upsy.fd
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\symbol\psyr.tfm
-INPUT D:\Program Files\MikTeX\tex\latex\geometry\geometry.sty
-INPUT D:\Program Files\MikTeX\tex\latex\geometry\geometry.sty
-INPUT D:\Program Files\MikTeX\tex\generic\iftex\ifvtex.sty
-INPUT D:\Program Files\MikTeX\tex\generic\iftex\ifvtex.sty
-INPUT D:\Program Files\MikTeX\tex\latex\geometry\geometry.cfg
-INPUT D:\Program Files\MikTeX\tex\latex\geometry\geometry.cfg
-INPUT D:\Program Files\MikTeX\tex\latex\geometry\geometry.cfg
-INPUT D:\Program Files\MikTeX\tex\latex\marvosym\marvosym.sty
-INPUT D:\Program Files\MikTeX\tex\latex\marvosym\marvosym.sty
-INPUT D:\Program Files\MikTeX\tex\latex\twemojis\twemojis.sty
-INPUT D:\Program Files\MikTeX\tex\latex\twemojis\twemojis.sty
-INPUT D:\Program Files\MikTeX\tex\latex\pgf\frontendlayer\tikz.sty
-INPUT D:\Program Files\MikTeX\tex\latex\pgf\frontendlayer\tikz.sty
-INPUT D:\Program Files\MikTeX\tex\latex\pgf\basiclayer\pgf.sty
-INPUT D:\Program Files\MikTeX\tex\latex\pgf\basiclayer\pgf.sty
-INPUT D:\Program Files\MikTeX\tex\latex\pgf\utilities\pgfrcs.sty
-INPUT D:\Program Files\MikTeX\tex\latex\pgf\utilities\pgfrcs.sty
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\utilities\pgfutil-common.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\utilities\pgfutil-latex.def
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\pgf.revision.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\pgf.revision.tex
-INPUT D:\Program Files\MikTeX\tex\latex\pgf\basiclayer\pgfcore.sty
-INPUT D:\Program Files\MikTeX\tex\latex\pgf\basiclayer\pgfcore.sty
-INPUT D:\Program Files\MikTeX\tex\latex\graphics\graphicx.sty
-INPUT D:\Program Files\MikTeX\tex\latex\graphics\graphicx.sty
-INPUT D:\Program Files\MikTeX\tex\latex\graphics\graphics.sty
-INPUT D:\Program Files\MikTeX\tex\latex\graphics\graphics.sty
-INPUT D:\Program Files\MikTeX\tex\latex\graphics\trig.sty
-INPUT D:\Program Files\MikTeX\tex\latex\graphics\trig.sty
-INPUT D:\Program Files\MikTeX\tex\latex\graphics-cfg\graphics.cfg
-INPUT D:\Program Files\MikTeX\tex\latex\graphics-cfg\graphics.cfg
-INPUT D:\Program Files\MikTeX\tex\latex\graphics-cfg\graphics.cfg
-INPUT D:\Program Files\MikTeX\tex\latex\pgf\systemlayer\pgfsys.sty
-INPUT D:\Program Files\MikTeX\tex\latex\pgf\systemlayer\pgfsys.sty
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\utilities\pgfkeyslibraryfiltered.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\systemlayer\pgf.cfg
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\math\pgfmath.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\math\pgfmathutil.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\math\pgfmathparser.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\math\pgfmathfunctions.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\math\pgfmathfunctions.random.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\math\pgfmathfunctions.base.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\math\pgfmathfunctions.round.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\math\pgfmathfunctions.integerarithmetics.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\math\pgfmathcalc.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\math\pgfmathfloat.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\math\pgfint.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\basiclayer\pgfcorerdf.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\modules\pgfmoduleplot.code.tex
-INPUT D:\Program Files\MikTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
-INPUT D:\Program Files\MikTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
-INPUT D:\Program Files\MikTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
-INPUT D:\Program Files\MikTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
-INPUT D:\Program Files\MikTeX\tex\latex\pgf\utilities\pgffor.sty
-INPUT D:\Program Files\MikTeX\tex\latex\pgf\utilities\pgffor.sty
-INPUT D:\Program Files\MikTeX\tex\latex\pgf\utilities\pgfkeys.sty
-INPUT D:\Program Files\MikTeX\tex\latex\pgf\utilities\pgfkeys.sty
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
-INPUT D:\Program Files\MikTeX\tex\latex\pgf\math\pgfmath.sty
-INPUT D:\Program Files\MikTeX\tex\latex\pgf\math\pgfmath.sty
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\math\pgfmath.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\math\pgfmath.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\math\pgfmath.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\utilities\pgffor.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\utilities\pgffor.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\utilities\pgffor.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\modules\pgfmodulematrix.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
-INPUT D:\Program Files\MikTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
-INPUT D:\Program Files\MikTeX\tex\latex\base\ifthen.sty
-INPUT D:\Program Files\MikTeX\tex\latex\base\ifthen.sty
-INPUT D:\Program Files\MikTeX\tex\latex\titlesec\titlesec.sty
-INPUT D:\Program Files\MikTeX\tex\latex\titlesec\titlesec.sty
-INPUT D:\Program Files\MikTeX\tex\latex\xhfill\xhfill.sty
-INPUT D:\Program Files\MikTeX\tex\latex\xhfill\xhfill.sty
-INPUT D:\Program Files\MikTeX\tex\latex\tools\calc.sty
-INPUT D:\Program Files\MikTeX\tex\latex\tools\calc.sty
-INPUT D:\Program Files\MikTeX\tex\latex\tools\xspace.sty
-INPUT D:\Program Files\MikTeX\tex\latex\tools\xspace.sty
-INPUT D:\Program Files\MikTeX\tex\latex\base\fontenc.sty
-INPUT D:\Program Files\MikTeX\tex\latex\base\fontenc.sty
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\t1ptm.fd
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\t1ptm.fd
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\t1ptm.fd
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmr8t.tfm
-INPUT D:\Program Files\MikTeX\tex\latex\base\inputenc.sty
-INPUT D:\Program Files\MikTeX\tex\latex\base\inputenc.sty
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\helvet.sty
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\helvet.sty
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\t1phv.fd
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\t1phv.fd
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\t1phv.fd
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
-INPUT D:\Program Files\MikTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT D:\Program Files\MikTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\base\size11.clo
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\base\size11.clo
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\base\size11.clo
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\preprint\fullpage.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\preprint\fullpage.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\base\textcomp.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\base\textcomp.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\mathptmx.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\mathptmx.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\hycolor\hycolor.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\hycolor\hycolor.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\stringenc\stringenc.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\stringenc\stringenc.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\intcalc\intcalc.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\intcalc\intcalc.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\bitset\bitset.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\bitset\bitset.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\atbegshi\atbegshi.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\base\atbegshi-ltx.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\base\atbegshi-ltx.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hpdftex.def
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hpdftex.def
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hpdftex.def
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\atveryend\atveryend.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\base\atveryend-ltx.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\base\atveryend-ltx.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\pifont.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\pifont.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\upzd.fd
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\upzd.fd
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\upzd.fd
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\zapfding\pzdr.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\upsy.fd
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\upsy.fd
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\upsy.fd
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\marvosym\marvosym.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\marvosym\marvosym.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\twemojis\twemojis.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\twemojis\twemojis.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfutil-common.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfutil-latex.def
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\pgf.revision.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\pgf.revision.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfkeyslibraryfiltered.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgf.cfg
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmathutil.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmathparser.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.random.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.base.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.round.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.integerarithmetics.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmathcalc.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmathfloat.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfint.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcorerdf.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\pgf\utilities\pgffor.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\pgf\utilities\pgffor.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\pgf\math\pgfmath.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\pgf\math\pgfmath.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\xhfill\xhfill.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\xhfill\xhfill.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\tools\xspace.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\tools\xspace.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1ptm.fd
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1ptm.fd
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1ptm.fd
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\helvet.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\helvet.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1phv.fd
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1phv.fd
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1phv.fd
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT .\LimDon_resumeCV.aux
 INPUT .\LimDon_resumeCV.aux
 INPUT LimDon_resumeCV.aux
 OUTPUT LimDon_resumeCV.aux
-INPUT D:\Program Files\MikTeX\tex\latex\graphics\color.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
 INPUT .\LimDon_resumeCV.out
 INPUT .\LimDon_resumeCV.out
 INPUT LimDon_resumeCV.out
@@ -265,104 +265,98 @@ INPUT .\LimDon_resumeCV.out
 INPUT .\LimDon_resumeCV.out
 OUTPUT LimDon_resumeCV.out
 OUTPUT LimDon_resumeCV.pdf
-INPUT D:\Program Files\MikTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT D:\Program Files\MikTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT D:\Program Files\MikTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT D:\Program Files\MikTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT D:\Program Files\MikTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT D:\Program Files\MikTeX\tex\latex\grfext\grfext.sty
-INPUT D:\Program Files\MikTeX\tex\latex\grfext\grfext.sty
-INPUT D:\Program Files\MikTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT D:\Program Files\MikTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT D:\Program Files\MikTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\helvetic\phvbc8t.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\zapfding\pzdr.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\helvetic\phvrc8t.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\helvetic\phvbc8t.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\helvetic\phvbc8t.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\helvetic\phvro8t.tfm
-INPUT D:\Program Files\MikTeX\tex\latex\base\t1cmss.fd
-INPUT D:\Program Files\MikTeX\tex\latex\base\t1cmss.fd
-INPUT D:\Program Files\MikTeX\tex\latex\base\t1cmss.fd
-INPUT D:\Program Files\MikTeX\fonts\tfm\jknappen\ec\ecss1095.tfm
-INPUT D:\Program Files\MikTeX\tex\latex\base\ts1cmss.fd
-INPUT D:\Program Files\MikTeX\tex\latex\base\ts1cmss.fd
-INPUT D:\Program Files\MikTeX\tex\latex\base\ts1cmss.fd
-INPUT D:\Program Files\MikTeX\fonts\tfm\jknappen\ec\tcss1095.tfm
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\ts1phv.fd
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\ts1phv.fd
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\ts1phv.fd
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\helvetic\phvr8c.tfm
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\ot1ztmcm.fd
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\ot1ztmcm.fd
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\ot1ztmcm.fd
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\zptmcm7t.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\zptmcm7t.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\zptmcm7t.tfm
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\omlztmcm.fd
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\omlztmcm.fd
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\omlztmcm.fd
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\zptmcm7m.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\zptmcm7m.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\zptmcm7m.tfm
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\omsztmcm.fd
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\omsztmcm.fd
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\omsztmcm.fd
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\zptmcm7y.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\zptmcm7y.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\zptmcm7y.tfm
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\omxztmcm.fd
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\omxztmcm.fd
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\omxztmcm.fd
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\zptmcm7v.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\zptmcm7v.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\zptmcm7v.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\ot1ptm.fd
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\ot1ptm.fd
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\ot1ptm.fd
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
-INPUT D:\Program Files\MikTeX\fonts\vf\adobe\helvetic\phvr8t.vf
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
-INPUT C:\Users\Don\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT D:\Program Files\MikTeX\fonts\enc\dvips\base\8r.enc
-INPUT D:\Program Files\MikTeX\fonts\vf\adobe\helvetic\phvr8t.vf
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
-INPUT D:\Program Files\MikTeX\fonts\vf\adobe\helvetic\phvbc8t.vf
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
-INPUT D:\Program Files\MikTeX\fonts\vf\adobe\helvetic\phvb8t.vf
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
-INPUT D:\Program Files\MikTeX\fonts\vf\adobe\helvetic\phvro8t.vf
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\helvetic\phvro8r.tfm
-INPUT D:\Program Files\MikTeX\fonts\vf\adobe\helvetic\phvr8c.vf
-INPUT D:\Program Files\MikTeX\fonts\vf\adobe\helvetic\phvr8t.vf
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\grfext\grfext.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\grfext\grfext.sty
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvbc8t.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\zapfding\pzdr.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvrc8t.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvbc8t.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvbc8t.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8t.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecss1095.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcss1095.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1phv.fd
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1phv.fd
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1phv.fd
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8c.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7t.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7t.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7t.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omlztmcm.fd
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omlztmcm.fd
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omlztmcm.fd
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7m.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7m.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7m.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omsztmcm.fd
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omsztmcm.fd
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omsztmcm.fd
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7y.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7y.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7y.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omxztmcm.fd
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omxztmcm.fd
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omxztmcm.fd
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7v.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7v.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7v.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ptm.fd
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ptm.fd
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ptm.fd
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
+INPUT C:\Users\asian\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvbc8t.vf
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvro8t.vf
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvro8r.tfm
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8c.vf
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
 INPUT LimDon_resumeCV.aux
 INPUT .\LimDon_resumeCV.out
 INPUT .\LimDon_resumeCV.out
-INPUT C:\Users\Don\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcss1095.pk
-INPUT C:\Users\Don\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcss1095.pk
-INPUT D:\Program Files\MikTeX\fonts\type1\urw\helvetic\uhvb8a.pfb
-INPUT D:\Program Files\MikTeX\fonts\type1\urw\helvetic\uhvb8a.pfb
-INPUT D:\Program Files\MikTeX\fonts\type1\urw\helvetic\uhvr8a.pfb
-INPUT D:\Program Files\MikTeX\fonts\type1\urw\helvetic\uhvr8a.pfb
-INPUT D:\Program Files\MikTeX\fonts\type1\urw\helvetic\uhvro8a.pfb
-INPUT D:\Program Files\MikTeX\fonts\type1\urw\helvetic\uhvro8a.pfb
-INPUT D:\Program Files\MikTeX\fonts\type1\urw\zapfding\uzdr.pfb
-INPUT D:\Program Files\MikTeX\fonts\type1\urw\zapfding\uzdr.pfb
+INPUT C:\Users\asian\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcss1095.pk
+INPUT C:\Users\asian\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcss1095.pk
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvb8a.pfb
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvb8a.pfb
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvr8a.pfb
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvr8a.pfb
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvro8a.pfb
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvro8a.pfb
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\type1\urw\zapfding\uzdr.pfb
+INPUT C:\Users\asian\AppData\Local\Programs\MiKTeX\fonts\type1\urw\zapfding\uzdr.pfb
