@@ -17,7 +17,7 @@
     urlcolor=blue
 }
 
-\usepackage[margin=0.7in]{geometry}
+\usepackage[a4paper,top=0.75in, right=0.75in, left=0.75in, bottom=0.75in,nofoot]{geometry}
 \textheight=10in
 \pagestyle{empty}
 \raggedright
@@ -39,7 +39,7 @@
 
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage[scaled=0.85]{helvet}
+\usepackage[scaled=0.8]{helvet}
 \renewcommand\familydefault{\sfdefault}
 
 \renewcommand{\hrulefill}{%
@@ -58,7 +58,7 @@
 }
 
 \newcommand{\header} [1] {
-    \vspace{1mm}
+    \vspace{0.5mm}
     {\textsc{\textbf{\large{\xrfill[0.5ex]{0.5pt}~#1~\xrfill[0.5ex]{0.5pt}}}}} % center and underline
 }
 
@@ -92,42 +92,42 @@
     #4 \\
 }
 % END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
-\setlist[itemize]{noitemsep, nolistsep,leftmargin=1.5em}
+\setlist[itemize]{noitemsep, nolistsep, leftmargin=2.5em}
 \begin{document}
-\vspace*{-45pt}
+\vspace*{-0.45in}
 \fontsize{10.5}{11.5}\selectfont
 
 
 %==== Profile ====%
-\vspace*{1mm}
+% \vspace*{0.5mm}
 \begin{center}
-    {\Huge\textbf\textsc{{{Don Lim}}}}\\ \vspace{1mm}
+    {\Huge\textbf\textsc{{{Don Lim}}}}\\ \vspace{0.5mm}
     \href{mailto:lim.don93@gmail.com}{lim.don93@gmail.com} \ding{118} (806) 317-7937 \ding{118} \href{https://donlim93.github.io/}{donlim93.github.io} \ding{118} \href{https://www.linkedin.com/in/lim-don/}{https://www.linkedin.com/in/lim-don} \\
 \end{center}
 %==== Experience ====%
 \vspace*{-2mm}
 
 \header{Work and Research Experience} \\
-\vspace{1mm}
+\vspace{0.5mm}
 \textbf{Green Brick Partners, Inc.} \hfill Plano, TX \\
 \textit{Senior Financial Systems Analyst, Finance and Operations} \hfill \textit{Nov 2024 --- Present} \\
 % \hfill \textit{(Unofficially assisted starting Oct 2023)}
 \begin{itemize}
-    % \item Developing IBM TM1/Planning Analytics TI processes and business rules for financial planning and analysis, incorporating first- and third-party tools (PAW, PAfE, Cognos Command Center, Arc, Pulse, TM1py, Git)
+    \item Developing IBM TM1/Planning Analytics TI processes and business rules for financial planning and analysis, incorporating first- and third-party tools (PAW, PAfE, Cognos Command Center, Arc, Pulse, TM1py, Git); enhancing processes to allow for quarterly instead of biannual forecasting cycles
     \item Managing Git repository backups for processes and rules and compiling quarterly reports for change tracking and change management for the internal audit and restoring if necessary
     \item Programmatically creating and manipulating cubes, dimensions, attributes, subsets, control objects, security, applications, and views in IBM TM1/Planning Analytics development, UAT, and production environments
-    \item Extracting, transforming, and loading (ETL) job scrub, GL, and budget data from ODBC SQL connections while developing automated calculations for cash flows, KPIs, and milestone financial and accounting models and reporting 
+    \item Extracting, transforming, and loading (ETL) job scrub, GL, and budget data from ODBC SQL connections while developing automated calculations for actual and forecasted cash flows, KPIs, and milestones for financial models and reporting 
 \end{itemize}
-\vspace{1mm}
+\vspace{0.5mm}
 
 
 \textit{Sales and Marketing Analyst, IT} \hfill  \textit{May 2023 --- Nov 2024} \\
 \begin{itemize}
-    \item Implemented, tested, and trained Salesforce development, UAT, and production environments for 200+ users (Salesforce CRM, Marketing Cloud, Sales Cloud, Data Loader) 
+    \item Implemented and tested Salesforce development, UAT, and production environments, including training for 200+ end users (Salesforce CRM, Marketing Cloud, Sales Cloud, Data Loader) 
     \item Created Salesforce reports, dashboards, email templates, workflows, cadences, and flows for sales and marketing
     \item System admin for ERP and business applications (Constellation NEWSTAR Sales \& Enterprise, BuildPro, Calendly, Docusign)
 \end{itemize}
-\vspace{1mm}
+\vspace{0.5mm}
 
 \textbf{DocuNav Solutions} \hfill Frisco, TX \\
 \textit{Support Engineer} \hfill  \textit{Jun 2022 --- May 2023} \\
@@ -137,25 +137,25 @@
     \item Configured folder-, document-, and user-level security using admin consoles and active directory
     \item Administered internal IT support (workstation setups, hardware and software troubleshooting)
 \end{itemize}    
-\vspace{1mm}
+\vspace{0.5mm}
 
 \textbf{Free Market Institute, Texas Tech University} \hfill Lubbock, TX\\
 \textit{Economic Research Assistant} \hfill  \textit{Aug 2020 --- May 2022} \\
-\begin{itemize}
-    \item Investigated relevant literature for, revised, and edited book chapters and journal articles
-\end{itemize}
-\vspace{1mm}
+% \begin{itemize}
+%     \item Investigated relevant literature for, revised, and edited book chapters and journal articles
+% \end{itemize}
+\vspace{0.5mm}
 
 \textbf{American Institute for Economic Research} \hfill Great Barrington, MA\\
 \textit{EC Harwood Visiting Research Fellow} \hfill  \textit{Dec 2018 --- May 2019}\\
-\vspace{1mm}
+\vspace{0.5mm}
 
 \textbf{Free Market Institute, Texas Tech University} \hfill Lubbock, TX\\
 \textit{Visiting Research Scholar} \hfill  \textit{Sep 2018 --- Dec 2018}\\
 % \begin{itemize}
 %     \item Researched and presented master's thesis: economic analysis of open-source communities
 % \end{itemize}
-\vspace{1mm}
+\vspace{0.5mm}
 
 \textbf{Commonwealth Foundation} \hfill King of Prussia, PA\\
 \textit{Research Fellow} \hfill  \textit{Jan 2017 --- May 2017}\\
@@ -164,7 +164,7 @@
 %     \item Wrote and edited two weekly publications regarding Pennsylvania's budget and education policy
 %     \item Responded to daily email inquiries regarding subsidies, right-to-work laws, and the state budget
 % \end{itemize}
-\vspace{1mm}
+\vspace{0.5mm}
 
 \textbf{Cato Institute} \hfill Washington, DC\\
 \textit{Intern Researcher at the Center for Educational Freedom} \hfill \textit{Sep 2016 --- Dec 2016}\\
@@ -173,12 +173,12 @@
 %     \item Summarized Capitol Hill proceedings regarding foreign affairs, trade, monetary, and education
 %     \item Produced over 200 Twitter/X posts on @HumanProgress
 % \end{itemize}
-\vspace{1mm}
+\vspace{0.5mm}
 
 %==== Education ====%
 
 \header{Education} \\
-\vspace{1mm}
+\vspace{0.5mm}
 \textbf{Texas Tech University, Department of Agricultural and Applied Economics}\hfill Lubbock, Texas\\
 \textit{Master of Science in Agricultural and Applied Economics} \hfill  \textit{May 2022} \\
 \begin{itemize}
@@ -188,23 +188,23 @@
         \item OLS, IV, TWFE, DiD, 2SDiD, RDD, matching (propensity score, kernel, entropy, Mahalanobis distance,  KNN), synthetic control, event study, factor and cluster analysis, logit/probit, segmentation
     \end{itemize}
 \end{itemize}
-\vspace{1mm}
+\vspace{0.5mm}
 
 \textbf{CEVRO Institute, School of Political Studies}\hfill Prague, Czech Republic\\
 \textit{Master of Arts in Political Science, Philosophy, and Economics (PPE)} \hfill  \textit{Jun 2019}\\
 \begin{itemize}
     \item \textbf{Scholarship:} Full Tuition for Excellence
 \end{itemize}
-\vspace{1mm}
+\vspace{0.5mm}
 
 \textbf{University of Michigan, College of Literature, Science, and the Arts} \hfill Ann Arbor, MI\\
 \textit{Bachelor of Arts in General Studies (Political Science, Philosophy, and History)} \hfill  \textit{Apr 2016}\\
 
-\vspace{1mm}
+\vspace{0.5mm}
 %==== Certificates ====%
 
 \header{Certifications and Exams} \\
-\vspace{1mm}
+\vspace{0.5mm}
 \begin{itemize}
     \item PostgreSQL for Everybody Specialization (\href{https://www.coursera.org/account/accomplishments/specialization/LDV5VWF4QFUE}{LDV5VWF4QFUE}) \hfill Coursera, \textit{May 2024}
     \begin{itemize}
@@ -224,11 +224,11 @@
     \end{itemize}
     \item Passed Probability exam \hfill Society of Actuaries, \textit{May 2023}
 \end{itemize}
-\vspace{1mm}
+\vspace{0.5mm}
 
 %==== Skills ====%
 
 % \header{Skills} \\
-% \vspace{1mm}
+% \vspace{0.5mm}
 
 \end{document}
