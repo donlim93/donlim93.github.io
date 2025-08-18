@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.16)  16 AUG 2025 11:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.16)  17 AUG 2025 22:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -540,37 +540,37 @@ Package: inputenc 2024/02/08 v1.3d Input encoding file
 ) (C:\Users\asian\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\helvet.sty
 Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
 )
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 105.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 110.
  (C:\Users\asian\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.76003pt on input line 105.
+(Font)              scaled to size 8.76003pt on input line 110.
  (C:\Users\asian\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-03-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count324
 ) (LimDon_resumeCV.aux)
 \openout1 = `LimDon_resumeCV.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-Package hyperref Info: Link coloring ON on input line 105.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+Package hyperref Info: Link coloring ON on input line 110.
  (LimDon_resumeCV.out) (LimDon_resumeCV.out)
 \@outlinefile=\write4
 \openout4 = `LimDon_resumeCV.out'.
@@ -608,14 +608,14 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(54.2025pt, 489.10287pt, 54.2025pt)
+* h-part:(L,W,R)=(50.58878pt, 496.33032pt, 50.58878pt)
 * v-part:(T,H,B)=(54.2025pt, 736.64185pt, 54.2025pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=489.10287pt
+* \textwidth=496.33032pt
 * \textheight=794.96999pt
-* \oddsidemargin=-18.06749pt
-* \evensidemargin=-18.06749pt
+* \oddsidemargin=-21.68121pt
+* \evensidemargin=-21.68121pt
 * \topmargin=-18.06749pt
 * \headheight=0.0pt
 * \headsep=0.0pt
@@ -635,110 +635,107 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.40002pt on input line 107.
+(Font)              scaled to size 8.40002pt on input line 112.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 19.90407pt on input line 112.
+(Font)              scaled to size 19.90407pt on input line 117.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 19.90407pt on input line 112.
+(Font)              scaled to size 19.90407pt on input line 117.
 LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
-(Font)              scaled to size 19.90407pt on input line 112.
+(Font)              scaled to size 19.90407pt on input line 117.
 LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
-(Font)              scaled to size 8.40002pt on input line 118.
+(Font)              scaled to size 8.40002pt on input line 122.
 LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
-(Font)              scaled to size 8.40002pt on input line 118.
+(Font)              scaled to size 8.40002pt on input line 122.
 LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
-(Font)              scaled to size 11.52003pt on input line 118.
+(Font)              scaled to size 11.52003pt on input line 122.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 8.40002pt on input line 120.
+(Font)              scaled to size 8.40002pt on input line 124.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.5> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 121.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 125.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 8.40002pt on input line 121.
+(Font)              scaled to size 8.40002pt on input line 125.
 LaTeX Info: Symbol \textopenbullet not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 124.
+            Default family used instead on input line 128.
 
 LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 124.
+(Font)              size <10.95> substituted on input line 128.
 
 
 LaTeX Font Warning: Font shape `TS1/cmss/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 124.
+(Font)              size <10.95> substituted on input line 128.
 
 LaTeX Info: Symbol \textopenbullet not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 125.
+            Default family used instead on input line 129.
 LaTeX Info: Symbol \textopenbullet not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 126.
+            Default family used instead on input line 130.
 LaTeX Info: Symbol \textopenbullet not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 127.
+            Default family used instead on input line 131.
 LaTeX Info: Symbol \textopenbullet not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 133.
+            Default family used instead on input line 137.
 LaTeX Info: Symbol \textopenbullet not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 134.
+            Default family used instead on input line 138.
 LaTeX Info: Symbol \textopenbullet not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 135.
+            Default family used instead on input line 139.
 LaTeX Info: Symbol \textopenbullet not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 142.
+            Default family used instead on input line 146.
 LaTeX Info: Symbol \textopenbullet not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 143.
+            Default family used instead on input line 147.
 LaTeX Info: Symbol \textopenbullet not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 144.
+            Default family used instead on input line 148.
 LaTeX Info: Symbol \textopenbullet not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 145.
+            Default family used instead on input line 149.
 LaTeX Info: Symbol \textopenbullet not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 192.
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 194.
+            Default family used instead on input line 196.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 198.
 (C:\Users\asian\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 8.40002pt on input line 194.
-LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 194.
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 194.
+(Font)              scaled to size 8.40002pt on input line 198.
+LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 198.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 198.
  (C:\Users\asian\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 194.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 198.
  (C:\Users\asian\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 194.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 198.
  (C:\Users\asian\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 194.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 198.
  (C:\Users\asian\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 194.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 198.
  (C:\Users\asian\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 194.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 198.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.77005> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 194.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 198.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.30006> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 194.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 198.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 6.21605pt on input line 194.
+(Font)              scaled to size 6.21605pt on input line 198.
 LaTeX Info: Symbol \textopenbullet not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 203.
-LaTeX Info: Symbol \textopenbullet not provided by
-            font family phv in TS1 encoding.
-            Default family used instead on input line 216.
+            Default family used instead on input line 207.
 LaTeX Info: Symbol \textopenbullet not provided by
             font family phv in TS1 encoding.
             Default family used instead on input line 220.
@@ -751,6 +748,9 @@ LaTeX Info: Symbol \textopenbullet not provided by
 LaTeX Info: Symbol \textopenbullet not provided by
             font family phv in TS1 encoding.
             Default family used instead on input line 232.
+LaTeX Info: Symbol \textopenbullet not provided by
+            font family phv in TS1 encoding.
+            Default family used instead on input line 236.
 
 
 [1
@@ -769,15 +769,15 @@ Package rerunfilecheck Info: File `LimDon_resumeCV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30918 strings out of 469959
- 639972 string characters out of 5469834
- 1092173 words of memory out of 5000000
- 57294 multiletter control sequences out of 15000+600000
+ 30919 strings out of 469959
+ 639996 string characters out of 5469834
+ 1091158 words of memory out of 5000000
+ 57295 multiletter control sequences out of 15000+600000
  677682 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,5n,121p,495b,445s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\asian\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss1095.pk><C:/Users/asian/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/asian/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/asian/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/asian/AppData/Local/Programs/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on LimDon_resumeCV.pdf (1 page, 52937 bytes).
+Output written on LimDon_resumeCV.pdf (1 page, 53484 bytes).
 PDF statistics:
  47 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)

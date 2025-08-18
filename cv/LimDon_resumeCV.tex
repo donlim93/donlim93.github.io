@@ -22,8 +22,8 @@
 a4paper,
 top=0.75in,
 bottom=0.75in,
-left=0.75in,
-right=0.75in
+left=0.7in,
+right=0.7in
 }
 
 \pdfgentounicode=1 % make ATS friendly
@@ -66,9 +66,14 @@ right=0.75in
     \hspace*{-18pt} \hrulefill \\
 }
 
+% \newcommand{\header} [1] {
+%     \vspace{0.5mm}
+%     {\textsc{\textbf{\Large{\xrfill[0.5ex]{0.5pt}~#1~\xrfill[0.5ex]{0.5pt}}}}} % center and underline
+% }
+
 \newcommand{\header} [1] {
     \vspace{0.5mm}
-    {\textsc{\textbf{\Large{\xrfill[0.5ex]{0.5pt}~#1~\xrfill[0.5ex]{0.5pt}}}}} % center and underline
+    {\textsc{\textbf{\Large{#1\xrfill[0.0ex]{0.5pt}}}}}
 }
 
 \newcommand{\employer} [3] {
@@ -108,12 +113,11 @@ right=0.75in
 
 %==== Profile ====%
 % \vspace*{0.5mm}
-\begin{center}
-    {\Huge\textbf\textsc{{{Don Lim}}}}\\ \vspace{1.5mm}
-    \href{mailto:lim.don93@gmail.com}{lim.don93@gmail.com} \ding{118} (806) 317-7937 \ding{118} \href{https://donlim93.github.io/}{https://donlim93.github.io} \ding{118} \href{https://www.linkedin.com/in/lim-don/}{https://www.linkedin.com/in/lim-don} \\ \vspace{0.5mm}
-\end{center}
+\begin{raggedright}
+    {\Huge\textbf\textsc{{{Don Lim}}}} \hfill
+    \href{mailto:lim.don93@gmail.com}{lim.don93@gmail.com} \ding{118} (806) 317-7937 \ding{118} \href{https://donlim93.github.io/}{https://donlim93.github.io} \ding{118} \href{https://www.linkedin.com/in/lim-don/}{https://www.linkedin.com/in/lim-don} \\ \vspace{2mm}
+\end{raggedright}
 %==== Experience ====%
-\vspace*{-2mm}
 
 \header{Work and Research Experience} \\
 \vspace{0.5mm}
@@ -123,7 +127,7 @@ right=0.75in
 \begin{itemize}
     \item Developing IBM TM1/Planning Analytics TI processes and business rules for financial planning and analysis, incorporating first- and third-party tools (PAW, Excel, FileZilla, Cognos Command Center, Arc, Pulse, TM1py, Git); enhancing processes to allow for daily instead of biannual forecasting cycles
     \item Managing and restoring Git repository backups for processes and rules, including compiling quarterly reports on change tracking and change management for SOX/ITGC audit controls
-    \item Programmatically creating and manipulating 42 cubes, 88 dimensions, attributes, subsets, control objects, security, applications, and views in IBM TM1/Planning Analytics development, UAT, and production environments
+    \item Programmatically creating and manipulating 42 cubes, 88 dimensions, attributes, subsets, control objects, security, applications, and views in IBM TM1/Planning Analytics development, UAT, and production environments using mutlidimensional expressions (MDX), SQL, TurboIntegrator (TI) processes, and TM1 rules
     \item Extracting, transforming, and loading (ETL) job scrub, P/L, SGM, GL, KPIs, statistical entries, and budget data while automating calculations for actual and forecasted cash flows, KPIs, and milestones for financial models and reporting 
 \end{itemize}
 \vspace{0.5mm}

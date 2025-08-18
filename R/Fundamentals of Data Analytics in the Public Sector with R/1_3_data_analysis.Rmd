@@ -2,12 +2,15 @@
 
 We're going to do a bit more work with the Behavioral Risk Factor Surveillance System (BRFSS) from 2020 how that we have some `dplyr` basics, so lets go ahead and bring that in to work with.
 
+Set working directing using the following command:
+setwd("C:\\Users\\asian\\OneDrive\\Documents\\limdon93.github.io\\donlim93.github.io\\R\\Fundamentals of Data Analytics in the Public Sector with R")
+
 ```{r}
 # Load up a couple of the libraries we know we need
 library("tidyverse")
 library("foreign")
 # Now bring in the data
-data <- read.xport('LLCP2020ASC/LLCP2020.XPT', fill = NA)
+data <- read.xport("LLCP2020ASC/LLCP2020.XPT", fill = NA)
 ```
 
 ## Verifying the Codebook
@@ -20,13 +23,21 @@ For this dataset we're supported by the published codebook. We had this variable
 # of filter (which is a smaller dataframe) into the nrow() function
 
 # Have an actual age
-data |> filter(LCSFIRST<=100 & LCSFIRST >=1) |> nrow()
+data |>
+  filter(LCSFIRST <= 100 & LCSFIRST >= 1) |>
+  nrow()
 # Don't know
-data |> filter(LCSFIRST==777) |> nrow()
+data |>
+  filter(LCSFIRST == 777) |>
+  nrow()
 # Refused
-data |> filter(LCSFIRST==999) |> nrow()
+data |>
+  filter(LCSFIRST == 999) |>
+  nrow()
 # Missing
-data |> filter(is.na(LCSFIRST)) |> nrow()
+data |>
+  filter(is.na(LCSFIRST)) |>
+  nrow()
 # Total
 nrow(data)
 ```
@@ -36,19 +47,19 @@ That's pretty straight forward, but if you look at the codebook (page 91), somet
 ```{r}
 # Let's isolate the observations which do not adhere to our expected values
 # I'm going to write one big boolean mask for the query
-bad_data <- data |> 
-  filter( !( (LCSFIRST<=100 & LCSFIRST >=1) | 
-               LCSFIRST==777 | 
-               LCSFIRST==999 | 
-               is.na(LCSFIRST) ) )
+bad_data <- data |>
+  filter(!((LCSFIRST <= 100 & LCSFIRST >= 1) |
+    LCSFIRST == 777 |
+    LCSFIRST == 999 |
+    is.na(LCSFIRST)))
 
 # You don't have to do it in one mask, you could iteratively refine your data
 # through pipes instead. This would be equivalent
-bad_data <- data |> 
-  filter( !( (LCSFIRST<=100 & LCSFIRST >=1) ) ) |>
-  filter( LCSFIRST!=777 ) |>
-  filter( LCSFIRST!=999 ) |>
-  filter ( !is.na(LCSFIRST) )
+bad_data <- data |>
+  filter(!((LCSFIRST <= 100 & LCSFIRST >= 1))) |>
+  filter(LCSFIRST != 777) |>
+  filter(LCSFIRST != 999) |>
+  filter(!is.na(LCSFIRST))
 
 # Now let's look at just the first 20 or so items
 bad_data$LCSFIRST[1:20]
@@ -69,14 +80,16 @@ This visual inspection is nice, but it's easy to miss things, and it doesn't tel
 
 ```{r}
 # Let's see some summary stats for this first grouping
-data |> 
-  filter((LCSFIRST<=100 & LCSFIRST >=1)) |>
-  summarize( mean=mean(LCSFIRST), 
-             sd=sd(LCSFIRST), 
-             min=min(LCSFIRST), 
-             max=max(LCSFIRST), 
-             count=n(),
-             uniques=n_distinct(LCSFIRST))
+data |>
+  filter((LCSFIRST <= 100 & LCSFIRST >= 1)) |>
+  summarize(
+    mean = mean(LCSFIRST),
+    sd = sd(LCSFIRST),
+    min = min(LCSFIRST),
+    max = max(LCSFIRST),
+    count = n(),
+    uniques = n_distinct(LCSFIRST)
+  )
 ```
 
 You'll notice that I have to do a fair bit of typing here, constantly referencing our column of interest. Also, pay attention to what I did within `summarize`, for each parameter I gave both a name and a function. Two of those functions, `n` and `n_distinct`, are actually `dplyr` functions to count the total number of and the number of distinct values in a vector. The other four are all base R functions.
@@ -92,23 +105,27 @@ Now the docs for `group_by` suggest that you should first create a categorical v
 
 ```{r}
 # Let's group our data by our different categories
-data |> 
+data |>
   # First I'm going to create a new variable in the data called LCSFIRST_CAT and
   # then we can use this for grouping. I just put in my known categories from
   # the codebook, and everything else wil be assigned an NA value
-  mutate( LCSFIRST_CAT = case_when(LCSFIRST<=100 & LCSFIRST >=1 ~ "Age between 1-100",
-                                   LCSFIRST==777 ~ "Don't know",
-                                   LCSFIRST==999 ~ "Refused",
-                                   is.na(LCSFIRST) ~ "Missing" )) |>
+  mutate(LCSFIRST_CAT = case_when(
+    LCSFIRST <= 100 & LCSFIRST >= 1 ~ "Age between 1-100",
+    LCSFIRST == 777 ~ "Don't know",
+    LCSFIRST == 999 ~ "Refused",
+    is.na(LCSFIRST) ~ "Missing"
+  )) |>
   # Now we want to group by this new category
   group_by(LCSFIRST_CAT) |>
   # Then we run our summary statistics on the actual column of interest
-  summarize( average=mean(LCSFIRST), 
-             sd=sd(LCSFIRST), 
-             min=min(LCSFIRST), 
-             max=max(LCSFIRST), 
-             count=n(),
-             uniques=n_distinct(LCSFIRST))
+  summarize(
+    average = mean(LCSFIRST),
+    sd = sd(LCSFIRST),
+    min = min(LCSFIRST),
+    max = max(LCSFIRST),
+    count = n(),
+    uniques = n_distinct(LCSFIRST)
+  )
 ```
 Let's talk through this a bit. At a high level our strategy is to create a new categorical variable based on the grouping we want to do. Then we want to group by that, and run our summary statistics on the individual groups. The result is this table which, frankly, would have been useful to have in the codebook. Not only goes it give our category values, but it shows there is this hidden category which doesn't match any of the criteria listed, and it gives us a better understanding of the data by telling us some descriptive statistics. These descriptives aren't always useful, since numeric values were being used for category indicators, but it is helpful for verifying our data.
 
@@ -118,25 +135,31 @@ We're not limited to grouping by one variable alone, and can tell R to group by 
 
 ```{r}
 # Let's group our data by our different categories
-data |> 
-  # We'll create our first new category like last time, but I'm also going to 
+data |>
+  # We'll create our first new category like last time, but I'm also going to
   # create a category based on the CELLSEX variable (page 15). I can use the
   # if_else function here because this prompt only allowed two entries, and
   # I can hard code missing responses to a string value
-  mutate( LCSFIRST_CAT = case_when(LCSFIRST<=100 & LCSFIRST >=1 ~ "Age between 1-100",
-                                   LCSFIRST==777 ~ "Don't know",
-                                   LCSFIRST==999 ~ "Refused",
-                                   is.na(LCSFIRST) ~ "Missing" ),
-          CELLSEX_CAT = if_else(CELLSEX==1, "Male", "Female", missing='Missing')) |>
+  mutate(
+    LCSFIRST_CAT = case_when(
+      LCSFIRST <= 100 & LCSFIRST >= 1 ~ "Age between 1-100",
+      LCSFIRST == 777 ~ "Don't know",
+      LCSFIRST == 999 ~ "Refused",
+      is.na(LCSFIRST) ~ "Missing"
+    ),
+    CELLSEX_CAT = if_else(CELLSEX == 1, "Male", "Female", missing = "Missing")
+  ) |>
   # Now we want to group by our two categories
   group_by(CELLSEX_CAT, LCSFIRST_CAT) |>
   # Then we run our summary statistics
-  summarize( mean=mean(LCSFIRST), 
-             sd=sd(LCSFIRST), 
-             min=min(LCSFIRST), 
-             max=max(LCSFIRST), 
-             count=n(),
-             uniques=n_distinct(LCSFIRST))
+  summarize(
+    mean = mean(LCSFIRST),
+    sd = sd(LCSFIRST),
+    min = min(LCSFIRST),
+    max = max(LCSFIRST),
+    count = n(),
+    uniques = n_distinct(LCSFIRST)
+  )
 ```
 Nice! Now we've got some data we could use to answer a question. Of those who responded either as male or female to the sex prompt, and also gave an age at which they started smoking, we can see the mean age and standard deviations between the sexes look pretty much the same. If we flip the page on the tibble by clicking on the next button we can see that this looks pretty similar for those who refused to give an answer to the male or female sex prompt but have started smoking. This is a great way to get insight into your data, and begin your data analysis.
 
@@ -148,9 +171,11 @@ This method of putting grouping in the metadata for a dataframe also has some im
 
 ```{r}
 # Here I'll just group the data by CELLSEX, a 1 for male, 2 for female, and NA otherwise
-data <- data |>  group_by(CELLSEX)
+data <- data |> group_by(CELLSEX)
 # Now we can just summarize directly on this grouping
-data |> filter( LCSFIRST >=1 & LCSFIRST <=100 ) |> summarize(mean(LCSFIRST))
+data |>
+  filter(LCSFIRST >= 1 & LCSFIRST <= 100) |>
+  summarize(mean(LCSFIRST))
 ```
 
 In this case I've actually changed the dataframe metadata through grouping. This is useful if I'm going to do many different analyses of the same grouping, but in order to get my ungrouped dataframe back I need to `ungroup`.
@@ -166,3 +191,14 @@ You'll want to be careful when grouping data if you aren't just piping your anal
 In this lecture we looked at how to group our data for analysis. The general template is that we want to decide on our groupings, identify one or more variables in the dataset for these groups, create the variables if needed, and then use a function like `summarize` to apply statistical functions to generate a report. We also have seen some new powerful features of R, including the pipe operator, and functions from within the tidyverse which work together to make cleaning data fast and readable.
 
 It's useful to reflect on our exploration -- and issues with -- the codebook. Having a codebook is actually kind of a luxery, as you'l find lots of data comes with much less clarity than this dataset. Indeed, it might be your job to help bring data into a clean form and generate a codebook like this for others.
+
+Question 1
+As you might expect, more people contacted by cell phone lived in college housing than those who were contacted by landline phone. What is the ratio of college housing respondents who were contacted by cell phone versus landline phone? 
+
+(Hint: This should be a large positive number with decimals, with the precision to the second decimal place)
+
+```{r}
+cell_ratio <- data %>%
+  summarise(ratio = mean(CELPHONE == "2", na.rm = TRUE)) %>%
+  pull(ratio)
+```

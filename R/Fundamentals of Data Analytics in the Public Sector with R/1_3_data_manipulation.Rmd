@@ -99,7 +99,7 @@ We don't just have to pull variables out of a dataframe, we can also add new one
 # Here's an example of creating a new column, chld_cat, which contains values
 # depending on what is in the X_CHLDCNT column. Let's start by just creating a
 # new column for whether they had children or not
-data <- data |>  mutate( child_cat = if_else( X_CHLDCNT == 9 | 
+data <- data |>  mutate( chld_cat = if_else( X_CHLDCNT == 9 | 
                                               X_CHLDCNT == 1, 
                                               FALSE, TRUE))
 ```
@@ -144,7 +144,7 @@ If you look through the help pane you'll see that `case_when` takes in three dot
 
 As you've seen, operators in R are highly context-specific, and the formula operator is no different. While much of the work you might do in data analytics will be with more traditional mathematical formulas, the formula operator really just allows you to describe a relationship - in this case between a boolean mask and an output value - which a function can then decide how to handle.
 
-## Wraup up
+## Wrap up
 
 Ok, we went through a lot here in our first look at the BRFSS Data. We learned that the tidyverse is a big collection of different packages, and spent a fair bit of time learning the fundamentals of one of these `dplyr`. In particular, we saw that we can use `filter` to get certain observations (rows) out of our dataframes, `select` to get specific variables (columns) from our dataframes, and `mutate` to create new columns in a dataframe. All of these methods make heavy use of boolean masking to do this.
 

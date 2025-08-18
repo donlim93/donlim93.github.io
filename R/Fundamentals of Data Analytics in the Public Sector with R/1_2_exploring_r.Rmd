@@ -6,6 +6,10 @@ Throughout my teaching I like to use real and authentic datasets wherever possib
 
 We're going to start by looking at the admissions data reported for 2020.
 
+Set working directing using the following command:
+setwd("C:\\Users\\asian\\OneDrive\\Documents\\limdon93.github.io\\donlim93.github.io\\R\\Fundamentals of Data Analytics in the Public Sector with R")
+
+
 ```{r}
 # We're going to read in the data from a CSV file. To do this we're going
 # to use the base R function read.csv(), which returns a dataframe
@@ -200,7 +204,7 @@ Now, that was a lot of typing, but that's how `R` works and it's important to kn
 
 ```{r}
 # Let's create our statistics from the cleaned dataframe
-application_ratio <- sum(cleaned_df$APPLCNM) / sum(cleaned_df$APPLCNW)
+application_ratio <- sum(cleaned_df$APPLCNM) / (sum(cleaned_df$APPLCNW) + sum(cleaned_df$APPLCNM))
 admissions_ratio <- sum(cleaned_df$ADMSSNM) / sum(cleaned_df$ADMSSNW)
 enrollment_ratio <- sum(cleaned_df$ENRLM) / sum(cleaned_df$ENRLW)
 ```
@@ -208,3 +212,21 @@ enrollment_ratio <- sum(cleaned_df$ENRLM) / sum(cleaned_df$ENRLW)
 Ok, so we can see in our environment tab that we have the three ratio values. I didn't print them out though because I wanted to show you a neat function of RMarkdown Notebooks - we can embed variables within our non-code chunks just by starting with a backtick followed by the letter r and then the variable name. This allows you to write a narrative that includes elements of your computation right in it. You don't execute these text chunks, and instead render them through the knitting process, so to see the results you need to click on the visual tab at the top of RStudio.
 
 So in this case, we see that there was a male to female ratio of `r application_ratio` for applications, and an admissions ratio of `r admissions_ratio` and enrollment ratio of `r enrollment_ratio`.
+
+Questions:
+
+```{r}
+question_one <- admissions_df[1337, "ENRLW"]
+```
+
+```{r}
+question_two <- admissions_df[is.na(admissions_df$ADMSSNM) | is.na(admissions_df$ADMSSNW), ]
+paste0(
+       "We have ", nrow(missing_schools),
+       " schools which have reported NA for both men and women."
+)
+```
+
+```{r}
+question_three <- mean(admissions_df[!is.na(admissions_df$ADMSSNM), c("ADMSSNM")])
+```
