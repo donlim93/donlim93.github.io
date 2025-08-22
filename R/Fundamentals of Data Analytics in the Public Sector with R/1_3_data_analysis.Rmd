@@ -197,8 +197,32 @@ As you might expect, more people contacted by cell phone lived in college housin
 
 (Hint: This should be a large positive number with decimals, with the precision to the second decimal place)
 
+Question 1
 ```{r}
-cell_ratio <- data %>%
-  summarise(ratio = mean(CELPHONE == "2", na.rm = TRUE)) %>%
-  pull(ratio)
+cell <- data |>
+  filter(CCLGHOUS == 1) |>
+  nrow()
+land <- data |>
+  filter(COLGHOUS == 1) |>
+  nrow()
+
+question_one <- cell / land
+```
+
+Question 2
+```{r}
+library("foreign")
+data |>
+  filter(IMONTH == "09" | IMONTH == "10") |>
+  nrow()
+```
+
+Question 3
+```{r}
+data |>
+  filter(CCLGHOUS == 1 | COLGHOUS == 1) |>
+  filter(POORHLTH <= 30 & POORHLTH >= 1 & !is.na(POORHLTH)) |>
+  select(POORHLTH) |>
+  unlist() |>
+  mean()
 ```
