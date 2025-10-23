@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  23 OCT 2025 10:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  23 OCT 2025 15:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -608,14 +608,14 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(50.58878pt, 496.33032pt, 50.58878pt)
+* h-part:(L,W,R)=(46.97505pt, 503.55777pt, 46.97505pt)
 * v-part:(T,H,B)=(54.2025pt, 736.64185pt, 54.2025pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=496.33032pt
+* \textwidth=503.55777pt
 * \textheight=794.96999pt
-* \oddsidemargin=-21.68121pt
-* \evensidemargin=-21.68121pt
+* \oddsidemargin=-25.29494pt
+* \evensidemargin=-25.29494pt
 * \topmargin=-18.06749pt
 * \headheight=0.0pt
 * \headsep=0.0pt
@@ -676,7 +676,7 @@ LaTeX Info: Symbol \textopenbullet not provided by
             Default family used instead on input line 134.
 LaTeX Info: Symbol \textopenbullet not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 140.
+            Default family used instead on input line 135.
 LaTeX Info: Symbol \textopenbullet not provided by
             font family phv in TS1 encoding.
             Default family used instead on input line 141.
@@ -685,10 +685,10 @@ LaTeX Info: Symbol \textopenbullet not provided by
             Default family used instead on input line 142.
 LaTeX Info: Symbol \textopenbullet not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 149.
+            Default family used instead on input line 143.
 LaTeX Info: Symbol \textopenbullet not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 150.
+            Default family used instead on input line 144.
 LaTeX Info: Symbol \textopenbullet not provided by
             font family phv in TS1 encoding.
             Default family used instead on input line 151.
@@ -697,60 +697,66 @@ LaTeX Info: Symbol \textopenbullet not provided by
             Default family used instead on input line 152.
 LaTeX Info: Symbol \textopenbullet not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 163.
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 165.
+            Default family used instead on input line 153.
+LaTeX Info: Symbol \textopenbullet not provided by
+            font family phv in TS1 encoding.
+            Default family used instead on input line 154.
+LaTeX Info: Symbol \textopenbullet not provided by
+            font family phv in TS1 encoding.
+            Default family used instead on input line 165.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 167.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 8.40002pt on input line 165.
-LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 165.
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 165.
+(Font)              scaled to size 8.40002pt on input line 167.
+LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 167.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 167.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 165.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 167.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 165.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 167.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 165.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 167.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 165.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 167.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 165.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 167.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.77005> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 165.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 167.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.30006> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 165.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 167.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 6.21605pt on input line 165.
+(Font)              scaled to size 6.21605pt on input line 167.
 LaTeX Info: Symbol \textopenbullet not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 174.
+            Default family used instead on input line 176.
 LaTeX Info: Symbol \textopenbullet not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 271.
+            Default family used instead on input line 273.
 LaTeX Info: Symbol \textopenbullet not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 275.
+            Default family used instead on input line 277.
 LaTeX Info: Symbol \textopenbullet not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 279.
+            Default family used instead on input line 281.
 LaTeX Info: Symbol \textopenbullet not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 283.
+            Default family used instead on input line 285.
 LaTeX Info: Symbol \textopenbullet not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 287.
+            Default family used instead on input line 289.
 
 
 [1
@@ -771,13 +777,13 @@ Package rerunfilecheck Info: File `LimDon_resumeCV.out' has not changed.
 Here is how much of TeX's memory you used:
  30928 strings out of 473190
  636560 string characters out of 5715801
- 1103307 words of memory out of 5000000
+ 1105307 words of memory out of 5000000
  53768 multiletter control sequences out of 15000+600000
  609334 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,5n,121p,723b,445s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on LimDon_resumeCV.pdf (1 page, 52703 bytes).
+Output written on LimDon_resumeCV.pdf (1 page, 53656 bytes).
 PDF statistics:
  41 PDF objects out of 1000 (max. 8388607)
  29 compressed objects within 1 object stream
