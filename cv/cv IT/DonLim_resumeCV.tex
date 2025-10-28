@@ -1,0 +1,299 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{mathptmx}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{pifont}
+
+\hypersetup{%
+    colorlinks=true,
+    linkcolor=blue,
+    linkbordercolor=blue,
+    citecolor=blue,
+    urlcolor=blue
+}
+
+\usepackage{geometry}
+\geometry{
+a4paper,
+top=0.75in,
+bottom=0.75in,
+left=0.65in,
+right=0.65in
+}
+
+\pdfgentounicode=1 % make ATS friendly
+
+\textheight=11in
+\raggedright
+
+% First bullet point
+\renewcommand{\labelitemi}{\textopenbullet}
+
+% Second bullet point
+\renewcommand{\labelitemii}{\textbullet}
+
+\usepackage{marvosym}
+% \usepackage{fontawesome}
+\usepackage{twemojis}
+
+\usepackage[explicit]{titlesec}
+\usepackage{xhfill}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[scaled=0.8]{helvet}
+\renewcommand\familydefault{\sfdefault}
+
+\renewcommand{\hrulefill}{%
+\leavevmode\leaders\hrule height 0.3pt\hfill\kern0pt }
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    \vspace{0.5mm}
+    {\textsc{\textbf{\Large{\xrfill[0.5ex]{0.5pt}~#1~\xrfill[0.5ex]{0.5pt}}}}} % center and underline
+}
+
+% \newcommand{\header} [1] {
+%     \vspace{0.5mm}
+%     {\textsc{\textbf{\Large{#1\xrfill[0.0ex]{0.5pt}}}}}
+% }
+
+\newcommand{\employer} [3] {
+    { \textsc{#1} (#2)\\ \underline{\textsc{\textit{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textsc{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textsc{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+\setlist[itemize]{noitemsep, nolistsep, leftmargin=2.5em}
+\begin{document}
+\vspace*{-0.45in}
+\fontsize{10.5}{11.5}\selectfont
+
+%==== Profile ====%
+% \vspace*{0.5mm}
+\begin{raggedright}
+    {\Huge\textbf\textsc{{{Don Lim}}}} \hfill
+    \href{mailto:lim.don93@gmail.com}{lim.don93@gmail.com} | (806) 317-7937 | \href{https://donlim93.github.io/}{https://donlim93.github.io} | \href{https://www.linkedin.com/in/lim-don/}{https://www.linkedin.com/in/lim-don} \\ \vspace{2mm}
+\end{raggedright}
+%==== Experience ====%
+
+IT professional with expertise in enterprise systems, data integration, and troubleshooting across finance and operations. Skilled in IBM TM1/Planning Analytics, SQL, Python, and Salesforce, with experience in ETL automation, system administration, and performance optimization. Adept at building and maintaining scalable solutions that enhance forecasting, reporting, and data accuracy. Transitioned from IT into financial systems to apply technical, analytical, and problem-solving skills in business-critical environments. Pursued a Ph.D. at Texas Tech University before earning a terminal master’s degree focused on econometrics and optimization \\
+\vspace{0.5mm}
+
+\header{Work Experience} \\
+\vspace{0.5mm}
+\textbf{Green Brick Partners, Inc.} \hfill Plano, TX \\
+\textit{Senior Financial Systems Analyst, Finance and Operations} \hfill \textit{Nov 2024 --- Oct 2025} \\
+% \hfill \textit{(Unofficially assisted starting Oct 2023)}
+\begin{itemize}
+    \item Developed IBM TM1/Planning Analytics TI processes and business rules for financial planning and analysis, integrating first- and third-party tools (PAW, Excel, FileZilla, Cognos Command Center, Arc, Pulse, TM1py, Git) to enable daily forecasting cycles in place of biannual updates  
+    \item Spearheaded newly impelemented Git repository to manage and restore backups for processes and rules. In addition, prepared quarterly reports on change tracking and change management to support SOX and ITGC audit compliance using Git Bash scripts
+    \item Programmatically built and maintained 42 cubes, 88 dimensions, attributes, subsets, control objects, security, applications, and views across IBM TM1/Planning Analytics development, UAT, and production environments using MDX, SQL, TurboIntegrator (TI), and TM1 rules  
+    \item Designed and automated ETL workflows to process P\&L, SGM, GL, KPI, statistical, and budget data, improving accuracy and efficiency in cash flow, KPI, and milestone forecasting for financial reporting  
+    \item Oversaw Workiva and land pro forma integrations with Planning analytics
+\end{itemize}
+\vspace{0.5mm}
+
+\textit{Sales and Marketing Analyst, IT} \hfill  \textit{May 2023 --- Nov 2024} \\
+\begin{itemize}
+    \item Implemented and tested Salesforce development, UAT, and production environments, including training for 200+ end users (Salesforce CRM, Marketing Cloud, Sales Cloud, Data Loader) 
+    \item Created Salesforce weekly, quarterly, and ad hoc reports, dashboards, email templates, workflows, cadences, and flows for sales and marketing end users and management
+    \item Cleaned, validated, and updated Salesforce data using a combination of SOQL, Postman, Data Loader, and Workbench
+    \item System admin for ERP and business applications (Constellation NEWSTAR Sales \& Enterprise, BuildPro, Calendly, DocuSign)
+\end{itemize}
+\vspace{0.5mm}
+
+\textbf{DocuNav Solutions} \hfill Frisco, TX \\
+\textit{Support Engineer} \hfill  \textit{Jun 2022 --- May 2023} \\
+\begin{itemize}
+    \item Troubleshot, built, and tested Laserfiche automation Workflow, Quick Fields, and Form processes
+    \item Maintained non-clustered SQL servers (stored procedures, task scheduler, SSL certs, TLS config)
+    \item Configured folder-, document-, and user-level security using admin consoles and Active Directory (AD)
+    \item Administered internal IT support (workstation setups; printer, laptop, and peripherals troubleshooting)
+\end{itemize}    
+\vspace{0.5mm}
+
+%==== Education ====%
+
+\header{Education} \\
+\vspace{0.5mm}
+\textbf{Texas Tech University, Department of Agricultural and Applied Economics}\hfill Lubbock, Texas\\
+\textit{Master of Science in Agricultural and Applied Economics, GPA: 3.6/4} \hfill  \textit{May 2022} \\
+\begin{itemize}
+    \item Relevant coursework: Causal Inference, Economic Optimization and Machine Learning, Applied Econometrics I \& II, Advanced Production Economics, Mathematical Economics, Advanced Market Analysis, Applied Macroeconomics, Applied Microeconomics I \& II
+    \begin{itemize}
+        \item R (tidyverse), Stata, Matlab, Python, SAS, \LaTeX
+        \item OLS, IV, TWFE, DiD, 2SDiD, RDD, matching (propensity score, kernel, entropy, Mahalanobis distance,  KNN), synthetic control, event study, factor and cluster analysis, logit/probit, segmentation
+    \end{itemize}
+\end{itemize}
+\vspace{0.5mm}
+
+\textbf{CEVRO Institute, School of Political Studies}\hfill Prague, Czech Republic\\
+\textit{Master of Arts in Political Science, Philosophy, and Economics (PPE)} \hfill  \textit{Jun 2019}\\
+\begin{itemize}
+    \item \textbf{Scholarship:} Full Tuition for Excellence
+\end{itemize}
+\vspace{0.5mm}
+
+\textbf{University of Michigan, College of Literature, Science, and the Arts} \hfill Ann Arbor, MI\\
+\textit{Bachelor of Arts in General Studies (Political Science, Philosophy, and History)} \hfill  \textit{Apr 2016}\\
+
+\vspace{0.5mm}
+
+\header{Research Experience} \\
+\vspace{0.5mm}
+% % \textbf{Various research poisitions}
+% \textbf{Free Market Institute, Texas Tech University} \hfill Lubbock, TX\\
+% \textit{Economic Research Assistant} \hfill  \textit{Aug 2020 --- May 2022} \\
+% % \begin{itemize}
+% %     \item Investigated relevant literature for, revised, and edited book chapters and journal articles
+% % \end{itemize}
+% \vspace{0.5mm}
+
+% \textbf{American Institute for Economic Research} \hfill Great Barrington, MA\\
+% \textit{EC Harwood Visiting Research Fellow} \hfill  \textit{Dec 2018 --- May 2019}\\
+% \vspace{0.5mm}
+
+% \textbf{Free Market Institute, Texas Tech University} \hfill Lubbock, TX\\
+% \textit{Visiting Research Scholar} \hfill  \textit{Sep 2018 --- Dec 2018}\\
+% % \begin{itemize}
+% %     \item Researched and presented master's thesis: economic analysis of open-source communities
+% % \end{itemize}
+% \vspace{0.5mm}
+
+% \textbf{Commonwealth Foundation} \hfill King of Prussia, PA\\
+% \textit{Research Fellow} \hfill  \textit{Jan 2017 --- May 2017}\\
+% % \begin{itemize}
+% %     \item Created graphical visualizations of Pennsylvania's yearly expenditures and tax policies
+% %     \item Wrote and edited two weekly publications regarding Pennsylvania's budget and education policy
+% %     \item Responded to daily email inquiries regarding subsidies, right-to-work laws, and the state budget
+% % \end{itemize}
+% \vspace{0.5mm}
+
+% \textbf{Cato Institute} \hfill Washington, DC\\
+% \textit{Intern Researcher at the Center for Educational Freedom} \hfill \textit{Sep 2016 --- Dec 2016}\\
+% % \begin{itemize}
+% %     \item Compiled and examined TIMSS and PISA datasets related to national education policy
+% %     \item Summarized Capitol Hill proceedings regarding foreign affairs, trade, monetary, and education
+% %     \item Produced over 200 Twitter/X posts on @HumanProgress
+% % \end{itemize}
+% \vspace{0.5mm}
+
+\textbf{Free Market Institute, Texas Tech University}, Economic Research Assistant \hfill \textit{Aug 2020 --- May 2022} \\
+% \end{itemize}
+
+\textbf{American Institute for Economic Research}, EC Harwood Visiting Research Fellow \hfill \textit{Dec 2018 --- May 2019}\\
+
+\textbf{Free Market Institute, Texas Tech University} Visiting Research Scholar \hfill  \textit{Sep 2018 --- Dec 2018}\\
+% \begin{itemize}
+%     \item Researched and presented master's thesis: economic analysis of open-source communities
+% \end{itemize}
+
+\textbf{Commonwealth Foundation}, Research Fellow \hfill \textit{Jan 2017 --- May 2017}\\
+% \begin{itemize}
+%     \item Created graphical visualizations of Pennsylvania's yearly expenditures and tax policies
+%     \item Wrote and edited two weekly publications regarding Pennsylvania's budget and education policy
+%     \item Responded to daily email inquiries regarding subsidies, right-to-work laws, and the state budget
+% \end{itemize}
+
+\textbf{Cato Institute}, Intern Researcher \hfill \textit{Sep 2016 --- Dec 2016}\\
+% \begin{itemize}
+%     \item Compiled and examined TIMSS and PISA datasets related to national education policy
+%     \item Summarized Capitol Hill proceedings regarding foreign affairs, trade, monetary, and education
+%     \item Produced over 200 Twitter/X posts on @HumanProgress
+% \end{itemize}
+\vspace{0.5mm}
+%==== Certificates ====%
+
+\header{Certifications and Exams} \\
+\vspace{0.5mm}
+% \begin{itemize}
+%     \item PostgreSQL for Everybody Specialization (\href{https://www.coursera.org/account/accomplishments/specialization/LDV5VWF4QFUE}{LDV5VWF4QFUE}) \hfill Coursera, \textit{May 2024}
+%     \begin{itemize}
+%         \item PostgreSQL, DBeaver, NoSQL, Elasticsearch
+%     \end{itemize}
+%     \item Web Applications for Everybody Specialization (\href{https://www.coursera.org/account/accomplishments/specialization/K85V99DMXY4U}{K85V99DMXY4U}) \hfill Coursera, \textit{Oct 2023}
+%     \begin{itemize}
+%         \item MySQL, PHP, JavaScript, jQuery, JSON, XAMPP
+%     \end{itemize}
+%     \item Applied Data Science with Python Specialization (\href{https://www.coursera.org/account/accomplishments/specialization/9E4EZST8HHFE}{9E4EZST8HHFE}) \hfill Coursera, \textit{Aug 2023}
+%     \begin{itemize}
+%         \item Python (regex, NumPy, Pandas, scikit-learn, Matplotlib, Seaborn, NLTK, NetworkX), gradient descent, random forest, decision tree, SVC, linear and logistic regression, Lasso, KNN, Na\"{i}ve Bayes, clustering
+%     \end{itemize}
+%     \item Django for Everybody Specialization (\href{https://www.coursera.org/account/accomplishments/specialization/SVTRKEJV62T6}{SVTRKEJV62T6}) \hfill Coursera, \textit{Jul 2023}
+%     \begin{itemize}
+%         \item Django, SQLite3, HTML5, CSS, JavaScript, Bash
+%     \end{itemize}
+%     \item Passed Probability exam \hfill Society of Actuaries, \textit{May 2023}
+% \end{itemize}
+
+\begin{itemize}
+    \item PostgreSQL for Everybody Specialization \hfill Coursera, \textit{May 2024}
+    \begin{itemize}
+        \item PostgreSQL, DBeaver, NoSQL, Elasticsearch
+    \end{itemize}
+    \item Web Applications for Everybody Specialization \hfill Coursera, \textit{Oct 2023}
+    \begin{itemize}
+        \item MySQL, PHP, JavaScript, jQuery, JSON, XAMPP
+    \end{itemize}
+    \item Applied Data Science with Python Specialization \hfill Coursera, \textit{Aug 2023}
+    \begin{itemize}
+        \item Python (regex, NumPy, Pandas, scikit-learn, Matplotlib, Seaborn, NLTK, NetworkX), gradient descent, random forest, decision tree, SVC, linear and logistic regression, Lasso, KNN, Na\"{i}ve Bayes, clustering
+    \end{itemize}
+    \item Django for Everybody Specialization \hfill Coursera, \textit{Jul 2023}
+    \begin{itemize}
+        \item Django, SQLite3, HTML5, CSS, JavaScript, Bash
+    \end{itemize}
+    \item Passed Probability exam \hfill Society of Actuaries, \textit{May 2023}
+\end{itemize}
+
+\vspace{0.5mm}
+
+%==== Skills ====%
+
+% \header{Skills} \\
+% \vspace{0.5mm}
+
+\end{document}
