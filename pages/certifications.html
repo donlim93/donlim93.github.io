@@ -1,11 +1,25 @@
 <!doctype html>
 <html lang="en" class="no-js">
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
 <head>
   <meta charset="utf-8">
+  <style>
+    #profile-pic {
+      width: 64px; /* default size */
+      height: 64px;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: transform 0.3s ease; /* smooth animation */
+    }
+
+    /* Class added when clicked */
+    .expanded {
+      transform: scale(1.25); /* expands by 25% */
+    }
+  </style>
+  <meta charset="utf-8">
   <title>Don Lim | Portfolio</title>
-  <link rel="icon" href="../photos/me.jpg" type="image/x-icon" />
+  <link rel="icon" id="profile-pic" href="../photos/me.jpg" type="image/x-icon" alt="Profile" />
   <meta property="og:locale" content="en-US">
   <meta property="og:site_name" content="Don Lim">
   <meta property="og:title" content="Don Lim">
@@ -289,6 +303,12 @@
     ga('send', 'pageview');
   </script>
   <script src="../js/scroll.js"></script>
+  <script>
+    const pic = document.getElementById("profile-pic");
+    pic.addEventListener("click", () => {
+      pic.classList.toggle("expanded");
+    });
+  </script>
 </body>
 
 </html>
