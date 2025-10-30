@@ -226,12 +226,23 @@
             </div>
             <script type="text/javascript">
               (function () {
-                var ratio = 727 / 1200; // original large height/width
+                var originalW = 1200,
+                  originalH = 727;
+                var ratio = originalH / originalW;
                 var divElement = document.getElementById("viz1761839611950");
                 var vizElement = divElement.getElementsByTagName("object")[0];
-                var width = divElement.offsetWidth;
-                vizElement.style.width = "100%";
-                vizElement.style.height = Math.max(300, Math.round(width * ratio)) + "px";
+                var containerWidth = divElement.offsetWidth;
+                var refWidth = Math.min(containerWidth, originalW);
+                // Use pixel width when container can accommodate original size, otherwise fluid 100%
+                if (refWidth === originalW) {
+                  vizElement.style.width = originalW + "px";
+                } else {
+                  vizElement.style.width = "100%";
+                }
+                vizElement.style.maxWidth = "none";
+                vizElement.style.margin = "0";
+                vizElement.style.display = "block";
+                vizElement.style.height = Math.max(300, Math.round(refWidth * ratio)) + "px";
               })();
             </script>
 
@@ -264,12 +275,22 @@
             </div>
             <script type="text/javascript">
               (function () {
-                var ratio = 827 / 1200; // original large height/width
+                var originalW = 1200,
+                  originalH = 827;
+                var ratio = originalH / originalW;
                 var divElement = document.getElementById("viz1761839572870");
                 var vizElement = divElement.getElementsByTagName("object")[0];
-                var width = divElement.offsetWidth;
-                vizElement.style.width = "100%";
-                vizElement.style.height = Math.max(300, Math.round(width * ratio)) + "px";
+                var containerWidth = divElement.offsetWidth;
+                var refWidth = Math.min(containerWidth, originalW);
+                if (refWidth === originalW) {
+                  vizElement.style.width = originalW + "px";
+                } else {
+                  vizElement.style.width = "100%";
+                }
+                vizElement.style.maxWidth = "none";
+                vizElement.style.margin = "0";
+                vizElement.style.display = "block";
+                vizElement.style.height = Math.max(300, Math.round(refWidth * ratio)) + "px";
               })();
             </script>
 
@@ -301,33 +322,63 @@
             </div>
             <script type="text/javascript">
               (function () {
-                var ratio = 827 / 1200; // original large height/width
+                var originalW = 1200,
+                  originalH = 827;
+                var ratio = originalH / originalW;
                 var divElement = document.getElementById("viz1761839559260");
                 var vizElement = divElement.getElementsByTagName("object")[0];
-                var width = divElement.offsetWidth;
-                vizElement.style.width = "100%";
-                vizElement.style.height = Math.max(300, Math.round(width * ratio)) + "px";
+                var containerWidth = divElement.offsetWidth;
+                var refWidth = Math.min(containerWidth, originalW);
+                if (refWidth === originalW) {
+                  vizElement.style.width = originalW + "px";
+                } else {
+                  vizElement.style.width = "100%";
+                }
+                vizElement.style.maxWidth = "none";
+                vizElement.style.margin = "0";
+                vizElement.style.display = "block";
+                vizElement.style.height = Math.max(300, Math.round(refWidth * ratio)) + "px";
               })();
             </script>
 
             <script type="text/javascript">
               (function () {
-                var ratio = 927 / 1600; // original large width/height ratio
+                var originalW = 1600,
+                  originalH = 927;
+                var ratio = originalH / originalW;
                 var divElement = document.getElementById("viz1761785356118");
                 var vizElement = divElement.getElementsByTagName("object")[0];
-                var width = divElement.offsetWidth;
-                vizElement.style.width = "100%";
-                vizElement.style.height = Math.max(300, Math.round(width * ratio)) + "px";
+                var containerWidth = divElement.offsetWidth;
+                var refWidth = Math.min(containerWidth, originalW);
+                if (refWidth === originalW) {
+                  vizElement.style.width = originalW + "px";
+                } else {
+                  vizElement.style.width = "100%";
+                }
+                vizElement.style.maxWidth = "none";
+                vizElement.style.margin = "0";
+                vizElement.style.display = "block";
+                vizElement.style.height = Math.max(300, Math.round(refWidth * ratio)) + "px";
               })();
             </script>
             <script type="text/javascript">
               (function () {
-                var ratio = 827 / 1200; // original large width/height ratio
+                var originalW = 1200,
+                  originalH = 827;
+                var ratio = originalH / originalW;
                 var divElement = document.getElementById("viz1761780253443");
                 var vizElement = divElement.getElementsByTagName("object")[0];
-                var width = divElement.offsetWidth;
-                vizElement.style.width = "100%";
-                vizElement.style.height = Math.max(300, Math.round(width * ratio)) + "px";
+                var containerWidth = divElement.offsetWidth;
+                var refWidth = Math.min(containerWidth, originalW);
+                if (refWidth === originalW) {
+                  vizElement.style.width = originalW + "px";
+                } else {
+                  vizElement.style.width = "100%";
+                }
+                vizElement.style.maxWidth = "none";
+                vizElement.style.margin = "0";
+                vizElement.style.display = "block";
+                vizElement.style.height = Math.max(300, Math.round(refWidth * ratio)) + "px";
               })();
             </script>
             <script>
