@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.6)  29 OCT 2025 20:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.6)  29 OCT 2025 20:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -699,7 +699,7 @@ Package textcomp Info: Symbol \textopenbullet not provided by
 (textcomp)             Default family used instead on input line 133.
 Package textcomp Info: Symbol \textopenbullet not provided by
 (textcomp)             font family phv in TS1 encoding.
-(textcomp)             Default family used instead on input line 139.
+(textcomp)             Default family used instead on input line 134.
 Package textcomp Info: Symbol \textopenbullet not provided by
 (textcomp)             font family phv in TS1 encoding.
 (textcomp)             Default family used instead on input line 140.
@@ -711,7 +711,7 @@ Package textcomp Info: Symbol \textopenbullet not provided by
 (textcomp)             Default family used instead on input line 142.
 Package textcomp Info: Symbol \textopenbullet not provided by
 (textcomp)             font family phv in TS1 encoding.
-(textcomp)             Default family used instead on input line 149.
+(textcomp)             Default family used instead on input line 143.
 Package textcomp Info: Symbol \textopenbullet not provided by
 (textcomp)             font family phv in TS1 encoding.
 (textcomp)             Default family used instead on input line 150.
@@ -723,57 +723,57 @@ Package textcomp Info: Symbol \textopenbullet not provided by
 (textcomp)             Default family used instead on input line 152.
 Package textcomp Info: Symbol \textopenbullet not provided by
 (textcomp)             font family phv in TS1 encoding.
-(textcomp)             Default family used instead on input line 164.
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 166.
+(textcomp)             Default family used instead on input line 153.
+Package textcomp Info: Symbol \textopenbullet not provided by
+(textcomp)             font family phv in TS1 encoding.
+(textcomp)             Default family used instead on input line 165.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 167.
 (D:\Program Files\MikTeX\tex/latex/psnfss\ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 9.44994pt on input line 166.
-LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 166.
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 166.
+(Font)              scaled to size 9.44994pt on input line 167.
+LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 167.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 167.
  (D:\Program Files\MikTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 166.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 167.
  (D:\Program Files\MikTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 166.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 167.
  (D:\Program Files\MikTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 166.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 167.
  (D:\Program Files\MikTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 166.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 167.
  (D:\Program Files\MikTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 166.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 167.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.77005> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 166.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 167.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.30006> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 166.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 167.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 6.993pt on input line 166.
+(Font)              scaled to size 6.993pt on input line 167.
  [1
 
 {C:/Users/Don/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{D:/Program Files/MikTeX/fonts/enc/dvips/base/8r.enc}]
 Package textcomp Info: Symbol \textopenbullet not provided by
 (textcomp)             font family phv in TS1 encoding.
-(textcomp)             Default family used instead on input line 175.
+(textcomp)             Default family used instead on input line 176.
 Package textcomp Info: Symbol \textopenbullet not provided by
 (textcomp)             font family phv in TS1 encoding.
-(textcomp)             Default family used instead on input line 191.
+(textcomp)             Default family used instead on input line 192.
 Package textcomp Info: Symbol \textopenbullet not provided by
 (textcomp)             font family phv in TS1 encoding.
-(textcomp)             Default family used instead on input line 202.
-Package textcomp Info: Symbol \textopenbullet not provided by
-(textcomp)             font family phv in TS1 encoding.
-(textcomp)             Default family used instead on input line 209.
+(textcomp)             Default family used instead on input line 203.
 Package textcomp Info: Symbol \textopenbullet not provided by
 (textcomp)             font family phv in TS1 encoding.
 (textcomp)             Default family used instead on input line 210.
@@ -782,7 +782,7 @@ Package textcomp Info: Symbol \textopenbullet not provided by
 (textcomp)             Default family used instead on input line 211.
 Package textcomp Info: Symbol \textopenbullet not provided by
 (textcomp)             font family phv in TS1 encoding.
-(textcomp)             Default family used instead on input line 218.
+(textcomp)             Default family used instead on input line 212.
 Package textcomp Info: Symbol \textopenbullet not provided by
 (textcomp)             font family phv in TS1 encoding.
 (textcomp)             Default family used instead on input line 219.
@@ -791,19 +791,22 @@ Package textcomp Info: Symbol \textopenbullet not provided by
 (textcomp)             Default family used instead on input line 220.
 Package textcomp Info: Symbol \textopenbullet not provided by
 (textcomp)             font family phv in TS1 encoding.
-(textcomp)             Default family used instead on input line 254.
+(textcomp)             Default family used instead on input line 221.
 Package textcomp Info: Symbol \textopenbullet not provided by
 (textcomp)             font family phv in TS1 encoding.
-(textcomp)             Default family used instead on input line 258.
+(textcomp)             Default family used instead on input line 255.
 Package textcomp Info: Symbol \textopenbullet not provided by
 (textcomp)             font family phv in TS1 encoding.
-(textcomp)             Default family used instead on input line 262.
+(textcomp)             Default family used instead on input line 259.
 Package textcomp Info: Symbol \textopenbullet not provided by
 (textcomp)             font family phv in TS1 encoding.
-(textcomp)             Default family used instead on input line 266.
+(textcomp)             Default family used instead on input line 263.
 Package textcomp Info: Symbol \textopenbullet not provided by
 (textcomp)             font family phv in TS1 encoding.
-(textcomp)             Default family used instead on input line 270.
+(textcomp)             Default family used instead on input line 267.
+Package textcomp Info: Symbol \textopenbullet not provided by
+(textcomp)             font family phv in TS1 encoding.
+(textcomp)             Default family used instead on input line 271.
  [2] (LimDon_resumeCV.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -824,9 +827,9 @@ Here is how much of TeX's memory you used:
  52750 multiletter control sequences out of 15000+600000
  608566 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,5n,121p,721b,543s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,5n,121p,721b,519s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Don\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss1095.pk><D:/Program Files/MikTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><D:/Program Files/MikTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><D:/Program Files/MikTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on LimDon_resumeCV.pdf (2 pages, 54533 bytes).
+Output written on LimDon_resumeCV.pdf (2 pages, 54540 bytes).
 PDF statistics:
  42 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
