@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
   <head>
+    <meta charset="utf-8" />
     <style>
       #profile-pic {
         width: 64px; /* default size */
@@ -14,30 +15,32 @@
       .expanded {
         transform: scale(1.25); /* expands by 25% */
       }
-      /* Add spacing between Tableau dashboard embeds */
+
+      /* Add spacing between Tableau dashboard embeds and make them full-width inside the content column */
       .tableauPlaceholder {
         margin-bottom: 2rem;
+        width: 100% !important;
+        max-width: none !important;
+        box-sizing: border-box;
       }
 
-      /* Remove left padding and make dashboards align with the main content column
+      /* Remove right padding and make dashboards align with the main content column
          so they line up with the profile/avatar area on other pages. Use
          !important to override site CSS for this single page. */
       #main,
       .page__inner-wrap,
       .page__content,
       article.page {
-        padding-left: 0 !important;
-        margin-left: 0 !important;
+        padding-right: 0 !important;
+        margin-right: 0 !important;
       }
 
-      /* Ensure Tableau placeholders can expand to the column width */
-      .tableauPlaceholder {
-        width: 100% !important;
-        max-width: none !important;
-        box-sizing: border-box;
+      /* Ensure main wrapper has no left offset on this page */
+      .page__inner-wrap {
+        margin-left: 0 !important;
+        padding-left: 0 !important;
       }
     </style>
-    <meta charset="utf-8" />
     <title>Don Lim | Portfolio</title>
     <link rel="icon" id="profile-pic" href="../photos/me.jpg"
       type="image/x-icon" alt="Profile" />
@@ -232,78 +235,42 @@
             </head>
             <h2>Tableau Public Portfolio</h2>
 
-            <div class='tableauPlaceholder' id='viz1761839611950'
-              style='position: relative'><noscript><a href='#'><img
-                    alt='British Airways '
-                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Br&#47;BritishAirwaysDashboard_17615028723800&#47;BritishAirways&#47;1_rss.png'
-                    style='border: none' /></a></noscript><object
-                class='tableauViz' style='display:none;'><param name='host_url'
-                  value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param
-                  name='embed_code_version' value='3' /> <param name='site_root'
-                  value /><param name='name'
-                  value='BritishAirwaysDashboard_17615028723800&#47;BritishAirways' /><param
-                  name='tabs' value='no' /><param name='toolbar'
-                  value='yes' /><param name='static_image'
-                  value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Br&#47;BritishAirwaysDashboard_17615028723800&#47;BritishAirways&#47;1.png' />
-                <param name='animate_transition' value='yes' /><param
-                  name='display_static_image' value='yes' /><param
-                  name='display_spinner' value='yes' /><param
-                  name='display_overlay' value='yes' /><param
-                  name='display_count' value='yes' /><param name='language'
-                  value='en-US' /></object></div> <script
-              type='text/javascript'>                    var divElement = document.getElementById('viz1761839611950');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1200px';vizElement.style.height='727px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1200px';vizElement.style.height='727px';} else { vizElement.style.width='100%';vizElement.style.height='1427px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-
-            <div class='tableauPlaceholder' id='viz1761839572870'
-              style='position: relative'><noscript><a href='#'><img
-                    alt='Sales Dashboard '
-                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sa&#47;SalesCustomerDashboards_17617785097160&#47;SalesDashboard&#47;1_rss.png'
-                    style='border: none' /></a></noscript><object
-                class='tableauViz' style='display:none;'><param name='host_url'
-                  value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param
-                  name='embed_code_version' value='3' /> <param name='site_root'
-                  value /><param name='name'
-                  value='SalesCustomerDashboards_17617785097160&#47;SalesDashboard' /><param
-                  name='tabs' value='no' /><param name='toolbar'
-                  value='yes' /><param name='static_image'
-                  value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sa&#47;SalesCustomerDashboards_17617785097160&#47;SalesDashboard&#47;1.png' />
-                <param name='animate_transition' value='yes' /><param
-                  name='display_static_image' value='yes' /><param
-                  name='display_spinner' value='yes' /><param
-                  name='display_overlay' value='yes' /><param
-                  name='display_count' value='yes' /><param name='language'
-                  value='en-US' /></object></div> <script
-              type='text/javascript'>                    var divElement = document.getElementById('viz1761839572870');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1200px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1200px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='2527px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-
-            <div class='tableauPlaceholder' id='viz1761839559260'
-              style='position: relative'><noscript><a href='#'><img
-                    alt='Nationwide Home Builder '
-                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FictionalNationalHomebuilder&#47;NationwideHomeBuilder&#47;1_rss.png'
-                    style='border: none' /></a></noscript><object
-                class='tableauViz' style='display:none;'><param name='host_url'
-                  value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param
-                  name='embed_code_version' value='3' /> <param name='site_root'
-                  value /><param name='name'
-                  value='FictionalNationalHomebuilder&#47;NationwideHomeBuilder' /><param
-                  name='tabs' value='no' /><param name='toolbar'
-                  value='yes' /><param name='static_image'
-                  value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FictionalNationalHomebuilder&#47;NationwideHomeBuilder&#47;1.png' />
-                <param name='animate_transition' value='yes' /><param
-                  name='display_static_image' value='yes' /><param
-                  name='display_spinner' value='yes' /><param
-                  name='display_overlay' value='yes' /><param
-                  name='display_count' value='yes' /><param name='language'
-                  value='en-US' /></object></div> <script
-              type='text/javascript'>                    var divElement = document.getElementById('viz1761839559260');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1200px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1200px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1977px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-
+            <div class="tableauPlaceholder" id="viz1761839611950"
+              style="position: relative">
+              <noscript><a href="#"><img
+                    alt="British Airways "
+                    src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Br&#47;BritishAirwaysDashboard_17615028723800&#47;BritishAirways&#47;1_rss.png"
+                    style="border: none" /></a></noscript><object
+                class="tableauViz" style="display: none">
+                <param name="host_url"
+                  value="https%3A%2F%2Fpublic.tableau.com%2F" />
+                <param name="embed_code_version" value="3" />
+                <param name="site_root" value />
+                <param
+                  name="name"
+                  value="BritishAirwaysDashboard_17615028723800&#47;BritishAirways" />
+                <param name="tabs" value="no" />
+                <param name="toolbar" value="yes" />
+                <param
+                  name="static_image"
+                  value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Br&#47;BritishAirwaysDashboard_17615028723800&#47;BritishAirways&#47;1.png" />
+                <param name="animate_transition" value="yes" />
+                <param name="display_static_image" value="yes" />
+                <param name="display_spinner" value="yes" />
+                <param name="display_overlay" value="yes" />
+                <param name="display_count" value="yes" />
+                <param name="language" value="en-US" />
+              </object>
+            </div>
             <script type="text/javascript">
-              var divElement = document.getElementById("viz1761785356118");
+              var divElement = document.getElementById("viz1761839611950");
               var vizElement = divElement.getElementsByTagName("object")[0];
               if (divElement.offsetWidth > 800) {
-                vizElement.style.width = "1600px";
-                vizElement.style.height = "927px";
+                vizElement.style.width = "1200px";
+                vizElement.style.height = "727px";
               } else if (divElement.offsetWidth > 500) {
-                vizElement.style.width = "1200x";
-                vizElement.style.height = "927px";
+                vizElement.style.width = "1200px";
+                vizElement.style.height = "727px";
               } else {
                 vizElement.style.width = "100%";
                 vizElement.style.height = "1427px";
@@ -312,8 +279,36 @@
               scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
               vizElement.parentNode.insertBefore(scriptElement, vizElement);
             </script>
+
+            <div class="tableauPlaceholder" id="viz1761839572870"
+              style="position: relative">
+              <noscript><a href="#"><img
+                    alt="Sales Dashboard "
+                    src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sa&#47;SalesCustomerDashboards_17617785097160&#47;SalesDashboard&#47;1_rss.png"
+                    style="border: none" /></a></noscript><object
+                class="tableauViz" style="display: none">
+                <param name="host_url"
+                  value="https%3A%2F%2Fpublic.tableau.com%2F" />
+                <param name="embed_code_version" value="3" />
+                <param name="site_root" value />
+                <param
+                  name="name"
+                  value="SalesCustomerDashboards_17617785097160&#47;SalesDashboard" />
+                <param name="tabs" value="no" />
+                <param name="toolbar" value="yes" />
+                <param
+                  name="static_image"
+                  value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sa&#47;SalesCustomerDashboards_17617785097160&#47;SalesDashboard&#47;1.png" />
+                <param name="animate_transition" value="yes" />
+                <param name="display_static_image" value="yes" />
+                <param name="display_spinner" value="yes" />
+                <param name="display_overlay" value="yes" />
+                <param name="display_count" value="yes" />
+                <param name="language" value="en-US" />
+              </object>
+            </div>
             <script type="text/javascript">
-              var divElement = document.getElementById("viz1761780253443");
+              var divElement = document.getElementById("viz1761839572870");
               var vizElement = divElement.getElementsByTagName("object")[0];
               if (divElement.offsetWidth > 800) {
                 vizElement.style.width = "1200px";
@@ -323,11 +318,82 @@
                 vizElement.style.height = "827px";
               } else {
                 vizElement.style.width = "100%";
-                vizElement.style.height = "3077px";
+                vizElement.style.height = "2527px";
               }
               var scriptElement = document.createElement("script");
               scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
               vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
+
+            <div class="tableauPlaceholder" id="viz1761839559260"
+              style="position: relative">
+              <noscript><a href="#"><img
+                    alt="Nationwide Home Builder "
+                    src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FictionalNationalHomebuilder&#47;NationwideHomeBuilder&#47;1_rss.png"
+                    style="border: none" /></a></noscript><object
+                class="tableauViz" style="display: none">
+                <param name="host_url"
+                  value="https%3A%2F%2Fpublic.tableau.com%2F" />
+                <param name="embed_code_version" value="3" />
+                <param name="site_root" value />
+                <param name="name"
+                  value="FictionalNationalHomebuilder&#47;NationwideHomeBuilder" />
+                <param name="tabs" value="no" />
+                <param name="toolbar" value="yes" />
+                <param
+                  name="static_image"
+                  value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FictionalNationalHomebuilder&#47;NationwideHomeBuilder&#47;1.png" />
+                <param name="animate_transition" value="yes" />
+                <param name="display_static_image" value="yes" />
+                <param name="display_spinner" value="yes" />
+                <param name="display_overlay" value="yes" />
+                <param name="display_count" value="yes" />
+                <param name="language" value="en-US" />
+              </object>
+            </div>
+            <script type="text/javascript">
+              var divElement = document.getElementById("viz1761839559260");
+              var vizElement = divElement.getElementsByTagName("object")[0];
+              if (divElement.offsetWidth > 800) {
+                vizElement.style.width = "1200px";
+                vizElement.style.height = "827px";
+              } else if (divElement.offsetWidth > 500) {
+                vizElement.style.width = "1200px";
+                vizElement.style.height = "827px";
+              } else {
+                vizElement.style.width = "100%";
+                vizElement.style.height = "1977px";
+              }
+              var scriptElement = document.createElement("script");
+              scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
+              vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
+
+            <script type="text/javascript">
+              (function () {
+                var ratio = 927 / 1600; // original large width/height ratio
+                var divElement = document.getElementById("viz1761785356118");
+                var vizElement = divElement.getElementsByTagName("object")[0];
+                var width = divElement.offsetWidth;
+                vizElement.style.width = "100%";
+                vizElement.style.height = Math.max(300, Math.round(width * ratio)) + "px";
+                var scriptElement = document.createElement("script");
+                scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+              })();
+            </script>
+            <script type="text/javascript">
+              (function () {
+                var ratio = 827 / 1200; // original large width/height ratio
+                var divElement = document.getElementById("viz1761780253443");
+                var vizElement = divElement.getElementsByTagName("object")[0];
+                var width = divElement.offsetWidth;
+                vizElement.style.width = "100%";
+                vizElement.style.height = Math.max(300, Math.round(width * ratio)) + "px";
+                var scriptElement = document.createElement("script");
+                scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+              })();
             </script>
             <script>
               ga("require", "ipMeta", {
