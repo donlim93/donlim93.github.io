@@ -2,45 +2,6 @@
 <html lang="en" class="no-js">
   <head>
     <meta charset="utf-8" />
-    <style>
-      #profile-pic {
-        width: 64px; /* default size */
-        height: 64px;
-        border-radius: 50%;
-        cursor: pointer;
-        transition: transform 0.3s ease; /* smooth animation */
-      }
-
-      /* Class added when clicked */
-      .expanded {
-        transform: scale(1.25); /* expands by 25% */
-      }
-
-      /* Add spacing between Tableau dashboard embeds and make them full-width inside the content column */
-      .tableauPlaceholder {
-        margin-bottom: 2rem;
-        width: 100% !important;
-        max-width: none !important;
-        box-sizing: border-box;
-      }
-
-      /* Remove right padding and make dashboards align with the main content column
-         so they line up with the profile/avatar area on other pages. Use
-         !important to override site CSS for this single page. */
-      #main,
-      .page__inner-wrap,
-      .page__content,
-      article.page {
-        padding-right: 0 !important;
-        margin-right: 0 !important;
-      }
-
-      /* Ensure main wrapper has no left offset on this page */
-      .page__inner-wrap {
-        margin-left: 0 !important;
-        padding-left: 0 !important;
-      }
-    </style>
     <title>Don Lim | Portfolio</title>
     <link rel="icon" id="profile-pic" href="../photos/me.jpg"
       type="image/x-icon" alt="Profile" />
@@ -214,7 +175,8 @@
       </div>
     </div>
     <div id="main" role="main">
-      <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+      <article class="page page--tableau" itemscope
+        itemtype="http://schema.org/CreativeWork">
         <meta itemprop="description" content="About me" />
         <div class="page__inner-wrap">
           <header></header>
@@ -263,21 +225,14 @@
               </object>
             </div>
             <script type="text/javascript">
-              var divElement = document.getElementById("viz1761839611950");
-              var vizElement = divElement.getElementsByTagName("object")[0];
-              if (divElement.offsetWidth > 800) {
-                vizElement.style.width = "1200px";
-                vizElement.style.height = "727px";
-              } else if (divElement.offsetWidth > 500) {
-                vizElement.style.width = "1200px";
-                vizElement.style.height = "727px";
-              } else {
+              (function () {
+                var ratio = 727 / 1200; // original large height/width
+                var divElement = document.getElementById("viz1761839611950");
+                var vizElement = divElement.getElementsByTagName("object")[0];
+                var width = divElement.offsetWidth;
                 vizElement.style.width = "100%";
-                vizElement.style.height = "1427px";
-              }
-              var scriptElement = document.createElement("script");
-              scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
-              vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                vizElement.style.height = Math.max(300, Math.round(width * ratio)) + "px";
+              })();
             </script>
 
             <div class="tableauPlaceholder" id="viz1761839572870"
@@ -308,21 +263,14 @@
               </object>
             </div>
             <script type="text/javascript">
-              var divElement = document.getElementById("viz1761839572870");
-              var vizElement = divElement.getElementsByTagName("object")[0];
-              if (divElement.offsetWidth > 800) {
-                vizElement.style.width = "1200px";
-                vizElement.style.height = "827px";
-              } else if (divElement.offsetWidth > 500) {
-                vizElement.style.width = "1200px";
-                vizElement.style.height = "827px";
-              } else {
+              (function () {
+                var ratio = 827 / 1200; // original large height/width
+                var divElement = document.getElementById("viz1761839572870");
+                var vizElement = divElement.getElementsByTagName("object")[0];
+                var width = divElement.offsetWidth;
                 vizElement.style.width = "100%";
-                vizElement.style.height = "2527px";
-              }
-              var scriptElement = document.createElement("script");
-              scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
-              vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                vizElement.style.height = Math.max(300, Math.round(width * ratio)) + "px";
+              })();
             </script>
 
             <div class="tableauPlaceholder" id="viz1761839559260"
@@ -352,21 +300,14 @@
               </object>
             </div>
             <script type="text/javascript">
-              var divElement = document.getElementById("viz1761839559260");
-              var vizElement = divElement.getElementsByTagName("object")[0];
-              if (divElement.offsetWidth > 800) {
-                vizElement.style.width = "1200px";
-                vizElement.style.height = "827px";
-              } else if (divElement.offsetWidth > 500) {
-                vizElement.style.width = "1200px";
-                vizElement.style.height = "827px";
-              } else {
+              (function () {
+                var ratio = 827 / 1200; // original large height/width
+                var divElement = document.getElementById("viz1761839559260");
+                var vizElement = divElement.getElementsByTagName("object")[0];
+                var width = divElement.offsetWidth;
                 vizElement.style.width = "100%";
-                vizElement.style.height = "1977px";
-              }
-              var scriptElement = document.createElement("script");
-              scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
-              vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                vizElement.style.height = Math.max(300, Math.round(width * ratio)) + "px";
+              })();
             </script>
 
             <script type="text/javascript">
@@ -377,9 +318,6 @@
                 var width = divElement.offsetWidth;
                 vizElement.style.width = "100%";
                 vizElement.style.height = Math.max(300, Math.round(width * ratio)) + "px";
-                var scriptElement = document.createElement("script");
-                scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
-                vizElement.parentNode.insertBefore(scriptElement, vizElement);
               })();
             </script>
             <script type="text/javascript">
@@ -390,9 +328,6 @@
                 var width = divElement.offsetWidth;
                 vizElement.style.width = "100%";
                 vizElement.style.height = Math.max(300, Math.round(width * ratio)) + "px";
-                var scriptElement = document.createElement("script");
-                scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
-                vizElement.parentNode.insertBefore(scriptElement, vizElement);
               })();
             </script>
             <script>
@@ -469,6 +404,7 @@
         <div class="page__footer-copyright">&copy; 2023 Don Lim.</div>
       </footer>
     </div>
+    <script src="https://public.tableau.com/javascripts/api/viz_v1.js"></script>
     <script src="../assets/js/main.min.js"></script>
     <script>
       (function (i, s, o, g, r, a, m) {

@@ -1742,6 +1742,46 @@ th {
     border-bottom: none
 }
 
+/* Page-specific styles for the Tableau page */
+.page--tableau #profile-pic {
+    width: 64px; /* default size */
+    height: 64px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* smooth animation */
+}
+
+.page--tableau .expanded {
+    transform: scale(1.25);
+}
+
+.page--tableau .tableauPlaceholder {
+    margin-bottom: 2rem;
+    width: 100% !important;
+    max-width: none !important;
+    box-sizing: border-box;
+}
+
+.page--tableau .tableauPlaceholder object.tableauViz {
+    display: block !important;
+    width: 100% !important;
+    max-width: none !important;
+    box-sizing: border-box;
+}
+
+.page--tableau #main,
+.page--tableau .page__inner-wrap,
+.page--tableau .page__content,
+.page--tableau article.page {
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+}
+
+.page--tableau .page__inner-wrap {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+
 .nav__list {
     font-size: 1.25rem
 }
