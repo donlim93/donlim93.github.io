@@ -1,0 +1,13 @@
+# ignore node modules and git
+node_modules
+.git
+
+# ignore build/dist
+dist
+build
+
+# optionally ignore large binary or generated files
+**/images/**
+**/fonts/**
+
+# keep HTML and most source files formatted

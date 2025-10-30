@@ -1,5 +1,14 @@
 {
+  "name": "donlim93.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write \"**/*.html\""
+  },
   "dependencies": {
     "compass-mixins": "^0.12.12"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8"
   }
 }

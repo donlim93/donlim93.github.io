@@ -265,15 +265,10 @@
           for (var j = 0; j < rules.length; j++) {
             var rule = rules[j];
             // check if there is a div.sourceCode rule
-            if (
-              rule.type !== rule.STYLE_RULE ||
-              rule.selectorText !== "div.sourceCode"
-            )
-              continue;
+            if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") continue;
             var style = rule.style.cssText;
             // check if color or background-color is set
-            if (rule.style.color === "" && rule.style.backgroundColor === "")
-              continue;
+            if (rule.style.color === "" && rule.style.backgroundColor === "") continue;
             // replace div.sourceCode by a pre.sourceCode rule
             sheets[i].deleteRule(j);
             sheets[i].insertRule("pre.sourceCode{" + style + "}", j);
@@ -456,10 +451,7 @@
               >
                 <span>Code</span> <span class="caret"></span>
               </button>
-              <ul
-                class="dropdown-menu dropdown-menu-right"
-                style="min-width: 50px"
-              >
+              <ul class="dropdown-menu dropdown-menu-right" style="min-width: 50px">
                 <li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
                 <li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
               </ul>
@@ -491,9 +483,7 @@
             </div>
             <div id="import-data" class="section level2">
               <h2>Import data</h2>
-              <p>
-                Reads data and removes any missing values that might be present.
-              </p>
+              <p>Reads data and removes any missing values that might be present.</p>
               <div class="sourceCode" id="cb2">
                 <pre
                   class="sourceCode r"
@@ -506,16 +496,15 @@
               <p>I will create the following columns for analysis:</p>
               <ol style="list-style-type: decimal">
                 <li>
-                  InvoiceDateDay, which will be the same as the InvoiceDate
-                  column but without the time
+                  InvoiceDateDay, which will be the same as the InvoiceDate column but without the
+                  time
                 </li>
                 <li>Revenue, which will be the quantity times price</li>
               </ol>
               <p>and</p>
               <ol start="3" style="list-style-type: decimal">
                 <li>
-                  Filter out negative reveneue (so filtering either negative
-                  quantity or prices)
+                  Filter out negative reveneue (so filtering either negative quantity or prices)
                 </li>
               </ol>
               <div class="sourceCode" id="cb3">
@@ -554,10 +543,7 @@
                   width="672"
                 />
               </p>
-              <p>
-                To take a look at the top six spenders, we can run the following
-                code:
-              </p>
+              <p>To take a look at the top six spenders, we can run the following code:</p>
               <div class="sourceCode" id="cb6">
                 <pre
                   class="sourceCode r"
@@ -599,11 +585,10 @@
                 </script>
               </div>
               <p>
-                As we can see, the distribution of purchases from customers
-                follow a fairly wide distribution, with the customer #14911
-                purchasing the most number of orders. However, simply because
-                the customer may purchase the most orders may not necessarily
-                mean they spend the most money.
+                As we can see, the distribution of purchases from customers follow a fairly wide
+                distribution, with the customer #14911 purchasing the most number of orders.
+                However, simply because the customer may purchase the most orders may not
+                necessarily mean they spend the most money.
               </p>
             </div>
             <div id="total-money-spent-tms" class="section level2">
@@ -744,8 +729,8 @@
               />
             </p>
             <p>
-              We can notice here that a large amount of monetary value is
-              concentrated in high-frequency-purchasing consumers.
+              We can notice here that a large amount of monetary value is concentrated in
+              high-frequency-purchasing consumers.
             </p>
             <div class="sourceCode" id="cb12">
               <pre
@@ -759,11 +744,10 @@
               />
             </p>
             <p>
-              Many of the consumers shop frequently, but there are quite a few
-              consumers who have not shopped recently. We should delve deeper to
-              see what types of products these consumers bought and if any
-              promotions, coupons, and advertisements would entice them to
-              revisit the store.
+              Many of the consumers shop frequently, but there are quite a few consumers who have
+              not shopped recently. We should delve deeper to see what types of products these
+              consumers bought and if any promotions, coupons, and advertisements would entice them
+              to revisit the store.
             </p>
             <div class="sourceCode" id="cb13">
               <pre
@@ -777,9 +761,9 @@
               />
             </p>
             <p>
-              It seems like a majority of consumers have shopped within the last
-              100 days. However, there are a few medium spenders who have have
-              not purchased anything near the last 200 and 300 days.
+              It seems like a majority of consumers have shopped within the last 100 days. However,
+              there are a few medium spenders who have have not purchased anything near the last 200
+              and 300 days.
             </p>
             <div class="sourceCode" id="cb14">
               <pre
@@ -793,8 +777,8 @@
               />
             </p>
             <p>
-              Unsurprisingly, there is a positive correlation between frequency
-              of purchases and monetary value.
+              Unsurprisingly, there is a positive correlation between frequency of purchases and
+              monetary value.
             </p>
           </div>
           <div id="segmentation" class="section level1">
@@ -905,10 +889,7 @@
                   width="672"
                 />
               </p>
-              <p>
-                For the elbow method, it seems that the recommendation is 4
-                clusters.
-              </p>
+              <p>For the elbow method, it seems that the recommendation is 4 clusters.</p>
             </div>
             <div id="silhouette-method" class="section level2">
               <h2>Silhouette method</h2>
@@ -925,9 +906,8 @@
                 />
               </p>
               <p>
-                This method shows that 2 clusters maximize the average
-                silhouette values. 3 clusters coming in second and 6 clusters
-                coming in third as the next optimal values.
+                This method shows that 2 clusters maximize the average silhouette values. 3 clusters
+                coming in second and 6 clusters coming in third as the next optimal values.
               </p>
             </div>
             <div id="gap-statistic-method" class="section level2">
@@ -946,10 +926,9 @@
                 />
               </p>
               <p>
-                The gap statistic has been published by R. Tibshirani, G.
-                Walther, and T. Hastie (Standford University, 2001). For this
-                method, the optimal amount of clusters is 6. For this sample, we
-                will use this method and the 6 clusters that recommends.
+                The gap statistic has been published by R. Tibshirani, G. Walther, and T. Hastie
+                (Standford University, 2001). For this method, the optimal amount of clusters is 6.
+                For this sample, we will use this method and the 6 clusters that recommends.
               </p>
               <div class="sourceCode" id="cb23">
                 <pre
@@ -1109,9 +1088,8 @@
                 />
               </p>
               <p>
-                Now that we have our 6 clusters, we should extract these
-                clusters into our initial data and provide the means of these
-                clusters.
+                Now that we have our 6 clusters, we should extract these clusters into our initial
+                data and provide the means of these clusters.
               </p>
               <div class="sourceCode" id="cb26">
                 <pre
@@ -1138,30 +1116,28 @@
               <p>From these means, we can categorize our 6 clusters.</p>
               <ol style="list-style-type: decimal">
                 <li>
-                  Relatively middle of the pack shoppers for all three recency,
-                  frequency, and monetary trends (having shopped within the past
-                  100-200 days)
+                  Relatively middle of the pack shoppers for all three recency, frequency, and
+                  monetary trends (having shopped within the past 100-200 days)
                 </li>
                 <li>
-                  More recent shoppers than cluster 1 but frequency and monetary
-                  spending remains extremely similar
+                  More recent shoppers than cluster 1 but frequency and monetary spending remains
+                  extremely similar
                 </li>
                 <li>
-                  Cluster containing recent shoppers (within the past 100-200
-                  days) but more frequent shoppers and larger spenders
+                  Cluster containing recent shoppers (within the past 100-200 days) but more
+                  frequent shoppers and larger spenders
                 </li>
                 <li>
-                  This cluster shopped quite recently, shopped the most
-                  frequently, and spent the most
+                  This cluster shopped quite recently, shopped the most frequently, and spent the
+                  most
                 </li>
                 <li>
-                  This cluster has not shopped in over 200+ days. When they did
-                  shop, it was infrequent and spent minimally
+                  This cluster has not shopped in over 200+ days. When they did shop, it was
+                  infrequent and spent minimally
                 </li>
                 <li>
-                  This cluster are the new consumers, having shopped recently,
-                  but spent minimally. Given time, they may become more frequent
-                  shoppers.
+                  This cluster are the new consumers, having shopped recently, but spent minimally.
+                  Given time, they may become more frequent shoppers.
                 </li>
               </ol>
             </div>
@@ -5543,17 +5519,16 @@
               </script>
             </div>
             <p>
-              Here we have the predicted value of each customer’s spending. We
-              can further analyze or even cluster these results. Another method
-              that would approximate CLV is calculating the average revenue per
-              using (ARPU).
+              Here we have the predicted value of each customer’s spending. We can further analyze
+              or even cluster these results. Another method that would approximate CLV is
+              calculating the average revenue per using (ARPU).
             </p>
           </div>
           <div id="retention" class="section level1">
             <h1>Retention</h1>
             <p>
-              Let’s filter out all the data that is after January 1st, 2010 to
-              focus on the customers within the year 2009-2010.
+              Let’s filter out all the data that is after January 1st, 2010 to focus on the
+              customers within the year 2009-2010.
             </p>
             <div class="sourceCode" id="cb31">
               <pre
@@ -5564,10 +5539,9 @@
             <div id="method-1" class="section level2">
               <h2>Method 1</h2>
               <p>
-                In order to predict which customers from this period will be
-                most likely to be repeat customers in 2010-2011, we could
-                conduct an RFM analysis in order to see which customers are the
-                most frequent shoppers.
+                In order to predict which customers from this period will be most likely to be
+                repeat customers in 2010-2011, we could conduct an RFM analysis in order to see
+                which customers are the most frequent shoppers.
               </p>
               <div class="sourceCode" id="cb32">
                 <pre
@@ -6042,49 +6016,44 @@
                 </script>
               </div>
               <p>
-                Here is the list of 2009-2010 customers that we would expect to
-                be repeat customers in 2010-2011. We could also add the list of
-                customers who we labelled as “Potential Loyalists.”
+                Here is the list of 2009-2010 customers that we would expect to be repeat customers
+                in 2010-2011. We could also add the list of customers who we labelled as “Potential
+                Loyalists.”
               </p>
             </div>
             <div id="method-2" class="section level2">
               <h2>Method 2</h2>
               <p>
-                In order to predict future purchases, we could model the
-                probability of buying a product based on the RFM scores of each
-                unique customer. One method would be using a logit model, where
-                we could create a cutoff at probabilities above or below 0.5 for
-                customers that WILL BUY and customers that WILL NOT BUY in the
-                future.
+                In order to predict future purchases, we could model the probability of buying a
+                product based on the RFM scores of each unique customer. One method would be using a
+                logit model, where we could create a cutoff at probabilities above or below 0.5 for
+                customers that WILL BUY and customers that WILL NOT BUY in the future.
               </p>
               <p>
-                Another technique for this method could be to use machine
-                learning. I could split the data into a 70% to create the model
-                and 30% to verify the accuracy.
+                Another technique for this method could be to use machine learning. I could split
+                the data into a 70% to create the model and 30% to verify the accuracy.
               </p>
               <p>
-                If I created a dummy variable where 1 represented bought and 0
-                represented not bought, the following code would look something
-                like this
+                If I created a dummy variable where 1 represented bought and 0 represented not
+                bought, the following code would look something like this
               </p>
               <blockquote>
                 <p>
-                  inTrain = createDataPartition(y = segment2$transaction_count,
-                  p = 0.7, list = F) trainingSet = segment2[inTrain,] testSet =
-                  segment2[-inTrain,]
+                  inTrain = createDataPartition(y = segment2$transaction_count, p = 0.7, list = F)
+                  trainingSet = segment2[inTrain,] testSet = segment2[-inTrain,]
                 </p>
               </blockquote>
               <blockquote>
                 <p>
-                  mod = train( transaction_count ~ ., data = trainingSet, method
-                  = “glm”, family = “binomial”
+                  mod = train( transaction_count ~ ., data = trainingSet, method = “glm”, family =
+                  “binomial”
                 </p>
               </blockquote>
               <p>To get the predictions, I would run the following:</p>
               <blockquote>
                 <p>
-                  ptest = predict(mod, newdata = testSet) ptrain = predict(mod,
-                  newdata = trainingSet)
+                  ptest = predict(mod, newdata = testSet) ptrain = predict(mod, newdata =
+                  trainingSet)
                 </p>
               </blockquote>
               <p>And to get the accuracy:</p>
@@ -6100,22 +6069,19 @@
           <div id="percent-discounted-future-sales" class="section level1">
             <h1>10 percent discounted future sales</h1>
             <p>
-              In order to determine if the 10 percent discount on sales will
-              result in greater or lower total revenue, we would need to predict
-              the following:
+              In order to determine if the 10 percent discount on sales will result in greater or
+              lower total revenue, we would need to predict the following:
             </p>
             <ol style="list-style-type: decimal">
-              <li>
-                Customers moving from potentially loyal to loyal customers
-              </li>
+              <li>Customers moving from potentially loyal to loyal customers</li>
               <li>Loyal customers moving to champion customers</li>
               <li>Influx of new customers</li>
             </ol>
             <p>
-              If the monetary value from this offsets the 10 percent discount on
-              sales, then the company could potentially see greater revenue.
-              This is, of course, assuming other factors remain the same, such
-              as other competing firms do not change their prices, too.
+              If the monetary value from this offsets the 10 percent discount on sales, then the
+              company could potentially see greater revenue. This is, of course, assuming other
+              factors remain the same, such as other competing firms do not change their prices,
+              too.
             </p>
             <div class="sourceCode" id="cb35">
               <pre
@@ -6157,45 +6123,37 @@
 ## Multiple R-squared:  0.4917, Adjusted R-squared:  0.4901 
 ## F-statistic: 306.7 on 3 and 951 DF,  p-value: &lt; 2.2e-16</code></pre>
             <p>
-              This is just the initial model but I could create and incorporate
-              dummy variables for the country of the consumer and see if the
-              adjusted R squared results in a better explanation of the
-              phenomenon.
+              This is just the initial model but I could create and incorporate dummy variables for
+              the country of the consumer and see if the adjusted R squared results in a better
+              explanation of the phenomenon.
             </p>
           </div>
           <div id="references" class="section level1">
             <h1>References</h1>
             <p>
-              Academy, R. (2019). RFM Analysis in R — R-bloggers. Retrieved
-              2022, from
-              <a
-                href="https://www.r-bloggers.com/2019/02/rfm-analysis-in-r/"
-                class="uri"
+              Academy, R. (2019). RFM Analysis in R — R-bloggers. Retrieved 2022, from
+              <a href="https://www.r-bloggers.com/2019/02/rfm-analysis-in-r/" class="uri"
                 >https://www.r-bloggers.com/2019/02/rfm-analysis-in-r/</a
               >
             </p>
             <p>
-              Chen, D., Guo, K., &amp; Ubakanma, G. (2015). Predicting customer
-              profitability over time based on RFM time series. International
-              Journal of Business Forecasting and Marketing Intelligence, 2(1),
-              1.
+              Chen, D., Guo, K., &amp; Ubakanma, G. (2015). Predicting customer profitability over
+              time based on RFM time series. International Journal of Business Forecasting and
+              Marketing Intelligence, 2(1), 1.
             </p>
             <p>
-              Chen, D., Sain, S. L., &amp; Guo, K. (2012). Data mining for the
-              online retail industry: A case study of RFM model-based customer
-              segmentation using data mining. Journal of Database Marketing
-              &amp; Customer Strategy Management, 19(3), 197–208.
+              Chen, D., Sain, S. L., &amp; Guo, K. (2012). Data mining for the online retail
+              industry: A case study of RFM model-based customer segmentation using data mining.
+              Journal of Database Marketing &amp; Customer Strategy Management, 19(3), 197–208.
             </p>
             <p>
-              G, D. (N.d.). RFM Customer Segmentation with K Means. RPubs.
-              Retrieved 2022, from
+              G, D. (N.d.). RFM Customer Segmentation with K Means. RPubs. Retrieved 2022, from
               <a href="https://rpubs.com/DessiG/671942" class="uri"
                 >https://rpubs.com/DessiG/671942</a
               >
             </p>
             <p>
-              Zaldivar, E. (2020). Tutorial: RFM Analysis Using R. RPubs.
-              Retrieved 2022, from
+              Zaldivar, E. (2020). Tutorial: RFM Analysis Using R. RPubs. Retrieved 2022, from
               <a href="https://rpubs.com/Eddie_Zaldivar/705462" class="uri"
                 >https://rpubs.com/Eddie_Zaldivar/705462</a
               >
@@ -6208,10 +6166,7 @@
     <script>
       // add bootstrap table styles to pandoc tables
       function bootstrapStylePandocTables() {
-        $("tr.odd")
-          .parent("tbody")
-          .parent("table")
-          .addClass("table table-condensed");
+        $("tr.odd").parent("tbody").parent("table").addClass("table table-condensed");
       }
       $(document).ready(function () {
         bootstrapStylePandocTables();
@@ -6274,8 +6229,7 @@
       (function () {
         var script = document.createElement("script");
         script.type = "text/javascript";
-        script.src =
-          "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+        script.src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
         document.getElementsByTagName("head")[0].appendChild(script);
       })();
     </script>
