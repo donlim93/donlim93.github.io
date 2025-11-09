@@ -285,15 +285,11 @@ INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\helvetic\phvro8t.tfm
 INPUT D:\Program Files\MikTeX\tex\latex\base\t1cmss.fd
 INPUT D:\Program Files\MikTeX\tex\latex\base\t1cmss.fd
 INPUT D:\Program Files\MikTeX\tex\latex\base\t1cmss.fd
-INPUT D:\Program Files\MikTeX\fonts\tfm\jknappen\ec\ecss1095.tfm
+INPUT D:\Program Files\MikTeX\fonts\tfm\jknappen\ec\ecss1000.tfm
 INPUT D:\Program Files\MikTeX\tex\latex\base\ts1cmss.fd
 INPUT D:\Program Files\MikTeX\tex\latex\base\ts1cmss.fd
 INPUT D:\Program Files\MikTeX\tex\latex\base\ts1cmss.fd
-INPUT D:\Program Files\MikTeX\fonts\tfm\jknappen\ec\tcss1095.tfm
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\ts1phv.fd
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\ts1phv.fd
-INPUT D:\Program Files\MikTeX\tex\latex\psnfss\ts1phv.fd
-INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\helvetic\phvr8c.tfm
+INPUT D:\Program Files\MikTeX\fonts\tfm\jknappen\ec\tcss1000.tfm
 INPUT D:\Program Files\MikTeX\tex\latex\psnfss\ot1ztmcm.fd
 INPUT D:\Program Files\MikTeX\tex\latex\psnfss\ot1ztmcm.fd
 INPUT D:\Program Files\MikTeX\tex\latex\psnfss\ot1ztmcm.fd
@@ -347,7 +343,6 @@ INPUT D:\Program Files\MikTeX\fonts\vf\adobe\helvetic\phvb8t.vf
 INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
 INPUT D:\Program Files\MikTeX\fonts\vf\adobe\helvetic\phvro8t.vf
 INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\helvetic\phvro8r.tfm
-INPUT D:\Program Files\MikTeX\fonts\vf\adobe\helvetic\phvr8c.vf
 INPUT D:\Program Files\MikTeX\fonts\vf\adobe\helvetic\phvr8t.vf
 INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
 INPUT D:\Program Files\MikTeX\fonts\vf\adobe\helvetic\phvr8t.vf
@@ -355,8 +350,8 @@ INPUT D:\Program Files\MikTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
 INPUT LimDon_resumeCV.aux
 INPUT .\LimDon_resumeCV.out
 INPUT .\LimDon_resumeCV.out
-INPUT C:\Users\Don\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcss1095.pk
-INPUT C:\Users\Don\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcss1095.pk
+INPUT C:\Users\Don\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcss1000.pk
+INPUT C:\Users\Don\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcss1000.pk
 INPUT D:\Program Files\MikTeX\fonts\type1\urw\helvetic\uhvb8a.pfb
 INPUT D:\Program Files\MikTeX\fonts\type1\urw\helvetic\uhvb8a.pfb
 INPUT D:\Program Files\MikTeX\fonts\type1\urw\helvetic\uhvr8a.pfb
