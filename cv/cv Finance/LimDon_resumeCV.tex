@@ -21,10 +21,13 @@
     footskip=0.4in
 ]{geometry}
 
+% --- No indentation ---
 \setlength{\parindent}{0pt}
 
-\renewcommand{\labelitemi}{\textopenbullet}
-\renewcommand{\labelitemii}{\textbullet}
+% --- Bullet itemization ---
+% \renewcommand{\labelitemi}{\textopenbullet}
+% \renewcommand{\labelitemii}{\textbullet}
+\setlist[itemize]{noitemsep, nolistsep, leftmargin=2.5em}
 
 \usepackage{marvosym}
 \usepackage{twemojis}
@@ -33,11 +36,14 @@
 
 \def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
 
+% --- Font and ATS setup ---
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[scaled=0.9]{helvet}
 \renewcommand\familydefault{\sfdefault}
 
+
+% --- Custom commands ---
 \renewcommand{\hrulefill}{%
 \leavevmode\leaders\hrule height 0.3pt\hfill\kern0pt }
 
@@ -88,7 +94,6 @@
     #4 \\
 }
 
-\setlist[itemize]{noitemsep, nolistsep, leftmargin=2.5em}
 \begin{document}
 \vspace*{-0.45in}
 \fontsize{10.0}{11.5}\selectfont
@@ -100,7 +105,7 @@
 
 \vspace{1mm}
 
-Financial systems analyst specializing in financial systems, business analytics, and process automation. Experienced in IBM TM1/Planning Analytics, Salesforce CRM, SQL, and Python. Proven ability to enhance forecasting accuracy, streamline reporting, and optimize cross-department workflows. Transitioned from IT to finance to bridge business and technology. Earned a terminal master’s degree at Texas Tech University, integrating econometrics and optimization to drive data-driven decision-making.
+Financial Systems Analyst with expertise in financial planning platforms, business analytics, and process automation. Specializes in IBM Planning Analytics (TM1), Salesforce CRM, SQL, and Python to drive forecasting accuracy, scalable reporting, and cross-functional efficiency. Proven track record of modernizing legacy Excel and SSRS workflows into governed, automated systems. Background spanning IT and finance, supported by graduate-level training in econometrics and optimization.
 
 \vspace{1mm}
 \header{Work Experience} 
@@ -109,27 +114,17 @@ Financial systems analyst specializing in financial systems, business analytics,
 \textbf{Green Brick Partners, Inc.} \hfill Plano, TX \\
 \textit{Senior Financial Systems Analyst, Finance and Operations} \hfill \textit{Nov 2024 --- Oct 2025} 
 \begin{itemize}
-    \item Built and automated IBM TM1 / Planning Analytics TurboIntegrator (TI) processes and business rules, integrating first- and third-party tools (PAW, Excel, FileZilla, Cognos Command Center, Arc, Pulse, TM1py, Git), enabling daily forecasting cycles instead of biannual forecasts.
-    
-    \item Programmatically maintained a Planning Analytics OLAP database consisting of 42 cubes, 88 dimensions, attributes, subsets, control objects, security, applications, and views across development, UAT, and production environments using MDX, SQL (joins, CTEs, cross applies), TurboIntegrator (TI), and TM1 rules.
-    
-    \item Partnered with the VP of Asset Management to develop a land cash flow module incorporating uniform, annual, and quarterly cost-to-complete spreads, retainage, and payout schedules, reducing forecast preparation time by 50\%.
-    
-    \item Converted mortgage forecasting models from Excel to Planning Analytics, improving calculation speed and increasing granularity from business unit to project level; collaborated with the Controller to integrate personnel, headcount, and loan assumptions including closings, funded loans, application rates, contract rates, fees, and expenses.
-    
-    \item Designed dynamic, auto-refreshing dashboards and executive-level visualizations for financial managers, the CFO, and board members, replacing SSRS reports and reducing board package preparation time by 75\%.
-    
-    \item Implemented and managed a Git-based version control repository for TM1 processes and rules, enabling backup restoration and supporting SOX and ITGC audit compliance through automated Git Bash audit scripts.
-    
-    \item Troubleshot and optimized Excel-based forecasting templates using pivot tables, VLOOKUP/XLOOKUP, dynamic array formulas, nested functions, and Power Query to resolve calculation and refresh issues.
-    
-    \item Designed and automated ETL workflows for P\&L, SGM, GL, KPI, statistical, and budget data, improving accuracy and efficiency in cash flow, KPI, and milestone forecasting.
-    
-    \item Oversaw integrations between Workiva, land proforma systems, and Planning Analytics, including API configuration and database table mappings.
-    
-    \item Developed a proof of concept exporting TM1 views to Power BI dashboards using Python (TM1py), REST APIs, and DAX to enable dynamic reporting.
-    
-    \item Maintained comprehensive documentation and change logs for all Planning Analytics processes, rules, and applications to support governance, audits, and team onboarding.
+\item Built and automated TM1 TurboIntegrator (TI) processes and business rules, integrating first- and third-party tools (PAW, Excel, FileZilla, Cognos Command Center, Arc, Pulse, TM1py, Git), enabling daily forecasting cycles instead of biannual forecasts.
+\item Programmatically maintained a TM1 OLAP database consisting of 42 cubes, 88 dimensions, attributes, subsets, control objects, security, applications, and views across development, UAT, and production environments using MDX, SQL (joins, CTEs, cross applies), TI, and TM1 rules.
+\item Partnered with the VP of Asset Management to develop a land cash flow module incorporating uniform, annual, and quarterly cost-to-complete spreads, retainage, and payout schedules, reducing forecast preparation time by 50\%.
+\item Converted mortgage forecasting models from Excel to TM1, improving calculation speed and increasing granularity from business unit to project level; collaborated with the Controller to integrate personnel, headcount, and loan assumptions including closings, funded loans, application rates, contract rates, fees, and expenses.
+\item Designed dynamic, auto-refreshing dashboards and executive-level visualizations for financial managers, the CFO, and board members, replacing SSRS reports and reducing board package preparation time by 75\%.
+\item Implemented and managed a Git-based version control repository for TM1 processes and rules, enabling backup restoration and supporting SOX and ITGC audit compliance through automated Git Bash audit scripts.
+\item Troubleshot and optimized Excel-based forecasting templates using pivot tables, VLOOKUP/XLOOKUP, dynamic array formulas, nested functions, and Power Query to resolve calculation and refresh issues.
+\item Designed and automated ETL workflows for P\&L, SGM, GL, KPI, statistical, and budget data, improving accuracy and efficiency in cash flow, KPI, and milestone forecasting.
+\item Oversaw integrations between Workiva, land proforma systems, and TM1, including API configuration and database table mappings.
+\item Developed a proof of concept exporting TM1 views to Power BI dashboards using Python (TM1py), REST APIs, and DAX to enable dynamic reporting.
+\item Maintained comprehensive documentation and change logs for all TM1 processes, rules, and applications to support governance, audits, and team onboarding.
 \end{itemize}
 
 \vspace{1mm}
@@ -139,6 +134,9 @@ Financial systems analyst specializing in financial systems, business analytics,
 \item Created Salesforce dashboards, reports, workflows, and automated campaigns, improving visibility for 200+ end users.
 \item Cleaned, validated, and deduplicated Salesforce data using regex, SOQL, and Data Loader, increasing data accuracy.
 \item Served as system administrator for ERP and business tools (Constellation NEWSTAR, BuildPro, Calendly, DocuSign).
+\item Trained and provided life-cycle support for end users on Salesforce and business applications.
+\item Integrated new prospect data from third-party lead generation tools (Zillow, Realtor.com) into Salesforce using APIs and middleware (Zapier).
+\item Implemented prospect integration between Calendly and Salesforce using Flow and URL slugs, automating meeting scheduling and follow-up tasks.
 \end{itemize}
 
 \vspace{1mm}
