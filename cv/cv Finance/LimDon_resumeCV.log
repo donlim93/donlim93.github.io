@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.6)  19 FEB 2026 15:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  19 FEB 2026 15:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -541,12 +541,12 @@ LaTeX Font Info:    Trying to load font information for T1+phv on input line 97.
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 9.30756pt on input line 97.
- (D:\Program Files\MikTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count315
-\l__pdf_internal_box=\box66
-) (LimDon_resumeCV.aux)
+(Font)              scaled to size 9.85492pt on input line 97.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count323
+\l__pdf_internal_box=\box67
+) (./LimDon_resumeCV.aux)
 \openout1 = `LimDon_resumeCV.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
@@ -632,38 +632,33 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 99.
+(Font)              scaled to size 8.99994pt on input line 99.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 21.14815pt on input line 102.
+(Font)              scaled to size 22.39185pt on input line 102.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 21.14815pt on input line 102.
+(Font)              scaled to size 22.39185pt on input line 102.
 LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
-(Font)              scaled to size 21.14815pt on input line 102.
+(Font)              scaled to size 22.39185pt on input line 102.
 LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
-(Font)              scaled to size 8.50006pt on input line 111.
+(Font)              scaled to size 8.99994pt on input line 111.
 LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
-(Font)              scaled to size 8.50006pt on input line 111.
+(Font)              scaled to size 8.99994pt on input line 111.
 LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
-(Font)              scaled to size 12.24008pt on input line 111.
+(Font)              scaled to size 12.9599pt on input line 111.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 8.50006pt on input line 114.
+(Font)              scaled to size 8.99994pt on input line 114.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 115.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 8.50006pt on input line 115.
+(Font)              scaled to size 8.99994pt on input line 115.
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 117.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 117.
-
-Overfull \hbox (43.17516pt too wide) in paragraph at lines 159--160
-[]\T1/phv/m/n/10 Relevant course-work: Causal In-fer-ence, Op-ti-miza-tion, Econo-met-rics I & II, Pro-duc-tion Eco-nomics, Ma-chine Learn-ing, Macro/Microeconomics. 
- []
-
+(Font)              scaled to size 8.99994pt on input line 117.
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 160.
-(D:\Program Files\MikTeX\tex/latex/psnfss\ot1ztmcm.fd
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 160.
@@ -689,8 +684,10 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 160.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 6.29004pt on input line 160.
- [1
+(Font)              scaled to size 6.65994pt on input line 160.
+
+
+[1
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}]
 
@@ -703,15 +700,15 @@ Package rerunfilecheck Info: File `LimDon_resumeCV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30772 strings out of 474423
- 630898 string characters out of 5751540
- 1955496 words of memory out of 5000000
- 52710 multiletter control sequences out of 15000+600000
- 607448 words of font info for 84 fonts, out of 8000000 for 9000
+ 30889 strings out of 473190
+ 635612 string characters out of 5715801
+ 1104468 words of memory out of 5000000
+ 53734 multiletter control sequences out of 15000+600000
+ 608216 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,6n,121p,642b,440s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<D:/Program Files/MikTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><D:/Program Files/MikTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><D:/Program Files/MikTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on LimDon_resumeCV.pdf (2 pages, 54246 bytes).
+ 117i,6n,121p,641b,440s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on LimDon_resumeCV.pdf (2 pages, 49808 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  28 compressed objects within 1 object stream
