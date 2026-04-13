@@ -61,6 +61,7 @@ body {
 body {
   font-family: "Inter", system-ui, sans-serif;
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 /* ===== Layout Styles ===== */
