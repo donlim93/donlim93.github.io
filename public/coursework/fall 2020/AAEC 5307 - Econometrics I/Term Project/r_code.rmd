@@ -1,0 +1,139 @@
+---
+title: "AAEC 5307 - Econometrics I"
+author: "Don Lim"
+date: "12/09/2020"
+output:
+  pdf_document:
+    keep_tex: yes
+  html_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(readxl)
+```
+
+```{r}
+gini <- read_xls("GINI.xls",
+                 # skipping the three blank rows in the .xls file
+                 skip = 3)
+```
+
+```{r}
+gini <- gini %>%
+  select(
+    "country" = `Country Name`,
+    "code" = `Country Code`,
+    "gini2015" = `2015`
+  ) %>%
+  # filtering out countries without GINI data
+  filter(!(is.na(gini2015)))
+```
+
+```{r}
+gdp <- read_xlsx("GDP.xlsx")
+```
+
+```{r}
+gdp <- gdp %>%
+  rename("country" = `Country Name`,
+         "gdp2019" = `2019`)
+```
+
+```{r}
+econfree <- read_xlsx("Economic Freedom.xlsx")
+```
+
+```{r}
+econfree <- econfree %>%
+  rename("country" = `COUNTRY NAME `) %>%
+  # omitting YEAR variable
+  select(-`YEAR `)
+```
+
+```{r}
+corruption <- read_xlsx("Corruption.xlsx")
+```
+
+```{r}
+corruption <- corruption %>%
+  rename(
+    "country" = Entity,
+    "code" = Code, 
+    "cpi2018" = `Corruption Perception Index - Transparency International (2018)`) %>%
+  # omitting Year variable
+  select(-Year)
+```
+
+```{r}
+leftjoin <- left_join(gini, corruption)
+```
+
+```{r}
+leftjoin <- left_join(leftjoin, gdp)
+```
+
+```{r}
+leftjoin <- left_join(leftjoin, econfree)
+```
+
+```{r}
+leftjoin <- leftjoin %>%
+  # filtering out countries without GDP data
+  filter(!(is.na(gdp2019)))
+```
+
+```{r}
+covid <- read_csv("owid-covid-data.csv")
+```
+
+```{r}
+covid <- covid %>%
+  select(
+    "code" = iso_code,
+    date,
+    total_cases_per_million,
+    total_deaths_per_million
+  )
+```
+
+```{r}
+# finding the number of countries that have data for each date
+
+covid %>%
+  filter(
+    # filtering for countries that are included in the joined data set
+    code %in% leftjoin$code & 
+    # filtering for March, June, October, Novemeber months
+    (grepl("2020-03", date) | grepl("2020-06", date) | grepl("2020-10", date) | grepl("2020-11", date)) &
+    # omitting countries without cases or deaths data
+    !(is.na(total_cases_per_million) | is.na(total_deaths_per_million)) 
+    ) %>%
+  group_by(date) %>%
+  summarise(n = n())
+```
+
+
+```{r}
+covid <- covid %>%
+  # filter out the dates you want
+  filter(date == "2020-04-1" | date == "2020-06-1" | date == "2020-10-1" | date =="2020-11-1") %>%
+  # going from long to wide format
+  pivot_wider(
+    names_from = date,
+    values_from = c(total_cases_per_million, total_deaths_per_million)
+    )
+```
+
+```{r}
+leftjoin <- left_join(leftjoin, covid)
+```
+
+```{r}
+write_csv(leftjoin, "tonydata.csv")
+```

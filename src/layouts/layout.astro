@@ -1,0 +1,116 @@
+---
+import "../styles/global.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import Sidebar from "../components/Sidebar.astro";
+const { title } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <!-- Font Awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Custom cursor -->
+    <!-- <div class="custom-cursor"></div> -->
+    <!-- Site navigation -->
+    <nav id="site-nav" style="visbility=hidden;">
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/papers">Papers</a></li>
+        <li><a href="/coursework">Coursework</a></li>
+        <li><a href="/certifications">Certifications</a></li>
+        <li><a href="/worksamples">Work Samples</a></li>
+        <li><a href="/tableau">Tableau Public</a></li>
+      </ul>
+      <!-- Mobile menu and theme toggles -->
+      <div class="nav-controls">
+        <button class="nav-toggle" aria-label="Menu">&#9776;</button>
+        <button class="theme-toggle" aria-label="Toggle theme">
+          <i class="fas fa-sun"></i>
+        </button>
+      </div>
+      <!-- Overflow menu for collapsed items -->
+      <ul class="nav-overflow hidden"></ul>
+    </nav>
+
+    <!-- Main content area -->
+    <main>
+      <Sidebar />
+      <slot />
+    </main>
+
+    <!-- Site footer -->
+    <footer>
+      <a href="https://www.linkedin.com/in/lim-don/" target="_blank"
+        ><i class="fab fa-linkedin"></i> LinkedIn</a
+      >
+      <a href="http://github.com/donlim93" target="_blank"
+        ><i class="fab fa-github"></i> GitHub</a
+      >
+      <p>&copy; 2026 Don Lim</p>
+    </footer>
+
+    <!-- Custom cursor script -->
+    <!--
+    <script>
+      // Initialize cursor immediately to prevent flash
+      (function() {
+        const cursor = document.querySelector('.custom-cursor');
+        if (cursor) {
+          // Position cursor at current mouse position immediately
+          document.addEventListener('mousemove', function initCursor(e) {
+            cursor.style.left = e.clientX + 'px';
+            cursor.style.top = e.clientY + 'px';
+            // Remove this listener after first move
+            document.removeEventListener('mousemove', initCursor);
+          });
+        }
+      })();
+
+      document.addEventListener('DOMContentLoaded', function() {
+        const cursor = document.querySelector('.custom-cursor');
+        let mouseX = 0, mouseY = 0;
+        let cursorX = 0, cursorY = 0;
+
+        // Smooth trailing effect
+        function updateCursor() {
+          const ease = 0.15;
+          cursorX += (mouseX - cursorX) * ease;
+          cursorY += (mouseY - cursorY) * ease;
+
+          cursor.style.left = cursorX + 'px';
+          cursor.style.top = cursorY + 'px';
+
+          requestAnimationFrame(updateCursor);
+        }
+
+        updateCursor();
+
+        document.addEventListener('mousemove', e => {
+          mouseX = e.clientX;
+          mouseY = e.clientY;
+        });
+
+        // Add/remove hover class for all links
+        const links = document.querySelectorAll('a, button, [role="button"]');
+        links.forEach(link => {
+          link.addEventListener('mouseenter', () => cursor.classList.add('hover'));
+          link.addEventListener('mouseleave', () => cursor.classList.remove('hover'));
+        });
+      });
+    </script>
+    -->
+
+    <!-- Navigation scripts -->
+    <script is:inline src="/scripts/nav.js"></script>
+    <script is:inline src="/scripts/nav-highlight.js"></script>
+    <script is:inline src="/scripts/theme.js"></script>
+  </body>
+</html>

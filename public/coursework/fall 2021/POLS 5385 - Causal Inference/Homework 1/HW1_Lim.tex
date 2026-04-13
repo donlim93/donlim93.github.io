@@ -1,0 +1,255 @@
+\documentclass[a4paper]{article}
+
+\usepackage[hidelinks]{hyperref}
+\usepackage{fullpage}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{mathtools}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage[left=1in,right=1in,top=1in,bottom=1in,headheight=2cm,headsep=4mm]{geometry}
+\usepackage{changepage}
+\usepackage{xcolor}
+\usepackage{dingbat}
+\usepackage{amsmath,mathpazo}
+\usepackage{booktabs, makecell, longtable}
+\usepackage[shortlabels]{enumitem}
+\setlist[enumerate, 1]{1\textsuperscript{o}}
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{fancyvrb} 
+\usepackage[Export]{adjustbox}
+\usepackage[listings]{tcolorbox}
+\lstset{
+	basicstyle=\small\ttfamily,
+	columns=flexible,
+	breaklines=true
+}
+\usetikzlibrary{patterns,decorations.pathreplacing}
+\tcbuselibrary{skins,theorems,breakable}
+\usepackage{float}
+\usepackage{etoolbox}
+\AtBeginEnvironment{align}{\setcounter{equation}{0}}
+\usepackage{tocloft}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}% Dots after section title
+\renewcommand \thesection{\arabic{section}}
+\renewcommand \thesubsection{\arabic{section}.\alph{subsection}}%Makes subsections alph
+
+\usepackage{titlesec}
+\titleformat{\section}
+{\normalfont\large\bfseries}{\thesection}{1em}{}[]
+\titleformat{\subsection}
+{\normalfont\large\bfseries}{\thesubsection}{1em}{}[{\titlerule[0.3pt]}]
+\definecolor{mygray}{gray}{0.9}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Wei Don Lim}
+\lhead{POLS 5385: Causal Inference - Homework 1}
+\rfoot{Page \thepage}
+\lfoot{\today}
+
+\definecolor{darkblue}{RGB}{20,20,220}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=darkblue,
+	filecolor=darkblue,      
+	urlcolor=darkblue,
+	citecolor=darkblue,
+}
+
+\begin{document}
+	\section{Initial Regression}
+	\begin{itemize}[noitemsep]
+		\item Treatment: minimum wage law enacted in New Jersey on April 1992
+		\item Treated group: fast-food restaurants in New Jersey
+		\item Control group: fast-food restaurants in Pennsylvania
+	\end{itemize}
+	Regressing \textit{fte} on \textit{t}, \textit{treated}, and \textit{DiD}, we obtain the following summary statistic:
+	% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+	% Date and time: Mon, Sep 27, 2021 - 09:24:21
+	\begin{table}[!htbp] \centering 
+		\caption{Fast Food Employment in NJ and PA} 
+		\label{} 
+		\begin{tabular}{@{\extracolsep{5pt}}lc} 
+			\\[-1.8ex]\hline 
+			\hline \\[-1.8ex] 
+			& \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+			\cline{2-2} 
+			\\[-1.8ex] & fte \\ 
+			\hline \\[-1.8ex] 
+			t & $-$2.490$^{*}$ \\ 
+			& (1.472) \\ 
+			& \\ 
+			treated & $-$2.944$^{**}$ \\ 
+			& (1.160) \\ 
+			& \\ 
+			DiD & 2.939$^{*}$ \\ 
+			& (1.641) \\ 
+			& \\ 
+			Constant & 20.013$^{***}$ \\ 
+			& (1.041) \\ 
+			& \\ 
+			\hline \\[-1.8ex] 
+			Observations & 780 \\ 
+			R$^{2}$ & 0.008 \\ 
+			Adjusted R$^{2}$ & 0.004 \\ 
+			Residual Std. Error & 9.075 (df = 776) \\ 
+			F Statistic & 2.159$^{*}$ (df = 3; 776) \\ 
+			\hline 
+			\hline \\[-1.8ex] 
+			\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+		\end{tabular} 
+	\end{table} 
+
+	We see that the average treatment effect on the treated (ATET), or the coefficient of \textit{DiD} in this case, is 2.939 and is significant at the 10\% level. From February 1992 to November 1992 in New Jersey, where the minimum wage law was enacted, we found full-time employment went up on average by 2.939 for fast-food restaurants relative to Pennsylvania, where the minimum wage was not enacted. \\
+	
+	\section{Non-Regression DiD}
+	We can also compute a simple, non-regression DiD by calculating these four averages:
+	\begin{table}[ht] \centering
+		\begin{tabular}{|l|l|l|}
+			\hline
+			& Pre-treatment & Post-treatment \\ \hline
+			Untreated & 20.012315    & 17.523026     \\ \hline
+			Treated   & 17.069367    & 17.5183121    \\ \hline
+		\end{tabular}
+	\end{table}
+
+	Thus, the ATET is simply:
+	\begin{equation*}
+		\begin{aligned}
+			\textrm{ATET} &= (\textrm{Treated Post-treatment}-\textrm{Untreated Post-treatment})\\&\qquad -(\textrm{Treated Pre-treatment}-\textrm{Untreated Pre-treatment})\\
+			&=(17.5183121-17.523026 )-(17.069367-20.012315)\\
+			&=2.939176
+		\end{aligned}
+	\end{equation*}
+	This is the same coefficient we obtained from our initial regression. The reason is because in the regression, the interaction term \textit{DiD} is doing the same thing as the non-regression method. Since \textit{t} and \textit{treated} are dummy variables, when calculating \textit{DiD} by the interaction of \textit{t} and \textit{treated} ($ t\times treated $), we essentially filtered post-treatment New Jersey (the ATET). \\
+	\pagebreak
+	
+	\section{Burger King Regression}
+	Re-running our regression for only the Burger King stores, we obtain the following summary statistics:
+	
+	\begin{table}[ht] \centering 
+		\caption{Burger King Employment in NJ and PA} 
+		\label{} 
+		\begin{tabular}{@{\extracolsep{5pt}}lc} 
+			\\[-1.8ex]\hline 
+			\hline \\[-1.8ex] 
+			& \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+			\cline{2-2} 
+			\\[-1.8ex] & bkfte \\ 
+			\hline \\[-1.8ex] 
+			bkt & $-$3.368 \\ 
+			& (2.070) \\ 
+			& \\ 
+			bktreated & $-$7.005$^{***}$ \\ 
+			& (1.645) \\ 
+			& \\ 
+			bkdid & 4.629$^{**}$ \\ 
+			& (2.326) \\ 
+			& \\ 
+			Constant & 25.654$^{***}$ \\ 
+			& (1.463) \\ 
+			& \\ 
+			\hline \\[-1.8ex] 
+			Observations & 326 \\ 
+			R$^{2}$ & 0.059 \\ 
+			Adjusted R$^{2}$ & 0.051 \\ 
+			Residual Std. Error & 8.533 (df = 322) \\ 
+			F Statistic & 6.772$^{***}$ (df = 3; 322) \\ 
+			\hline 
+			\hline \\[-1.8ex] 
+			\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+		\end{tabular} 
+	\end{table} 
+	
+	We can see that the ATET for Burger King stores is higher (at 4.629) compared to the ATET that included every fast food franchise---and this is significant at a 5\% level . It follows that the Burger King stores in New Jersey drove up the full-time employment effect in our initial regression under treatment. Under the minimum wage law, the effect may not increase full time employment to the extent that we calculated in our initial regression for the other fast food franchises in New Jersey.
+	
+	\section{R code}
+	\begin{lstlisting}[backgroundcolor = \color{mygray}]
+		---
+		title: "POLS 5385 - Homework 1"
+		author: "Don Lim"
+		date: "9/26/2021"
+		output:
+		pdf_document:
+		keep_tex: yes
+		html_document: default
+		word_document: default
+		---
+		
+		```{r setup, include=FALSE}
+		knitr::opts_chunk$set(echo = TRUE)
+		```
+		
+		```{r}
+		# Installs necessary packages
+		library(tidyverse)
+		library(readxl)
+		library(haven)
+		```
+		
+		```{r}
+		# Imports data from the website
+		read_data <- function(df)
+		{
+			full_path <- paste("http://fmwww.bc.edu/repec/bocode/c/", 
+			df, sep = "")
+			df <- read_dta(full_path)
+			return(df)
+		}
+		CardKrueger1994 <- read_data("cardkrueger1994.dta")
+		```
+		
+		```{r}
+		# Creates interaction effect, DiD (treated times treatment)
+		CardKrueger1994$DiD <- CardKrueger1994$t * CardKrueger1994$treated
+		```
+		
+		```{r}
+		# Regresses fte on treatment, treated, and DiD interaction
+		model = lm(fte~t+treated+DiD,data=CardKrueger1994)
+		summary(model)
+		```
+		
+		```{r}
+		# Creates additional columns to calculate the averages of the diff-in-diff
+		CardKrueger1994$UntreatedPre <- ifelse(CardKrueger1994$t == 0 & CardKrueger1994$treated == 0, CardKrueger1994$fte,NA)
+		CardKrueger1994$UntreatedPost <- ifelse(CardKrueger1994$t == 1 & CardKrueger1994$treated == 0, CardKrueger1994$fte, NA)
+		CardKrueger1994$TreatedPre <- ifelse(CardKrueger1994$t == 0 & CardKrueger1994$treated == 1, CardKrueger1994$fte, NA)
+		CardKrueger1994$TreatedPost <- ifelse(CardKrueger1994$t == 1 & CardKrueger1994$treated == 1, CardKrueger1994$fte, NA)
+		```
+		
+		```{r}
+		# Basic non-regression diff-in-diff with four averages
+		UntreatedPre <- mean(CardKrueger1994$UntreatedPre,na.rm=TRUE)
+		UntreatedPost <- mean(CardKrueger1994$UntreatedPost,na.rm=TRUE)
+		TreatedPre <- mean(CardKrueger1994$TreatedPre,na.rm=TRUE)
+		TreatedPost <- mean(CardKrueger1994$TreatedPost,na.rm=TRUE)
+		
+		# Finds the average treatment effect on the treated
+		ATET <- (TreatedPost-UntreatedPost)-(TreatedPre-UntreatedPre)
+		ATET
+		```
+		
+		```{r}
+		# Create columns for only  BK treatment, treated, and FTE
+		CardKrueger1994$bkt <- ifelse(CardKrueger1994$bk == 1, CardKrueger1994$t, NA)
+		CardKrueger1994$bktreated <- ifelse(CardKrueger1994$bk == 1, CardKrueger1994$treated, NA)
+		CardKrueger1994$bkfte <- ifelse(CardKrueger1994$bk == 1, CardKrueger1994$fte, NA)
+		
+		# Create interaction effect for Burger King only (bkt X bktreated)
+		CardKrueger1994$bkdid <- CardKrueger1994$bkt * CardKrueger1994$bktreated
+		```
+		
+		```{r}
+		# Regresses BK FTE on BK treated, treatment, and interaction effect
+		bkmodel = lm(bkfte~bkt+bktreated+bkdid,data=CardKrueger1994)
+		summary(bkmodel)
+		```
+	\end{lstlisting}
+\end{document}
+
+
+

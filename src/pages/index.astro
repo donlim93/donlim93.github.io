@@ -1,17 +1,72 @@
 ---
-
+import Layout from "../layouts/Layout.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout title="Don Lim | Portfolio">
+  <link rel="stylesheet" href="/styles/global.css" />
+
+  <!-- Main content article -->
+  <article>
+    <!-- About Me section -->
+    <h2>About Me</h2>
+    <p>
+      Financial systems analyst with a proven record in financial systems,
+      business analytics, and process automation. Experienced in IBM
+      TM1/Planning Analytics, Salesforce CRM, SQL, and Python. Skilled at
+      improving forecasting accuracy, financial reporting, and
+      cross-departmental workflows through data-driven solutions. Transitioned
+      from IT to finance to bridge technology and business operations. Pursued a
+      Ph.D. at Texas Tech University before earning a terminal master’s degree,
+      uniting academic research and technical proficiency in econometrics and
+      optimization.
+    </p>
+
+    <!-- Education section -->
+    <h2>Education</h2>
+    <b>Master of Science in Agricultural and Applied Economics</b><br />
+    <a
+      href="https://www.ttu.edu/"
+      class="university-link"
+      target="_blank"
+      rel="noopener noreferrer">Texas Tech University</a
+    >
+    <br />
+    <a
+      href="https://www.depts.ttu.edu/aaec/"
+      class="university-link"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Department of Agricultural and Applied Economics</a
+    >
+    <br />
+    Lubbock, Texas<br /><br />
+    <b>Master of Arts in Political Science, Philosophy, and Economics (PPE)</b
+    ><br />
+    <a
+      href="https://www.cevroinstitut.cz/en/"
+      class="university-link"
+      target="_blank"
+      rel="noopener noreferrer">CEVRO Institute</a
+    ><br />
+    School of Political Studies <br />
+    Prague, Czech Republic<br /><br />
+    <b
+      >Bachelor of Arts in General Studies (Political Science, Philosophy,
+      History)
+    </b><br />
+    <a
+      href="https://umich.edu/"
+      class="university-link"
+      target="_blank"
+      rel="noopener noreferrer">University of Michigan</a
+    ><br />
+    <a
+      href="https://lsa.umich.edu/"
+      class="university-link"
+      target="_blank"
+      rel="noopener noreferrer">College of Literature, Science and the Arts</a
+    >
+    <br />
+    Ann Arbor, Michigan
+  </article>
+</Layout>

@@ -1,0 +1,84 @@
+---
+title: "POLS 5385 - Homework 1"
+author: "Don Lim"
+date: "9/26/2021"
+output:
+  pdf_document:
+    keep_tex: yes
+  html_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# Installs necessary packages
+library(tidyverse)
+library(readxl)
+library(haven)
+# Stargazer generates copy and paste LaTeX tables
+library(stargazer)
+```
+
+```{r}
+# Imports data from the website
+read_data <- function(df)
+{
+  full_path <- paste("http://fmwww.bc.edu/repec/bocode/c/", 
+                     df, sep = "")
+  df <- read_dta(full_path)
+  return(df)
+}
+CardKrueger1994 <- read_data("cardkrueger1994.dta")
+```
+
+```{r}
+# Creates interaction effect, DiD (treated times treatment)
+CardKrueger1994$DiD <- CardKrueger1994$t * CardKrueger1994$treated
+```
+
+```{r}
+# Regresses fte on treatment, treated, and DiD interaction
+model = lm(fte~t+treated+DiD,data=CardKrueger1994)
+summary(model)
+stargazer(model)
+```
+
+```{r}
+# Creates additional columns to calculate the averages of the diff-in-diff
+CardKrueger1994$UntreatedPre <- ifelse(CardKrueger1994$t == 0 & CardKrueger1994$treated == 0, CardKrueger1994$fte,NA)
+CardKrueger1994$UntreatedPost <- ifelse(CardKrueger1994$t == 1 & CardKrueger1994$treated == 0, CardKrueger1994$fte, NA)
+CardKrueger1994$TreatedPre <- ifelse(CardKrueger1994$t == 0 & CardKrueger1994$treated == 1, CardKrueger1994$fte, NA)
+CardKrueger1994$TreatedPost <- ifelse(CardKrueger1994$t == 1 & CardKrueger1994$treated == 1, CardKrueger1994$fte, NA)
+```
+
+```{r}
+# Basic non-regression diff-in-diff with four averages
+UntreatedPre <- mean(CardKrueger1994$UntreatedPre,na.rm=TRUE)
+UntreatedPost <- mean(CardKrueger1994$UntreatedPost,na.rm=TRUE)
+TreatedPre <- mean(CardKrueger1994$TreatedPre,na.rm=TRUE)
+TreatedPost <- mean(CardKrueger1994$TreatedPost,na.rm=TRUE)
+
+# Finds the average treatment effect on the treated
+ATET <- (TreatedPost-UntreatedPost)-(TreatedPre-UntreatedPre)
+ATET
+```
+
+```{r}
+# Create columns for only  BK treatment, treated, and FTE
+CardKrueger1994$bkt <- ifelse(CardKrueger1994$bk == 1, CardKrueger1994$t, NA)
+CardKrueger1994$bktreated <- ifelse(CardKrueger1994$bk == 1, CardKrueger1994$treated, NA)
+CardKrueger1994$bkfte <- ifelse(CardKrueger1994$bk == 1, CardKrueger1994$fte, NA)
+
+# Create interaction effect for Burger King only (bkt X bktreated)
+CardKrueger1994$bkdid <- CardKrueger1994$bkt * CardKrueger1994$bktreated
+```
+
+```{r}
+# Regresses BK FTE on BK treated, treatment, and interaction effect
+bkmodel = lm(bkfte~bkt+bktreated+bkdid,data=CardKrueger1994)
+summary(bkmodel)
+stargazer(bkmodel)
+```

@@ -1,0 +1,97 @@
+---
+import Layout from "../layouts/layout.astro";
+---
+
+<Layout title="Don Lim | Papers">
+  <link rel="stylesheet" href="/styles/global.css" />
+
+  <article>
+    <div class="papers-grid">
+      <!-- Master's Thesis Card -->
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div class="card-content">
+            <h3>Master's Thesis</h3>
+            <p>CEVRO Institute</p>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <div class="pdf-preview">
+            <p>
+              An Institutional Analysis on Open Source: How Developers Use
+              Knowledge and Entrepreneurship in Communities
+            </p>
+            <div class="pdf-actions">
+              <a
+                href="/research/LimDon_WritingSample_Thesis.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="pdf-link primary"
+              >
+                <i class="fas fa-file-pdf"></i>
+                View Full Paper
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Professional Paper Card -->
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div class="card-content">
+            <h3>Professional Paper</h3>
+            <p>Texas Tech University</p>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <div class="pdf-preview">
+            <p>
+              Low-Fat Diet on Global Health Outcomes—Two-Stage
+              Difference-in-Difference
+            </p>
+            <div class="pdf-actions">
+              <a
+                href="/research/fbdg/FBDG_final.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="pdf-link primary"
+              >
+                <i class="fas fa-file-pdf"></i>
+                View Full Paper
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+              <div class="additional-links">
+                <a
+                  href="/research/fbdg/presentation.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="pdf-link secondary"
+                >
+                  <i class="fas fa-file-powerpoint"></i>
+                  Presentation
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a
+                  href="/research/fbdg/data_clean.Rmd"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="pdf-link secondary"
+                >
+                  <i class="fas fa-code"></i>
+                  Data Code (R)
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </article>
+</Layout>
